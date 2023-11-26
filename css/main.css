@@ -183,6 +183,8 @@ a{
     .scroll_slider{
         flex-direction: column;
         height: fit-content;
+        width: 90%;
+        margin: 0 auto;
     }
     .scroll_slider_visual{
         width: 90%;

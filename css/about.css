@@ -43,6 +43,9 @@
 @media (max-width: 550px) {
     #about{
         flex-direction: column-reverse;
+        width: 80vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
     #about_text{
         width: 100%;

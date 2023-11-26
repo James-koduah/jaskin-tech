@@ -179,16 +179,19 @@
     color: var(--txt-soft);
     list-style-type: none;
     font-size: 3.2em;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
 }
 #services .scroll_slider_item li ion-icon{
     font-size: 150%;
     margin-right: 5%;
-    color: green;
+    color: var(--at-bg);
 }
 
+#services .scroll_slider_item .action_button{
+    margin-top: 25px;
+}
 
 #service_web_dev{
     transform: translate(0, 500px);

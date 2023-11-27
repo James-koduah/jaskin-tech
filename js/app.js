@@ -1,4 +1,4 @@
-function cool_scroll_translate(element_id, offset = 0, instant=false){
+function scroll_translate_reset(element_id, offset = 0, instant=false){
     let element = document.getElementById(element_id)
     window.addEventListener('scroll', ()=>{
         if (window.scrollY > element.offsetTop - window.innerHeight + offset){
@@ -11,49 +11,12 @@ function cool_scroll_translate(element_id, offset = 0, instant=false){
         element.style.opacity = 1
     }
 }
+scroll_translate_reset('service_web_dev', 1000)
+scroll_translate_reset('service_marketing', 1000)
+scroll_translate_reset('service_business_software', 1000)
+scroll_translate_reset('customer_acc', 350)
 
 
-
-function flex_order(div_id, items_class){
-    let box = document.getElementById(div_id)
-    let items = box.querySelectorAll(items_class)
-}
-
-
-
-let change_img_on_scroll_current = 0
-function change_img_on_scroll(img_frame, img_element, img_src, scroll_element,  num=0){
-    let img_div = document.getElementById(img_frame)
-    let scroll_div = document.getElementById(scroll_element)
-    let img = document.getElementById(img_element)
-    function action(){
-        if (change_img_on_scroll_current !== num){
-            let img_div_offset = img_div.offsetTop - img_div.clientHeight/2
-            let img_div_offset2 = img_div_offset + 100
-            let scroll_div_offset = scroll_div.offsetTop - scroll_div.clientHeight
-            if (img_div_offset < scroll_div_offset && img_div_offset2 > scroll_div_offset){
-                change_img_on_scroll_current = num
-                img.src = img_src
-            }
-            scroll_div_offset = scroll_div.offsetTop
-            if (img_div_offset < scroll_div_offset && img_div_offset2 > scroll_div_offset){
-                change_img_on_scroll_current = num
-                img.src = img_src
-            }
-        }
-    }
-    window.addEventListener('scroll', action)
-}
-
-change_img_on_scroll('strength_frame_img', 'strength_img', 'images/computer.jpeg', 'strength_choice', 1)
-change_img_on_scroll('strength_frame_img', 'strength_img', 'images/astronaut7.jpeg', 'strength_price', 2)
-change_img_on_scroll('strength_frame_img', 'strength_img', 'images/astronaut4.jpeg', 'strength_convinence', 3)
-change_img_on_scroll('strength_frame_img', 'strength_img', 'images/astronaut5.jpeg', 'strength_quality', 4)
-
-cool_scroll_translate('service_web_dev', 1000)
-cool_scroll_translate('service_marketing', 1000)
-cool_scroll_translate('service_business_software', 1000)
-cool_scroll_translate('customer_acc', 350)
 
 function dialouge(text, box, callback=false, speed=70){
     let dialouge_text = document.getElementById(box)
@@ -113,3 +76,36 @@ function display_flex(element_id, nav_item=false, nav_class=false){
     }
 
 }
+
+
+
+
+
+// let change_img_on_scroll_current = 0
+// function change_img_on_scroll(img_frame, img_element, img_src, scroll_element,  num=0){
+//     let img_div = document.getElementById(img_frame)
+//     let scroll_div = document.getElementById(scroll_element)
+//     let img = document.getElementById(img_element)
+//     function action(){
+//         if (change_img_on_scroll_current !== num){
+//             let img_div_offset = img_div.offsetTop - img_div.clientHeight/2
+//             let img_div_offset2 = img_div_offset + 100
+//             let scroll_div_offset = scroll_div.offsetTop - scroll_div.clientHeight
+//             if (img_div_offset < scroll_div_offset && img_div_offset2 > scroll_div_offset){
+//                 change_img_on_scroll_current = num
+//                 img.src = img_src
+//             }
+//             scroll_div_offset = scroll_div.offsetTop
+//             if (img_div_offset < scroll_div_offset && img_div_offset2 > scroll_div_offset){
+//                 change_img_on_scroll_current = num
+//                 img.src = img_src
+//             }
+//         }
+//     }
+//     window.addEventListener('scroll', action)
+// }
+
+// change_img_on_scroll('strength_frame_img', 'strength_img', 'images/computer.jpeg', 'strength_choice', 1)
+// change_img_on_scroll('strength_frame_img', 'strength_img', 'images/astronaut7.jpeg', 'strength_price', 2)
+// change_img_on_scroll('strength_frame_img', 'strength_img', 'images/astronaut4.jpeg', 'strength_convinence', 3)
+// change_img_on_scroll('strength_frame_img', 'strength_img', 'images/astronaut5.jpeg', 'strength_quality', 4)

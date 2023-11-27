@@ -72,6 +72,7 @@ nav .action_button{
 @media (max-width: 550px) {
     #hero_section{
         flex-direction: column;
+        padding-top: 25px;
     }
     #hero_section_text{
         width: 100vw;

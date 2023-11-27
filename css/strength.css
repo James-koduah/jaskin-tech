@@ -13,24 +13,21 @@
 }
 
 
-#strength_frame_img{
-    position: sticky;
-    top: 100px;
-    width: 40%;
-    height: 80vh;
-    background: var(--su-bg);
-}
-
-#strength_frame_points{
-    width: 55%;
-}
-#strength_frame_points :last-child{
-    margin-bottom: 0vh;
-}
-
-.strength_frame_point{
+.strength_item{
     width: 100%;
-    height: 70vh;
-    margin-bottom: 25vh;
-    background-color: var(--su-bg);
+    display: flex;
+}
+.strength_item_img{
+    width: 55%;
+    min-height: 50vh;
+    background-color: black;
+}
+.strength_item_text{
+    width: 41%;
+    padding: 20px 2%;
+}
+
+.strength_item_text header{
+    font-size: 6em;
+    font-weight: 600;
 }

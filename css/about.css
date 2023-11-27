@@ -53,10 +53,12 @@
     #about_text header{
         margin-bottom: 25px;
         font-size: 5.5em;
+        line-height: 150%;
     }
     #about_text p{
         width: 100%;
-        font-size: 3em;
+        font-size: 3.3em;
+        line-height: 180%;
     }
 
     #about_img{

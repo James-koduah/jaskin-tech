@@ -132,7 +132,9 @@ a{
 
 
 
-
+.mobile_on{
+    display: none;
+}
 
 @media (max-width: 550px) {
     .information_header{

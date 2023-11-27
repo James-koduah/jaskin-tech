@@ -92,13 +92,24 @@ function dialouge(text, box, callback=false, speed=70){
 
 
 let display_flex_elems = []
-function display_flex(element_id){
+function display_flex(element_id, nav_item=false, nav_class=false){
+    let rolled = false
+    let elem = document.getElementById(element_id)
     if (display_flex_elems.includes(element_id)){
-        document.getElementById(element_id).style.setProperty('display', 'none', 'important');
+        elem.style.setProperty('display', 'none', 'important');
         display_flex_elems.splice(display_flex_elems.indexOf(element_id), 1);
     }else{
-        document.getElementById(element_id).style.setProperty('display', 'flex', 'important');
+        elem.style.setProperty('display', 'flex', 'important');
         display_flex_elems.push(element_id)
+        rolled = true
     }
-    console.log(display_flex_elems)
+
+    if (nav_item && nav_class){
+        if (rolled){
+            nav_item.classList.add(nav_class)
+        }else{
+            nav_item.classList.remove(nav_class)
+        }
+    }
+
 }

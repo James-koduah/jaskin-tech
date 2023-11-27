@@ -110,7 +110,14 @@
     justify-content: space-between;
     border: 1px var(--su-bg) solid;
 }
+
+.mobile_feild_active ion-icon{
+    transform: rotate(90deg);
+}
 @media (max-width: 550px) {
+    #services{
+        padding: 60px 0;
+    }
     #services .scroll_slider{
         margin-bottom: 0px;
     }

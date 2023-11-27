@@ -87,3 +87,18 @@ function dialouge(text, box, callback=false, speed=70){
         text_index++
     }, speed)
 }
+
+
+
+
+let display_flex_elems = []
+function display_flex(element_id){
+    if (display_flex_elems.includes(element_id)){
+        document.getElementById(element_id).style.setProperty('display', 'none', 'important');
+        display_flex_elems.splice(display_flex_elems.indexOf(element_id), 1);
+    }else{
+        document.getElementById(element_id).style.setProperty('display', 'flex', 'important');
+        display_flex_elems.push(element_id)
+    }
+    console.log(display_flex_elems)
+}

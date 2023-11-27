@@ -142,6 +142,13 @@ a{
     .mobile_flex_c_reverse{
         flex-direction: column-reverse !important;
     }
+
+    .mobile_on{
+        display: flex !important;
+    }
+    .mobile_off{
+        display: none !important;
+    }
 }
 
 
@@ -190,6 +197,7 @@ a{
         width: 90%;
         height: fit-content;
         position: relative;
+        top: 0px;
     }
     .scroll_slider_visual_header{
         height: fit-content;

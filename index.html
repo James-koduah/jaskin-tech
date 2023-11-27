@@ -38,63 +38,13 @@
                 <div id="hero_section_img"><img src="images/computer.jpeg" alt=""></div>
             </div>
         </section>
-
-        <!-- <section id="services">
-            <div class="service_frame" id="service_web_dev">
-                <div class="service_title">
-                    <div class="service_title_text">Web <br> Development</div>
-                    <div class="service_title_awe"><ion-icon name="play"></ion-icon></div>
-                </div>
-                <div id="service_web_dev_items" class="service_items">
-                    <div class="service_item">
-                        <header>INFORMATIONAL SITE</header>
-                    </div>
-                    <div class="service_item">
-                        <header>BUSINESS <i>/</i> SHOP SITE</header>
-                    </div>
-                    <div class="service_item">
-                        <header>WEB APPLICATION</header>
-                    </div>
-                </div>
-            </div>
-            <div class="service_frame service_reverse" id="service_marketing">
-                <div class="service_items">
-                    <div class="service_item">
-                        <header>SEO MARKETING</header>
-                    </div>
-                    <div class="service_item">
-                        <header>CONTENT MARKETING</header>
-                    </div>
-                    <div class="service_item">
-                        <header>E-MAIL MARKETING</header>
-                    </div>
-                </div>
-                <div class="service_title">
-                    <div class="service_title_text">Digital <br> Marketing</div>
-                    <div class="service_title_awe"><ion-icon name="play"></ion-icon></div>
-                </div>
-            </div>
-            <div class="service_frame" id="service_business_software">
-                <div class="service_title">
-                    <div class="service_title_text">Business <br> Software</div>
-                    <div class="service_title_awe"><ion-icon name="play"></ion-icon></div>
-                </div>
-                <div class="service_items">
-                    <div class="service_item">
-                        <header>VOICE OVER INTERNET PROTOCOL</header>
-                    </div>
-                    <div class="service_item">
-                        <header>VIRTUAL DESKTOPS</header>
-                    </div>
-                    <div class="service_item">
-                        <header>TECH CONSULTING</header>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
         <section id="services">
-            <div id="service_web_dev" class="scroll_slider">
+            <div class="services_mobile_header">Our Services</div>
+            <div class="mobile_feild mobile_on" onclick="display_flex('service_web_dev')">
+               <p>Web Development</p> 
+               <ion-icon name="caret-forward-outline"></ion-icon>
+            </div>
+            <div id="service_web_dev" class="scroll_slider mobile_off">
                 <div class="scroll_slider_visual">
                     <div class="scroll_slider_visual_header">
                         <header>WEB DEVELOPMENT</header>
@@ -185,8 +135,12 @@
                     </div>
                 </div>
             </div>
-
-            <div id="service_marketing" class="scroll_slider mobile_flex_c_reverse">
+            
+            <div class="mobile_feild mobile_on" onclick="display_flex('service_marketing')">
+                <p>Digital Marketing</p>
+                <ion-icon name="caret-forward-outline"></ion-icon>
+            </div>
+            <div id="service_marketing" class="scroll_slider mobile_flex_c_reverse mobile_off">
                 <div class="scroll_slider_text">
                     <div class="scroll_slider_item">
                         <header>Search Engine Optimization</header>
@@ -221,7 +175,12 @@
                     <div class="scroll_slider_visual_video"><img src="images/digital_marketing.jpeg" alt=""></div>
                 </div>
             </div>
-            <div id="service_business_software" class="scroll_slider">
+
+            <div class="mobile_feild mobile_on" onclick="display_flex('service_business_software')">
+                <p>Business Software</p>
+                <ion-icon name="caret-forward-outline"></ion-icon>
+            </div>
+            <div id="service_business_software" class="scroll_slider mobile_off">
                 <div class="scroll_slider_visual">
                     <div class="scroll_slider_visual_header">
                         <header>BUSINESS SOFTWARE</header>

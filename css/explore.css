@@ -1,10 +1,10 @@
 #explore{
-    width: 90vw;
-    padding: 120px 5vw 10vh 5vw;
+    width: 80vw;
+    padding: 120px 10vw 10vh 10vw;
 }
 
 #explore_header{
-    font-size: 7em;
+    font-size: 5.5em;
     font-weight: 700;
     margin-bottom: 60px;
 }
@@ -26,7 +26,7 @@
     justify-content: space-between;
 }
 .explore_item header{
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 500;
     margin-bottom: 10px;
 }

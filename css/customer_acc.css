@@ -27,7 +27,6 @@
 #customer_acc_text{
     width: 100%;
     height: 50vh;
-    background-color: var(--ma-bg);
 }
 
 @media (max-width: 550px) {

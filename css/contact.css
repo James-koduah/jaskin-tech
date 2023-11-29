@@ -1,0 +1,110 @@
+#contact{
+    width: 80vw;
+    padding: 5vh 10vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact .information_header{
+    width: 100%;
+    padding: 0 0 40px 0;
+}
+
+#contact_phone_frame{
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+
+#contact_phone{
+    position: relative;
+    width: 80%;
+    width: 320px;
+    height: 570px;
+    border: 3px #000 solid;
+    background: url(../images/mobile_wallpaper.jpeg) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+#contact_phone_bezel{
+    position: absolute;
+    width: 50%;
+    height: 20px;
+    background-color: #000;
+    top: 0;
+    left: 25%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 5;
+}
+#contact_phone_buttons{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    bottom: 0;
+    z-index: 6;
+    color: #fff;
+}
+.contact_phone_buttons_item{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_phone_buttons_item ion-icon{
+    font-size: 3em;
+}
+#contact_phone_cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000099;
+    z-index: 3;
+}
+
+.phone_div{
+    width: 90%;
+    height: 100%;
+    padding: 25px 5%;
+    z-index: 4;
+}
+
+#phone_home{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.phone_home_item{
+    width: 23%;
+    height: 66px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.phone_home_item img{
+    width: 70%;
+    height: 70%;
+}
+
+
+@media (max-width: 550px) {
+    #contact{
+        flex-direction: column;
+    }
+    #contact_phone_frame{
+        width: 100%;
+    }
+}

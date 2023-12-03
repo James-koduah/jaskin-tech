@@ -1,13 +1,13 @@
 #services{
     width: 100%;
     position: relative;
-    padding-top: 100px;
 }
 
 #services .scroll_slider{
-    margin-bottom: 250px;
     transition: 2s;
     position: relative;
+    padding: 50px 0 20vh 0;
+    
 }
 
 #services .scroll_slider_text{
@@ -31,10 +31,10 @@
 #services .scroll_slider_item{
     width: 94%;
     padding: 10px 3%;
-    margin-bottom: 20vh;
+    margin-bottom: 15vh;
 }
 #services .scroll_slider_item header{
-    font-size: 7.5em;
+    font-size: 5.5em;
     font-weight: 900;
     margin-bottom: 10px;
 }
@@ -53,8 +53,7 @@
     margin-top: 15px;
 }
 #services .scroll_slider_item li{
-    width: 45%;
-    padding-left: 5%;
+    width: 50%;
     color: var(--txt-soft);
     list-style-type: none;
     font-size: 3.2em;
@@ -72,10 +71,10 @@
     margin-top: 25px;
 }
 
-#service_web_dev{
+/* #service_web_dev{
     transform: translate(0, 500px);
     opacity: 0;
-}
+} */
 #service_marketing{
     transform: translate(0, 200px);
     opacity: 0;
@@ -101,6 +100,7 @@
 
 #services .mobile_feild{
     width: 250px;
+    max-width: 70vw;
     min-width: fit-content;
     margin: 10px 10%;
     padding: 15px 3%;

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/hero_section.css">
     <link rel="stylesheet" href="css/services.css">
-    <link rel="stylesheet" href="css/customer_acc.css">
+    <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/strength.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/contact.css">
@@ -19,46 +19,94 @@
 <body>
     <nav>
         <p id="logo"><i>J</i>ASKIN <i>T</i>ECH .</p>
-        <div id="nav_right">
-            <a href="" class="action_button">Create a free Customer Account</a>
-        </div>
+        <ul id="nav_right">
+            <li class="nav_right_main mobile_off">
+                <a href="">FAQ'<span>s</span></a>
+            </li>
+            <li class="nav_right_main mobile_off">
+                <a href="">About</a>
+            </li>
+            <li class="nav_right_main nav_dropdown_parent mobile_off">
+                <a href="">Services <ion-icon name="chevron-down"></ion-icon></a> 
+                <ul class="nav_dropdown">
+                    <li>
+                        <a href="">Web Development</a>
+                    </li>
+                    <li>
+                        <a href="">Digital Marketing</a>
+                    </li>
+                    <li>
+                        <a href="">Business Software</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav_right_main mobile_off">
+                <a href="">Blogs</a>
+            </li>
+            <li class="nav_right_main mobile_off">
+                <a href="">Contact</a>
+            </li>
+            <li class="nav_right_main mobile_off">        
+                <a class="action_button" href="">Get Website Price</a>
+            </li>
+        </ul>
     </nav>
     <main>
         <section id="hero_section">
             <div id="hero_section_text">
                 <div class="cover">
-                    <h1 id="hero_section_header">GET THE TECH <br> YOU NEED</h1>
+                    <h1 id="hero_section_header">GET THE WEBSITE <br> YOU NEED</h1>
                     <h2 id="hero_section_subheader">
                         Join the digital revolution by leveraging the skills of
-                        professionals.
+                        professionals. <br>
                     </h2>
-                    <a class="action_button" href="#">Create a free Customer Account</a>
+                    <!-- <ul id="hero_section_list">
+                        <li>
+                            <ion-icon name="desktop-outline"></ion-icon>
+                            Web Development
+                        </li>
+                        <li>
+                            <ion-icon name="bar-chart"></ion-icon>
+                            Digital Marketing
+                        </li>
+                        <li>
+                            <ion-icon name="bulb"></ion-icon>
+                            Business Software
+                        </li>
+                    </ul> -->
+                    <a class="action_button" href="#">Get Website Price</a>
+                    <p id="hero_section_contact">Contact (+233) 20 219 1728</p>
                 </div>
             </div>
-            <div id="hero_section_img_frame">
-                <div id="hero_section_img"><img src="images/computer.jpeg" alt=""></div>
+            <div id="hero_section_img">
+                <div id="hero_section_img_frame">
+                    <img src="images/website_inspiration1.jpeg" alt="">
+                    <img src="images/datacenter4.jpeg" alt="">
+                    <img src="images/drone.jpeg" alt="">
+                    <img src="images/computer.jpeg" alt="">
+                </div>
             </div>
         </section>
 
         <section id="services">
-            <div class="services_mobile_header mobile_on">Our Services</div>
+            <!-- <div class="services_mobile_header mobile_on">Our Services</div>
             <div class="mobile_feild mobile_on" onclick="display_flex('service_web_dev', this, 'mobile_feild_active')">
                <p>Web Development</p> 
                <ion-icon name="caret-forward-outline"></ion-icon>
-            </div>
-            <div id="service_web_dev" class="scroll_slider mobile_off">
+            </div> -->
+            <div id="service_web_dev" class="scroll_slider"  style="background-color: #fff;">
                 <div class="scroll_slider_visual">
                     <div class="scroll_slider_visual_header">
                         <header>WEB DEVELOPMENT</header>
                     </div>
                     <div class="scroll_slider_visual_video">
-                        <img src="images/computer4.jpeg" alt="">
+                        <img src="images/businesss_software.jpeg" alt="">
                     </div>
                 </div>
                 <div class="scroll_slider_text">
 
                     <div class="scroll_slider_item">
-                        <header>Informational Sites</header>
+                        <header>Informational Websites</header>
                         <p>
                             Get your information on the internet with a Webpage or Website
                             that presents your visitors with your information in an eye catching way. 
@@ -66,26 +114,26 @@
                         <ul>
                             <li>
                                 <ion-icon name="desktop-outline"></ion-icon>
-                                Portfolio Site
+                                Portfolio Website
                             </li>
                             <li>
                                 <ion-icon name="desktop-outline"></ion-icon>
-                                Events Site
+                                Events Website
                             </li>
                             <li>
                                 <ion-icon name="desktop-outline"></ion-icon>
-                                Small Business Site
+                                Small Business Website
                             </li>
                             <li>
                                 <ion-icon name="desktop-outline"></ion-icon>
-                                Coporate Site
+                                Corporate Website
                             </li>
                         </ul>
                         <a href="" class="action_button">Check Product</a>
                     </div>
 
                     <div class="scroll_slider_item">
-                        <header>Commercial Sites</header>
+                        <header>Commercial Websites</header>
                         <p>
                             Process commercial activities over the internet with online payments,
                             inventory control, coupons, tickets etc. You can also have these features
@@ -111,7 +159,7 @@
                     <div class="scroll_slider_item">
                         <header>Web Applications</header>
                         <p>
-                            Full Scale Enterprise Applications to solve real world problems. Build platforms,
+                            Full Scale Enterprise Web Applications to solve real world problems. Build platforms,
                             automate processes, setup management systems and get your own software to solve your
                             unique needs.
                         </p>
@@ -138,11 +186,11 @@
                 </div>
             </div>
             
-            <div class="mobile_feild mobile_on" onclick="display_flex('service_marketing', this, 'mobile_feild_active')">
+            <!-- <div class="mobile_feild mobile_on" onclick="display_flex('service_marketing', this, 'mobile_feild_active')">
                 <p>Digital Marketing</p>
                 <ion-icon name="caret-forward-outline"></ion-icon>
-            </div>
-            <div id="service_marketing" class="scroll_slider mobile_flex_c_reverse mobile_off">
+            </div> -->
+            <div id="service_marketing" class="scroll_slider mobile_flex_c_reverse ">
                 <div class="scroll_slider_text">
                     <div class="scroll_slider_item">
                         <header>Search Engine Optimization</header>
@@ -178,7 +226,7 @@
                 </div>
             </div>
 
-            <div class="mobile_feild mobile_on" onclick="display_flex('service_business_software', this, 'mobile_feild_active')">
+            <!-- <div class="mobile_feild mobile_on" onclick="display_flex('service_business_software', this, 'mobile_feild_active')">
                 <p>Business Software</p>
                 <ion-icon name="caret-forward-outline"></ion-icon>
             </div>
@@ -217,13 +265,44 @@
                         <a href="" class="action_button">Check Product</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
 
-        <section id="customer_acc">
-            <header id="customer_acc_header">Why Create A Customer Account</header>
-            <div id="customer_acc_video"></div>
-            <div id="customer_acc_text"></div>
+        <section id="portfolio">
+            <div id="portfolio_header">
+                <div class="information_header">
+                    <h3><i>P</i>ORTFOLIO.</h3>
+                    <h4><i>S</i>EE <i>H</i>OW <i>W</i>E'VE <i>M</i>ADE <i>O</i>UR <i>C</i>USTOMERS <i>S</i>MILE</h4>
+                </div>
+            </div>
+            <div id="portfolio_PC" class="mobile_off">
+                <div id="portfolio_PC_track_right">
+                    <div id="portfolio_PC_track_left">
+                        <div class="portfolio_PC_item"><img src="images/mission12.jpeg" alt=""></div>
+                        <div class="portfolio_PC_item"><img src="images/website_inspiration.jpeg" alt=""></div>
+                        <div class="portfolio_PC_item portfolio_PC_current"><img src="images/site4.png" alt=""></div>
+                        <div class="portfolio_PC_item"><img src="images/website_inspiration2.jpeg" alt=""></div>
+                        <div class="portfolio_PC_item"><img src="images/website_inspiration3.jpeg" alt=""></div>
+                    </div>
+                </div>
+                <div id="portfolio_PC_move_left" onclick="portfolio_scroll(1)"><ion-icon name="arrow-back-circle"></ion-icon></div>
+                <div id="portfolio_PC_move_right" onclick="portfolio_scroll(0)"><ion-icon name="arrow-forward-circle"></ion-icon></div>
+            </div>
+            <div id="portfolio_MOBILE" class="mobile_on">
+                <div id="portfolio_MOBILE_move_left" onclick="portfolio_scroll_mobile(1)"><ion-icon name="arrow-back-circle"></ion-icon></div>
+                <div id="portfolio_MOBILE_track">
+                    <div id="portfolio_MOBILE_track_right">
+                        <div id="portfolio_MOBILE_track_left">
+                            <div class="portfolio_MOBILE_item"><img src="images/mission12.jpeg" alt=""></div>
+                            <div class="portfolio_MOBILE_item"><img src="images/website_inspiration.jpeg" alt=""></div>
+                            <div class="portfolio_MOBILE_item portfolio_PC_current"><img src="images/site4.png" alt=""></div>
+                            <div class="portfolio_MOBILE_item"><img src="images/website_inspiration2.jpeg" alt=""></div>
+                            <div class="portfolio_MOBILE_item"><img src="images/website_inspiration3.jpeg" alt=""></div></div>
+                    </div>
+                </div>
+                <div id="portfolio_MOBILE_move_right" onclick="portfolio_scroll_mobile(0)"><ion-icon name="arrow-forward-circle"></ion-icon></div>
+            </div>
+            <div id="portfolio_more"><a href="" class="action_button">See more Projects</a></div>
         </section>
 
         <section id="strength">
@@ -319,7 +398,7 @@
         <section id="contact">
             <div class="information_header">
                 <h3><i>C</i>ONTACT <i>U</i>S</h3>
-                <h4><i>L</i>ET'S <i>S</i>TART <i>Y</i>OUR <i>P</i>ROJECT</h4>
+                <h4><i>L</i>ET'S <i>S</i>TART <i>A</i> <i>D</i>ISCUSSION</h4>
             </div>
             <div id="contact_phone_frame">
                 <div id="contact_phone">
@@ -332,7 +411,7 @@
                         <div class="contact_phone_buttons_item">
                             <ion-icon name="ellipse-outline"></ion-icon>
                         </div>
-                        <div class="contact_phone_buttons_item">
+                        <div class="contact_phone_buttons_item" onclick="contact_app('close')">
                             <ion-icon name="caret-back-outline"></ion-icon>
                         </div>
                     </div>
@@ -341,8 +420,30 @@
                         <div class="phone_home_item"><img src="images/facebook_icon.png" alt=""></div>
                         <div class="phone_home_item"><img src="images/linkedin_icon.png" alt=""></div>
                         <div class="phone_home_item"><img src="images/gmail_icon.png" alt=""></div>
-                        <div class="phone_home_item"><img src="images/phone_icon.png" alt=""></div>
+                        <div class="phone_home_item" onclick="contact_app('phone')"><img src="images/phone_icon.png" alt=""></div>
+                        <div class="phone_home_item"><img src="images/whatsapp_icon.png" alt=""></div>
                     </div>
+                    <div id="contact_phone_app"></div>
+                </div>
+            </div>
+            <div id="contact_form">
+                <div>
+                    <label for="contact_name">Your Name</label>
+                    <input name="contact_name" type="text" placeholder="Name">
+                </div>
+                <div>
+                    <label for="contact_email">Your Email</label>
+                    <input type="text" name="contact_email" placeholder="Email">
+                    <p>OR</p>
+                    <label for="">Your Phone Number</label>
+                    <input type="text" placeholder="Phone">
+                </div>
+                <div>
+                    <label for="">Your Message</label>
+                    <textarea name="" id="" placeholder="Message about your website project. Lets talk about the requirements, time, price or examples to get started"></textarea>
+                </div>
+                <div>
+                    <button class="action_button">Send, We'll Answer!</button>
                 </div>
             </div>
         </section>
@@ -369,9 +470,51 @@
         <div id="footer_jaskin_tech">
             <i>J</i>ASKIN &nbsp;&nbsp; <i>T</i>ECH.
         </div>
+        <div id="footer_header">
+            <p><i>D</i>O <i>Y</i>OU <i>W</i>ANT <i>T</i>O <i>S</i>EE <i>S</i>OMETHING <i>I</i>NTRESTING...<i>?</i></p>
+            <a href="#" class="action_button">EXPLORE</a>
+        </div>
+        <div id="footer_main">
+            <div id="footer_links">
+                <div id="footer_actions">
+                    <header><i>F</i>IND <i>O</i>PORTUNITIES <i>W</i>ITH <i>U</i>S</header>
+                    <a><i>B</i>ECOME <i>A</i> <i>P</i>ARTNER</a>
+                    <a><i>C</i>AREER <i>/</i> <i>O</i>PEN <i>P</i>OSITIONS</a>
+                </div>
+                <div id="footer_pages">
+                    <header><i>N</i>AVIGATE</header>
+                    <a href=""><i>P</i>RODUCTS</a>
+                    <a href=""><i>A</i>BOUT</a>
+                    <a href=""><i>P</i>ORTFOLIO</a>
+                    <a href=""><i>B</i>LOG</a>
+                    <a href=""><i>S</i>ERVICES</a>
+                </div>
+            </div>
+            <div id="footer_improve">
+                <header><i>B</i>USINESS</header>
+                <div>
+                    <p><i>S</i>CHEDULE <i>A</i>N <i>A</i>PPOINTMENT</p>
+                    <a href="/appointment/" class="action_button">SCHEDULE</a>
+                </div>
+                <div>
+                    <p><i>D</i>ROP <i>A</i> <i>H</i>INT, <i>T</i>IP OR <i>S</i>UGGESTION</p>
+                    <textarea></textarea>
+                    <button>DROP</button>
+                </div>
+
+            </div>
+            <div id="footer_ai_images">
+                <img id="ai_images1" src="images/man7.jpeg" alt="">
+                <img id="ai_images2" src="images/man4.jpeg" alt="">
+            </div>
+        </div>
+        <div id="copyright">Copyright © 2023 JASKIN TECH</div>
+
     </footer>
 
 
     <script src="js/app.js"></script>
+    <script src="js/image_slide.js"></script>
+    <script src="js/contact_phone.js"></script>
 </body>
 </html>

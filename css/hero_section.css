@@ -1,25 +1,3 @@
-nav{
-    width: 96vw;
-    padding: 0 2vw;
-    height: 50px;
-    background-color: var(--su-bg);
-    color: var(--ma-bg);
-    position: fixed;
-    top: 0vh;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-#logo{
-    font-size: 2.8em;
-    font-weight: 600;
-    color: var(--at-bg);
-}
-nav .action_button{
-    padding: 10px 15px;
-    font-size: 2em;
-}
 
 
 
@@ -28,7 +6,8 @@ nav .action_button{
 
 #hero_section{
     width: 100vw;
-    height: calc(100vh - 50px);
+    height: calc(90vh - 50px);
+    min-height: fit-content;
     padding-top: 50px;
     display: flex;
 }
@@ -49,29 +28,62 @@ nav .action_button{
     line-height: 110%;
 }
 #hero_section_subheader{
-    font-size: 3em;
-    margin-bottom: 45px;
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    line-height: 140%;
+    font-family: var(--sans);
+}
+#hero_section_list{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#hero_section_list li{
+    width: 100%;
+    color: var(--txt-soft);
+    list-style-type: none;
+    font-size: 3.2em;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+#hero_section_list li ion-icon{
+    font-size: 150%;
+    margin-right: 2%;
+    color: var(--at-bg);
+}
+#hero_section_contact{
+    font-size: 3.2em;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: var(--sans);
 }
 
-
-#hero_section_img_frame{
+#hero_section_img{
     width: 50vw;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-#hero_section_img{
-    width: 80%;
-    height: 60%;
-    background-color: var(--su-bg);
+#hero_section_img_frame{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
 }
+#hero_section_img_frame img{
+    width: 50%;
+    height: 50%;
+}
+
+
 
 
 @media (max-width: 550px) {
     #hero_section{
         flex-direction: column;
+        height: fit-content;
     }
     #hero_section_text{
         width: 100vw;
@@ -82,7 +94,8 @@ nav .action_button{
     #hero_section_text .cover{
         padding-left: 0;
     }
-    #hero_section_img_frame{
-        width: 100%;
+    #hero_section_img{
+        width: 100vw;
+        height: 50vh;
     }
 }

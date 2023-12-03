@@ -23,6 +23,7 @@
 #contact_phone{
     position: relative;
     width: 80%;
+    max-width: 95vw;
     width: 320px;
     height: 570px;
     border: 3px #000 solid;
@@ -43,6 +44,23 @@
     border-bottom-right-radius: 10px;
     z-index: 5;
 }
+#contact_phone_app{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 4;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact_phone_app header{
+    font-size: 3.5em;
+}
+#contact_phone_app p{
+    font-size: 3em;
+}
 #contact_phone_buttons{
     position: absolute;
     width: 100%;
@@ -52,13 +70,17 @@
     z-index: 6;
     color: #fff;
 }
+
+
 .contact_phone_buttons_item{
     width: 33%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
+
 .contact_phone_buttons_item ion-icon{
     font-size: 3em;
 }
@@ -81,12 +103,12 @@
     display: flex;
     flex-wrap: wrap;
     height: fit-content;
-    justify-content: space-between;
+    justify-content: start;
     padding-top: 50px;
 }
 
 .phone_home_item{
-    width: 23%;
+    width: 25%;
     height: 66px;
     margin-bottom: 25px;
     display: flex;
@@ -95,17 +117,58 @@
     cursor: pointer;
 }
 .phone_home_item img{
-    width: 70%;
-    height: 70%;
+    width: 75%;
+    height: 75%;
     object-fit: contain;
 }
 
 
+#contact_form{
+    width: 55%;
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#contact_form div{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+#contact_form div label{
+    font-size: 3em;
+    color: var(--txt-soft);
+    margin-bottom: 10px;
+}
+#contact_form div input{
+    height: 40px;
+    width: 98%;
+    padding-left: 2%;
+}
+#contact_form div p{
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top: 5px;
+    text-align: center;
+}
+#contact_form div textarea{
+    width: 98%;
+    padding-left: 2%;
+    padding-top: 20px;
+    height: 200px;
+}
 @media (max-width: 550px) {
     #contact{
         flex-direction: column;
     }
     #contact_phone_frame{
         width: 100%;
+    }
+    #contact_form{
+        width: 100%;
+    }
+    #contact_form div{
+        width: 95%;
     }
 }

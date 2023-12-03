@@ -11,14 +11,9 @@ function scroll_translate_reset(element_id, offset = 0, instant=false){
         element.style.opacity = 1
     }
 }
-scroll_translate_reset('service_web_dev', 1000)
+// scroll_translate_reset('service_web_dev', 1000)
 scroll_translate_reset('service_marketing', 1000)
-scroll_translate_reset('service_business_software', 1000)
-if (window.innerWidth < 550){
-    scroll_translate_reset('customer_acc', 150)
-}else{
-    scroll_translate_reset('customer_acc', 350)
-}
+// scroll_translate_reset('service_business_software', 1000)
 
 
 

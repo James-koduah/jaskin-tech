@@ -54,7 +54,18 @@
 }
 @media (max-width: 550px) {
     .strength_item{
-        width: 100%;
+        width: 48%;
         margin-bottom: 40px;
     }
+    .strength_item_img{
+        height: 17em;
+    }
+    .strength_item_img img{
+        width: 15em;
+        height: 15em;
+    }
+    
+.strength_item_text{
+    font-size: 2.6em;
+}
 }

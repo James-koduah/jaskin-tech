@@ -85,6 +85,12 @@
         flex-direction: column;
         height: fit-content;
     }
+    #hero_section_header{
+        font-size: 7.3vw
+    }
+    #hero_section_subheader{
+        color: var(--txt-soft);
+    }
     #hero_section_text{
         width: 100vw;
         padding-top: 100px; 
@@ -97,5 +103,8 @@
     #hero_section_img{
         width: 100vw;
         height: 50vh;
+    }
+    #hero_section_contact{
+        margin-top: 40px;
     }
 }

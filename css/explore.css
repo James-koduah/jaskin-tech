@@ -43,4 +43,7 @@
         width: 100%;
         height: fit-content;
     }
+    .explore_item header{
+        font-size: 2.7em;
+    }
 }

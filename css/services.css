@@ -72,7 +72,7 @@
 }
 
 /* #service_web_dev{
-    transform: translate(0, 500px);
+    transform: translate(0, 200px);
     opacity: 0;
 } */
 #service_marketing{
@@ -120,6 +120,7 @@
     }
     #services .scroll_slider{
         margin-bottom: 0px;
+        padding-bottom: 20px;
     }
     #services .scroll_slider_text{
         width: 90%;
@@ -141,7 +142,7 @@
         margin-bottom: 50px;
     }
     #services .scroll_slider_item header{
-        font-size: 5em;
+        font-size: 4em;
     }
     #services .scroll_slider_item p{
         width: 100%;

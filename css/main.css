@@ -138,7 +138,7 @@ a{
 
 
 .mobile_on{
-    display: none;
+    display: none !important;
 }
 
 @media (max-width: 550px) {
@@ -220,8 +220,8 @@ a{
 
 nav{
     width: 96vw;
-    padding: 0 2vw;
-    height: 70px;
+    padding: 5px 2vw;
+    height: 60px;
     background-color: var(--su-bg);
     color: var(--ma-bg);
     position: fixed;

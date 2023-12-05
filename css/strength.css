@@ -53,8 +53,12 @@
     }
 }
 @media (max-width: 550px) {
+    #strength{
+        width: 90vw;
+        padding: 50px 5vw;
+    }
     .strength_item{
-        width: 48%;
+        width: 42%;
         margin-bottom: 40px;
     }
     .strength_item_img{

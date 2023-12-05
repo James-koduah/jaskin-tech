@@ -84,12 +84,15 @@
     #hero_section{
         flex-direction: column;
         height: fit-content;
+        padding-top: 35px;
     }
     #hero_section_header{
-        font-size: 7.3vw
+        font-size: 7.8vw;
+        line-height: 150%;
     }
     #hero_section_subheader{
         color: var(--txt-soft);
+        line-height: 170%;
     }
     #hero_section_text{
         width: 100vw;

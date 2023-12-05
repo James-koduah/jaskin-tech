@@ -99,7 +99,7 @@ footer{
 }
 #footer_improve div button{
     width: 91%;
-    height: 25px;
+    padding: 10px;
     background-color: var(--at-bg);
     color: #ddd;
     font-weight: 700;

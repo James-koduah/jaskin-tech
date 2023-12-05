@@ -29,9 +29,10 @@
 }
 #hero_section_subheader{
     font-size: 3.5em;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
     line-height: 140%;
     font-family: var(--sans);
+    color: #222;
 }
 #hero_section_list{
     width: 100%;
@@ -57,10 +58,6 @@
     font-weight: 600;
     margin-top: 20px;
     font-family: var(--sans);
-}
-
-#hero_section_text .action_button{
-    box-shadow: 1px 1px 1px 1px #000;
 }
 
 #hero_section_img{

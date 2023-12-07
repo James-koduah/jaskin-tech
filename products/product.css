@@ -12,6 +12,16 @@
     text-align: center;
 }
 
+.pitch{
+    width: 30em;
+    font-size: 3.5em;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+    color: var(--txt-soft);
+}
+
 .section_header{
     width: 100%;
     text-align: center;
@@ -91,6 +101,9 @@
 
 
 @media (max-width: 550px) {
+    .pitch{
+        width: 80%;
+    }
     #hero_section{
         font-size: 3.4em;
         color: var(--ma-bg);

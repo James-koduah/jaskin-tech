@@ -1,0 +1,31 @@
+#web_informational{
+    width: 90vw;
+    padding: 0 5vw 50px 5vw;
+}
+
+#web_inform_products{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#web_inform_products .product{
+    transition: 1.5s;
+    transform: translate(0px, 200px);
+}
+
+/* #web_inform_bronze{
+}
+#web_inform_silver{
+    transform: translate(0px, 200px);
+}
+#web_inform_gold{
+    transform: translate(0px, 200px);
+} */
+
+
+@media (max-width: 550px) {
+    #web_inform_products{
+        flex-wrap: wrap;
+    }
+}

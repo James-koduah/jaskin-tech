@@ -12,8 +12,11 @@
     --su-bg-gradient2: linear-gradient(190deg, #0d011b, #120127, #120127, #100124, #000);
     /* --at-bg: green; */
     --txt-soft: #444;
+    --txt-soft3: #333333;
     --sans: Oscine, sans-serif;
+    --cam: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     --verdana: Verdana, Geneva, Tahoma, sans-serif;
+    --mons: "Montserrat", Arial, Tahoma, sans-serif;
     font-size: 5px;
 }
 i{
@@ -231,6 +234,7 @@ nav{
     width: 96vw;
     padding: 5px 2vw;
     height: 60px;
+    max-height: 25vh;
     background-color: var(--su-bg);
     color: var(--ma-bg);
     position: fixed;
@@ -241,9 +245,20 @@ nav{
     justify-content: space-between;
 }
 #logo{
-    font-size: 3.2em;
-    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+#logo img{
+    width: 40px;
+    height: 40px;
+}
+#logo p{
+    font-size: 3em;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
 #nav_right{
     display: flex;
     align-items: center;

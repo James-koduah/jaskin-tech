@@ -112,6 +112,8 @@
 @media (max-width: 800px) {
     #content2{
         flex-wrap: wrap;
+        width: 80vw;
+        padding: 30px 10vw;
     }
     .content2_item{
         width: 100%;

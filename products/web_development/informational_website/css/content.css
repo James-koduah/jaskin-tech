@@ -1,6 +1,13 @@
+#hero_section{
+    background: url(../images/background2.jpeg) no-repeat;
+    background-size: 100% auto;
+    margin-bottom: 45px;
+}
+
+
 #content1{
-    width: 80vw;
-    padding: 60px 10vw;
+    width: 90vw;
+    padding: 100px 5vw 70px 5vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -12,6 +19,8 @@
     max-height: 500px;
     position: sticky;
     top: 20vh;
+    border-radius: 10px;
+    overflow: hidden;
 }
 #content1_text{
     width: 45%;
@@ -50,6 +59,7 @@
     margin-right: 2%;
     color: var(--at-bg);
 }
+
 @media (max-width: 550px) {
     #content1{
         width: 90vw;
@@ -81,13 +91,24 @@
 
 #content2{
     width: 90vw;
-    padding: 30px 5vw;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    padding: 20vh 5vw 100px 5vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    background: var(--su-bg);
+    color: #aaa;
+}
+#content2_header{
+    width: 70%;
+    padding-bottom: 15vh;
+    font-size: 3.9em;
+    font-weight: 100;
+    line-height: 170%;
 }
 .content2_item{
     width: 31%;
-    color: var(--txt-soft3);
 }
 
 .content2_item_img{
@@ -111,7 +132,6 @@
 
 @media (max-width: 800px) {
     #content2{
-        flex-wrap: wrap;
         width: 80vw;
         padding: 30px 10vw;
     }

@@ -1,0 +1,13 @@
+#hero_section{
+    width: 100vw;
+    height: 40vh;
+    padding-top: 70px;
+    background: var(--su-bg);
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 1px var(--ma-bg);
+    font-size: 6em;
+    text-align: center;
+}

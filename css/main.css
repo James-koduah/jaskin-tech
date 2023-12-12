@@ -64,6 +64,7 @@ a{
 }
 
 .action_button{
+    position: relative;
     width: fit-content;
     padding: 15px 20px;
     font-size: 2.5em;

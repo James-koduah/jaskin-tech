@@ -24,8 +24,9 @@
 }
 
 #services .scroll_slider_visual_video{
-    background: var(--su-bg-gradient);
     height: 85%;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 #services .scroll_slider_item{

@@ -18,6 +18,7 @@
     height: 80vh;
     display: flex;
     align-items: center;
+    font-family: var(--cabin-ver);
 }
 #hero_section_text .cover{
     width: 80%;
@@ -27,13 +28,12 @@
     font-size: 7.5em;
     margin-bottom: 16px;
     line-height: 110%;
-    font-family: var(--cabin-ver);
 }
 #hero_section_subheader{
     font-size: 3.5em;
     margin-bottom: 15px;
     line-height: 140%;
-    font-family: var(--cabin-ver);
+    color: var(--txt-soft3);
 }
 #hero_section_list{
     width: 100%;
@@ -58,7 +58,6 @@
     font-size: 3.2em;
     font-weight: 600;
     margin-top: 30px;
-    font-family: var(--sans);
 }
 
 #hero_section_img{
@@ -101,14 +100,14 @@
         padding-top: 35px;
     }
     #hero_section_header{
-        font-size: 8.9vw;
+        font-size: 8.1vw;
         line-height: 140%;
-        margin-bottom: 4px;
+        margin-bottom: 15px;
     }
     #hero_section_subheader{
         line-height: 130%;
         font-size: 3.5em;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
     #hero_section_text{
         width: 100vw;
@@ -122,6 +121,7 @@
     #hero_section_img{
         width: 100vw;
         height: 50vh;
+        margin-top: 40px;
     }
     #hero_section_contact{
         color: #333;

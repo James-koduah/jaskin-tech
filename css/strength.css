@@ -61,18 +61,18 @@
         justify-content: space-around;
     }
     .strength_item{
-        width: 42%;
-        margin-bottom: 40px;
+        width: 26%;
+        margin-bottom: 50px;
     }
     .strength_item_img{
         height: 17em;
     }
     .strength_item_img img{
-        width: 15em;
-        height: 15em;
+        width: 8em;
+        height: 8em;
     }
     
 .strength_item_text{
-    font-size: 2.6em;
+    font-size: 2.1em;
 }
 }

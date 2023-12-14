@@ -35,6 +35,9 @@
     line-height: 140%;
     color: var(--txt-soft3);
 }
+#hero_section_text .action_button{
+    font-weight: 400;
+}
 #hero_section_list{
     width: 100%;
     margin-top: 15px;
@@ -106,8 +109,9 @@
     }
     #hero_section_subheader{
         line-height: 130%;
-        font-size: 3.5em;
+        font-size: 3.8em;
         margin-bottom: 25px;
+        font-weight: 400;
     }
     #hero_section_text{
         width: 100vw;
@@ -125,5 +129,6 @@
     }
     #hero_section_contact{
         color: #333;
+        font-weight: 400;
     }
 }

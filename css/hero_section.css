@@ -26,6 +26,7 @@
     font-size: 7.5em;
     margin-bottom: 16px;
     line-height: 110%;
+    font-family: var(--cabin-ver);
 }
 #hero_section_subheader{
     font-size: 3.5em;

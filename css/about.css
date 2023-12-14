@@ -12,6 +12,7 @@
     font-weight: 700;
     line-height: 115%;
     margin-bottom: 40px;
+    font-family: var(--cabin-ver);
 }
 
 #about_text p{

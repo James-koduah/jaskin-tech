@@ -38,6 +38,7 @@
     font-size: 5.5em;
     font-weight: 900;
     margin-bottom: 10px;
+    font-family: var(--cabin-ver);
 }
 
 #services .scroll_slider_item p{

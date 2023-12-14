@@ -1,8 +1,4 @@
-#hero_section{
-    background: url(../images/background2.jpeg) no-repeat;
-    background-size: 100% auto;
-    margin-bottom: 45px;
-}
+/* 
 
 
 #content1{
@@ -85,7 +81,66 @@
     #content1_text li{
         font-size: 3.2em;
     }
+} */
+
+#content1{
+    width: 100vw;
 }
+
+#content1 .item{
+    width: 90%;
+    display: flex;
+    padding: 50px 5%;
+}
+#content1 .item_img_frame{
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+#content1 .item_img_frame img{
+    width: 70%;
+    height: auto;
+}
+#content1 .item_text{
+    width: 65%;
+    color: var(--txt-soft3);
+}
+#content1 .item_text header{
+    font-family: var(--cabin-ver);
+    font-size: 5em;
+    font-weight: 100;
+    margin-bottom: 40px;
+    color: var(--txt-soft);
+}
+
+#content1 .item_text p{
+    font-size: 3.3em;
+    line-height: 160%;
+}
+
+#content1 .item ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+#content1 .item li{
+    width: 100%;
+    list-style-type: none;
+    font-size: 3.2em;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+#content1 .item li ion-icon{
+    font-size: 150%;
+    margin-right: 2%;
+    color: var(--at-bg);
+}
+
+
+
+
 
 
 

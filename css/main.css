@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
 *{
     padding: 0;
     margin: 0;
@@ -16,6 +18,7 @@
     --sans: Oscine, sans-serif;
     --cam: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     --verdana: Verdana, Geneva, Tahoma, sans-serif;
+    --cabin-ver: "Cabin", Verdana, Geneva, Tahoma, sans-serif;
     --mons: "Montserrat", Arial, Tahoma, sans-serif;
     font-size: 5px;
 }
@@ -71,7 +74,9 @@ a{
     font-weight: 600;
     background: var(--at-bg);
     color: var(--ma-bg);
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* border: 1px solid;
     border-top-color: #7f56ac;
     border-left-color: #7f56ac;
@@ -81,6 +86,10 @@ a{
 }
 .action_button:hover{
     background-color: #7b00ff;
+}
+.action_button ion-icon{
+    font-size: 130%;
+    margin: 0 3px;
 }
 
 .information_header{
@@ -324,4 +333,13 @@ nav{
 .nav_dropdown li a:hover{
     background: #000;
     color: #ccc;
+}
+
+@media (max-width: 900px) {
+    nav .mobile_off{
+        display: none !important;
+    }
+    nav .mobile_on{
+        display: flex !important;
+    }
 }

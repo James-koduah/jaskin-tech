@@ -153,5 +153,6 @@
     #services .scroll_slider_item li{
         width: 100%;
         padding-left: 0%;
+        font-size: 2.9em;
     }
 }

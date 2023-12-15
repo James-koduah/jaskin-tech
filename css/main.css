@@ -365,7 +365,7 @@ nav{
 }
 #nav_dropdown_main .item{
     width: fit-content;
-    margin-top: 15px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;

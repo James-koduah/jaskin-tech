@@ -384,7 +384,7 @@ nav{
     height: 100%;
 }
 #nav_dropdown_sub img{
-    object-fit:scale-down;
+    object-fit:contain
 }
 #nav_menu_header{
     width: 100%;

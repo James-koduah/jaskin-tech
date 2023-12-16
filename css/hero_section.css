@@ -89,7 +89,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--su-bg);
-    color: var(--at-bg);
+    color: #a149fe;
     font-size: 4em;
     font-weight: 600;
     letter-spacing: 2px;
@@ -130,5 +130,8 @@
     #hero_section_contact{
         color: #333;
         font-weight: 400;
+    }
+    #hero_jaskin_tech{
+        height: 25vh;
     }
 }

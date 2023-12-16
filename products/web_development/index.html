@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development & Design Pricing - Jaskin Tech</title>
-    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="../../images/favicon.ico" />
+    <link rel="icon" href="/logo.ico" type="image/x-icon">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
     <nav>
         <div id="logo">
-            <img src="../../images/favicon.ico" alt="Jaskin Tech logo">
+            <img src="/logo.ico" alt="Jaskin Tech logo">
             <p><i>J</i>ASKIN <i>T</i>ECH .</p>
         </div>
         <ul id="nav_right">
@@ -58,14 +58,14 @@
             </div>
             <div id="answers">
                 <div id="options">
-                    <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>A Business</p></div>
+                    <div class="option" onclick="dialouge(1)"><ion-icon name="radio-button-off"></ion-icon><p>A Business</p></div>
                     <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>A Non Profit Organization (NGO)</p></div>
                     <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>A Company</p></div>
                     <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>An Event Or Ocassion</p></div>
                     <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>A Content Creator</p></div>
                 </div>
                 <div id="movement">
-                    <div class="action_button"><ion-icon name="arrow-back-outline"></ion-icon> Back</div>
+                    <div class="action_button" onclick="dialouge(-1)"><ion-icon name="arrow-back-outline"></ion-icon> Back</div>
                 </div>
             </div>
         </section>

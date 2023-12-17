@@ -382,6 +382,9 @@ nav{
 #nav_dropdown_main .item p{
     font-size: 2.9em;
 }
+#nav_dropdown_main .item a{
+    font-size: 2.9em;
+}
 
 #nav_dropdown_sub{
     width: 45%;

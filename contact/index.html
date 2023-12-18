@@ -108,27 +108,31 @@
             </div>
         </section>
 
-        <section id="contact_form">
+        <section id="contact_form_frame">
             <div>
                 <header>CONTACT US TODAY</header>
             </div>
-            <div class="half">
-                <p>Your Name</p>
-                <input type="text" placeholder="Your Name">
-            </div>
-            <div class="half">
-                <p>Your Email</p>
-                <input type="email" placeholder="Your Email">
-            </div>
-            <div class="half">
-                <p>Your Phone</p>
-                <input type="number" placeholder="Your Phone Number">
-            </div>
-            <div>
-                <p>Your Message</p>
-                <textarea name="" id="" placeholder="Let's start a conversation on your project"></textarea>
-            </div>
-            <div><button>Send Your Message, We'll Answer</button></div>
+            <form id="contact_form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="db46ff7f-97ca-47c2-acc2-f64146099bc7">
+                <input type="hidden" name="from_name" value="Jaskin Tech Contact Page">
+                <div class="half">
+                    <p>Your Name</p>
+                    <input type="text" name="name" placeholder="Your Name">
+                </div>
+                <div class="half">
+                    <p>Your Email</p>
+                    <input type="email" name="email" placeholder="Your Email">
+                </div>
+                <div class="half">
+                    <p>Your Phone</p>
+                    <input type="text" name="phone number" placeholder="Your Phone Number">
+                </div>
+                <div>
+                    <p>Your Message</p>
+                    <textarea name="message" placeholder="Let's start a conversation on your project"></textarea>
+                </div>
+                <div><button type="submit">Send Your Message, We'll Answer</button></div>
+            </form>
         </section>
     </main>
     <footer>

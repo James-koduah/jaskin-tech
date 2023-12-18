@@ -481,26 +481,28 @@
                     <div id="contact_phone_app"></div>
                 </div>
             </div>
-            <div id="contact_form">
+            <form id="contact_form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="db46ff7f-97ca-47c2-acc2-f64146099bc7">
+                <input type="hidden" name="from_name" value="Jaskin Tech Home">
                 <div>
-                    <label for="contact_name">Your Name</label>
-                    <input name="contact_name" type="text" placeholder="Name">
+                    <label for="name">Your Name</label>
+                    <input name="name" type="text" placeholder="Name" required>
                 </div>
                 <div>
-                    <label for="contact_email">Your Email</label>
-                    <input type="text" name="contact_email" placeholder="Email">
+                    <label for="email">Your Email</label>
+                    <input type="email" name="email" placeholder="Email">
                     <p>OR</p>
-                    <label for="">Your Phone Number</label>
-                    <input type="text" placeholder="Phone">
+                    <label for="phone_number">Your Phone Number</label>
+                    <input type="text" name="phone_number" placeholder="Phone">
                 </div>
                 <div>
-                    <label for="">Your Message</label>
-                    <textarea name="" id="" placeholder="Message us about your website project. Lets talk about the requirements, time, price or examples to get started"></textarea>
+                    <label for="message">Your Message</label>
+                    <textarea name="message" placeholder="Message us about your website project. Lets talk about the requirements, time, price or examples to get started"></textarea>
                 </div>
                 <div>
-                    <button class="action_button">Send, We'll Answer!</button>
+                    <button type="submit" class="action_button">Send, We'll Answer!</button>
                 </div>
-            </div>
+            </form>
         </section>
 
         <section id="explore">

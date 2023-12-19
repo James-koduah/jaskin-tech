@@ -21,6 +21,8 @@
     --verdana: Verdana, Geneva, Tahoma, sans-serif;
     --cabin-ver: "Cabin", Verdana, Geneva, Tahoma, sans-serif;
     --work-sans: "Work Sans", Oscine, sans-serif;
+    --work-ver: "Work Sans", Verdana, Geneva, Tahoma, sans-serif;
+    --work-cabin-ver: "Work Sans", "Cabin", Verdana, Geneva, Tahoma, sans-serif;
     --mons: "Montserrat", Arial, Tahoma, sans-serif;
     font-size: 5px;
 }

@@ -38,9 +38,12 @@ main{
 #hero_section_img{
     width: 50%;
 }
+#hero_section_img img{
+    object-fit: contain;
+}
 
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     #hero_section{
         height: fit-content;
         flex-direction: column-reverse;

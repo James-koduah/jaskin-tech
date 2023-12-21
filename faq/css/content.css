@@ -2,9 +2,10 @@
     width: 90vw;
     padding: 20px 5vw;
     display: flex;
+    justify-content: space-between;
 }
 
-#content_groups{
+#faq_nav{
     width: 20vw;
     height: fit-content;
     max-height: calc(100vh - 120px);
@@ -12,33 +13,113 @@
     top: 120px;
     border-left: 1px #c9c3c3 solid;
 }
-
-#content_groups .item{
+.faq_nav_current{
+    background-color: #e3e1e1;
+}
+#faq_nav .item{
     width: 95%;
     display: flex;
     align-items: center;
     padding: 15px 0 15px 10px;
     cursor: pointer;
 }
-#content_groups .item:hover{
+#faq_nav .item:hover{
     box-shadow: 1px 1px 1px 1px #c9c3c3;
 }
-#content_groups .item p{
+#faq_nav .item p{
     font-size: 3.1em;
 }
 
-#content_group_answers{
-    width: 70vw;
-    height: 350vh;
+
+
+
+#faq_section{
+    width: 65vw;
+    padding-left: 40px;
+}
+.faq_current{
+    display: flex !important;
+}
+.faq_section_item{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+}
+
+.faq_section_header{
+    width: 96%;
+    padding: 30px 2%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 14px 10px #d7d4d9;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.faq_section_header h3{
+    font-size: 5.2em;
+    font-family: var(--work-cabin-ver);
+    letter-spacing: 2px;
+}
+
+
+.faq_section_content{
+    width: 94%;
+    padding: 40px 3%;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 10px 6px #d7d4d9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.faq_section_content .item{
+    width: 41%;
+    padding: 10px 2%;
+}
+.faq_section_content .item header{
+    min-height: 40px;
+    font-size: 3.3em;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: var(--sans);
+}
+.faq_section_content .item p{
+    font-size: 3.3em;
+    font-family: var(--cabin-sans);
+    line-height: 160%;
+    margin-bottom: 5px;
+}
+
+.faq_section_content .item ul{
+    margin: 15px 0;
+}
+.faq_section_content .item ul li{
+    list-style: none;
+    font-size: 2.9em;
+    margin-bottom: 10px;
+    padding-left: 3%;
 }
 
 @media (max-width: 550px) {
-    #content_groups{
+    #content{
+        flex-direction: column;
+    }
+    #faq_nav{
         width: 100%;
         border-left: none;
+        position: relative;
+        top: 0;
+        margin-bottom: 50px;
     }
-    #content_group_answers{
-        display: none;
+    
+    #faq_section{
+        width: 96%;
+        padding: 10px 2%;
+    }
+    .faq_section_content .item{
+        width: 96%;
     }
     
 }

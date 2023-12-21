@@ -69,20 +69,20 @@ function dialouge(num){
     if (num === 111){
         data.question = 'Informational Website'
         data.subquestion = 'Our Bronze package is well suited for your needs'
-        data.link = ['/products/web_development/informational_website/#web_inform_bronze', 'Check Product']
+        data.link = ['/services/web_development/informational_website/#web_inform_bronze', 'Check Product']
         dialouge_display(data)
     }
 
     if (num === 112){
         data.question = 'Informational Website'
         data.subquestion = 'Our Silver package is well suited for your needs'
-        data.link = ['/products/web_development/informational_website/#web_inform_silver', 'Check Product']
+        data.link = ['/services/web_development/informational_website/#web_inform_silver', 'Check Product']
         dialouge_display(data)
     }
     if (num === 113){
         data.question = 'Informational Website'
         data.subquestion = 'Our Gold package is well suited for your needs'
-        data.link = ['/products/web_development/informational_website/#web_inform_gold', 'Check Product']
+        data.link = ['/services/web_development/informational_website/#web_inform_gold', 'Check Product']
         dialouge_display(data)
     }
 

@@ -17,6 +17,9 @@
     font-family: var(--work-cabin-ver);
     margin-bottom: 30px;
 }
+#main_header{
+    font-size: 10em;
+}
 .content_text p{
     font-size: 3.8em;
     font-family: var(--cabin-ver);
@@ -43,6 +46,9 @@
     }
     .content_text h2{
         font-size: 6em;
+    }
+    #main_header{
+        font-size: 7em;
     }
     .content_text p{
         font-size: 3.4em;

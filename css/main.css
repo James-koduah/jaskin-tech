@@ -20,6 +20,7 @@
     --cam: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     --verdana: Verdana, Geneva, Tahoma, sans-serif;
     --cabin-ver: "Cabin", Verdana, Geneva, Tahoma, sans-serif;
+    --cabin-sans: "Cabin", Oscine, sans-serif;
     --work-sans: "Work Sans", Oscine, sans-serif;
     --work-ver: "Work Sans", Verdana, Geneva, Tahoma, sans-serif;
     --work-cabin-ver: "Work Sans", "Cabin", Verdana, Geneva, Tahoma, sans-serif;
@@ -288,7 +289,7 @@ nav{
     color: #fff;
 }
 .nav_right_main:hover{
-    border-bottom:1px #fff solid;
+    border-bottom:2px #fff solid;
 }
 .nav_right_main a{
     width: 100%;

@@ -16,7 +16,7 @@
     height: 500px;
     position: relative;
     transition: 1.5s;
-    transform: translate(0, -400px);
+    transform: translate(0, 400px);
     opacity: 0;
 }
 

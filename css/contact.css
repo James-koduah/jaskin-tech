@@ -128,10 +128,11 @@
     padding-top: 70px;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 #contact_form div{
-    width: 75%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
@@ -162,6 +163,10 @@
     border: none;
     background: #ddd;
 }
+
+#contact_form .half{
+    width: 48% !important;
+}
 @media (max-width: 550px) {
     #contact{
         flex-direction: column;
@@ -174,5 +179,8 @@
     }
     #contact_form div{
         width: 95%;
+    }
+    #contact_form .half{
+        width: 100% !important;
     }
 }

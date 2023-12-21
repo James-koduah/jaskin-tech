@@ -7,7 +7,7 @@ function contact_app(app){
         document.getElementById('contact_phone_buttons').style.color = '#000'
         screen.innerHTML = `
         <header>Contacts</header>
-        <p>(+233) 20 219 1728</p>
+        <p>(+233) 20 465 5978</p>
         `
 
     }

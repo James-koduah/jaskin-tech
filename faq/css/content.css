@@ -159,3 +159,12 @@
     }
     
 }
+@media (max-width: 550px) {
+    #content{
+        width: 98vw;
+        padding: 20px 1vw;
+    }    
+    #faq_nav .item p{
+        font-size: 3.3em;
+    }
+}

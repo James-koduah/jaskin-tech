@@ -22,7 +22,7 @@
 }
 .content_text p{
     font-size: 3.8em;
-    font-family: var(--cabin-ver);
+    font-family: var(--cabin-sans);
     line-height: 140%;
     color: var(--txt-soft3)
 }
@@ -50,9 +50,9 @@
     #main_header{
         font-size: 7em;
     }
-    .content_text p{
+    /* .content_text p{
         font-size: 3.4em;
-    }
+    } */
     .content_img{
         width: 100%;
         height: 50vh;

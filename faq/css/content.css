@@ -15,6 +15,7 @@
 }
 .faq_nav_current{
     background-color: #e3e1e1;
+    box-shadow: 1px 1px 1px 1px #c9c3c3;
 }
 #faq_nav .item{
     width: 95%;
@@ -77,6 +78,7 @@
 .faq_section_content .item{
     width: 41%;
     padding: 10px 2%;
+    margin-bottom: 40px;
 }
 .faq_section_content .item header{
     min-height: 40px;

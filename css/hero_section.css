@@ -14,7 +14,7 @@
     background-size: auto 100%;
     background-position: right; */
     background: var(--su-bg);
-    color: #bbb;
+    color: #aeb7c2;
 }
 
 #hero_section_text{
@@ -30,12 +30,12 @@
     width: 100%;
 }
 #hero_section_header{
-    font-size: 10em;
+    font-size: 10.5em;
     margin-bottom: 25px;
     line-height: 110%;
     letter-spacing: 1px;
     font-family: var(--work-cabin-ver);
-    color: #ddd;
+    color: var(--ma-bg);
 }
 #hero_section_subheader{
     font-size: 4.2em;

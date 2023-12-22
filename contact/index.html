@@ -120,25 +120,25 @@
             <div>
                 <header>CONTACT US TODAY</header>
             </div>
-            <form id="contact_form" action="https://api.web3forms.com/submit" method="POST">
+            <form id="contact_form" action="https://api.web3forms.com/submit" onsubmit="clear_form(this)" method="POST">
                 <input type="hidden" name="access_key" value="db46ff7f-97ca-47c2-acc2-f64146099bc7">
                 <input type="hidden" name="from_name" value="Jaskin Tech Contact Page">
                 <input type="hidden" name="redirect" value="https://jaskin.tech/contact/success-thank_you">
                 <div class="half">
                     <p>Your Name</p>
-                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="text" name="name" placeholder="Your Name" required>
                 </div>
                 <div class="half">
                     <p>Your Email</p>
-                    <input type="email" name="email" placeholder="Your Email">
+                    <input type="email" name="email" placeholder="Your Email" required>
                 </div>
                 <div class="half">
                     <p>Your Phone</p>
-                    <input type="text" name="phone number" placeholder="Your Phone Number">
+                    <input type="text" name="phone number" placeholder="Your Phone Number (Optional)">
                 </div>
                 <div>
                     <p>Your Message</p>
-                    <textarea name="message" placeholder="Let's start a conversation on your project"></textarea>
+                    <textarea name="message" placeholder="Let's start a conversation on your project" required></textarea>
                 </div>
                 <div><button type="submit">Send Your Message, We'll Answer</button></div>
             </form>
@@ -190,6 +190,6 @@
 
     </footer>
 
-    <script src="/js/nav.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>

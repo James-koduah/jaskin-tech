@@ -6,8 +6,8 @@ main{
     width: 100vw;
     height: 60vh;
     display: flex;
-    background: var(--su-bg);
     color: #ddd;
+    background: var(--su-bg);
 }
 #hero_section_text{
     width: 40%;

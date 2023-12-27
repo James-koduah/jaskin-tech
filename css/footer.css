@@ -1,7 +1,7 @@
 footer{
     width: 100%;
     height: fit-content;
-    background: var(--su-bg);
+    background: #0c0610;
     color: #ddd;
     padding: 40px 0 20px 0;
     font-family: var(--verdana);

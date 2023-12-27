@@ -7,16 +7,16 @@
 }
 
 :root{
-    --ma-bg: #f5eef9;
-    --ma-bg-gradient: linear-gradient(22deg, #efefef, #e2e2e2, #e2e2e2, #efefef);
+    --ma-bg: #ffffff;
     --su-bg: #0c0610;
-    --su-bg-gradient: linear-gradient(22deg, #0c001b , #1e0638 43% 56%, #110023);
     --at-bg: #7325c6;
-    --su-bg-gradient2: linear-gradient(190deg, #0d011b, #120127, #120127, #100124, #000);
-    /* --at-bg: green; */
-    --txt-soft: #444;
-    --txt-soft3: #333333;
+    --summary_bg: #f1f1f1;
+    --txt-color4: #444;
+    --txt-color3: #333333;
+    --txt-color2: #222222;
+    --txt-color1: #1f1f1f;
     --txt-bright: #aeb7c2;
+    --border-color: #ddd;
     --sans: Oscine, sans-serif;
     --cam: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     --verdana: Verdana, Geneva, Tahoma, sans-serif;
@@ -27,6 +27,8 @@
     --work-cabin-ver: "Work Sans", "Cabin", Verdana, Geneva, Tahoma, sans-serif;
     --mons: "Montserrat", Arial, Tahoma, sans-serif;
     --museo: "Museo Sans Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    --open-sans: open sans,Arial,Verdana,Sans-Serif;
+    --apercu: 'Apercu',Helvetica,Arial,sans-serif;;
     font-size: 5px;
 }
 input:focus, textarea:focus{
@@ -51,7 +53,7 @@ body{
     width: 100vw;
     font-family: var(--cabin-ver);
     background-color: var(--ma-bg);
-    color: #111;
+    color: var(--txt-color1);
     overflow-x: hidden;
 }
 body::-webkit-scrollbar{
@@ -122,7 +124,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px #ddd solid;
+    border-bottom: 1px var(--border-color) solid;
     position: sticky;
     top: 0px;
     background-color: var(--ma-bg);

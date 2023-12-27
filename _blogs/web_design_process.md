@@ -1,16 +1,14 @@
 ---
 title: Web Development Process
 summary: This Blog takes you through the process of building a Website from start to finish. See how ideas are rolled into action from brains, to paper, to wireframes, to code and then to the world!.
-main_img: code_scree.jpg
+main_img: web_development_process.jpg
 layout: blog
 header_font_family: cabin-ver
-p_font_family: cabin-sans
+p_font_family: museo
 author: James Koduah
 blog_date: 26th December, 2023
 ---
 
-
-# Unveiling the Craft: A Dive into Our Web Development Process
 
 Welcome to the heart of our digital workshop, where ideas take shape and visions come to life—our Web Development Process. As your trusted web agency, we believe in transparency and want to take you on a journey through the intricate steps that bring your digital dreams to reality.
 

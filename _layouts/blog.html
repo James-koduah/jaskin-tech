@@ -25,13 +25,17 @@
         </main>
         <div id="menu">
             <div class="menu_item" onclick="toggle_side_menu()">
-                <p>Close</p>
+                <p></p>
                 <ion-icon name="close"></ion-icon>
             </div>
             <a href="/blog/" class="menu_item">
                 <p>Home</p>
                 <ion-icon name="home-outline"></ion-icon>
             </a>
+            <div class="menu_item" onclick="light_dark(this)">
+                <p>Dark mode</p>
+                <ion-icon name="moon-outline"></ion-icon>
+            </div>
             <div class="menu_item_list">
                 <p>Articles</p>
                 <ul>
@@ -43,6 +47,9 @@
                 </ul>
             </div>
         </div>
+    </div>
+    <div id="explore">
+        
     </div>
     {%include footer.html%}
 </body>

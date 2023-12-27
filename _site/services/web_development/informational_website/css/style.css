@@ -1,7 +1,6 @@
 #hero_section{
     width: 100vw;
     height: calc(80vh - 70px);
-    padding-top: 70px;
     display: flex;
     margin-bottom: 50px;
 }

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Jaskin Tech</title>
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/footer.css">
+<link rel="icon" href="/logo.ico" type="image/x-icon">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="/js/main.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact_details.css">
+    <link rel="stylesheet" href="css/contact_form.css">
+</head>
+<body>
+    <nav>
+    <div id="logo">
+        <img src="/logo.ico" alt="Jaskin Tech logo">
+        <p><i>J</i>ASKIN <i>T</i>ECH .</p>
+    </div>
+    <ul id="nav_right">
+        
+        
+            
+            <li class="nav_right_main mobile_off">
+                <a href="/">Home</a>
+            </li>
+            
+        
+        
+        
+            
+            <li class="nav_right_main mobile_off">
+                <a href="/faq/">FAQ</a>
+            </li>
+            
+        
+        
+        
+            
+            <li class="nav_right_main mobile_off">
+                <a href="/about/">About</a>
+            </li>
+            
+        
+        
+        
+            
+            <li class="nav_right_main nav_dropdown_parent mobile_off">
+                <a href="/services/">Services <ion-icon name="chevron-down"></ion-icon></a>
+                <ul class="nav_dropdown">
+                    
+                    <li>
+                        <a href="/services/web_development/">Web Development</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/services/digital_marketing">Digital Marketing</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/services/business_software">Business Software</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+        
+        
+        
+            
+            <li class="nav_right_main mobile_off">
+                <a href="/blog/">Blogs</a>
+            </li>
+            
+        
+        
+        
+        
+        <li id="nav_dropdown_button" class="nav_right_main mobile_on" style="font-size: 35px;"><ion-icon name="menu"></ion-icon></li>
+    </ul>
+    <div id="nav_dropdown_menu">
+        <div id="nav_dropdown_main">
+            
+            
+            <a href="/" class="item">
+                <div class="item_image_frame"><img src="/images/home.jpg" alt=""></div>
+                <p>Home</p>
+            </a>
+            
+            
+            
+            <a href="/faq/" class="item">
+                <div class="item_image_frame"><img src="/images/faq.jpg" alt=""></div>
+                <p>FAQ</p>
+            </a>
+            
+            
+            
+            <a href="/about/" class="item">
+                <div class="item_image_frame"><img src="/images/about_us.jpg" alt=""></div>
+                <p>About</p>
+            </a>
+            
+            
+            
+            <a href="/services/" class="item">
+                <div class="item_image_frame"><img src="/images/services.jpg" alt=""></div>
+                <p>Services</p>
+            </a>
+            
+            
+            
+            <a href="/blog/" class="item">
+                <div class="item_image_frame"><img src="/images/blog.webp" alt=""></div>
+                <p>Blogs</p>
+            </a>
+            
+            
+            
+            
+        </div>
+        <div id="nav_dropdown_sub"><img src="/images/iconified/icon-fotor-20231215202510.png" alt=""></div>
+    </div>
+</nav>
+    <main>
+        <section id="hero_section">
+            <div class="cover">   
+                <h1>Talk To A Human</h1>
+                <p>
+                    Your messages aren't going to be left on read. Your Email isn't going to be lost in our inbox. Even Missed calls will be returned.
+                    We promise to give you the same service we would want to experience ourselves!
+                </p>
+            </div>
+        </section>
+
+        <section id="contact_details">
+            <div id="contact_details_text">
+                <h2>We aim to make your experience with us very convinent and helpful</h2>
+                <p>
+                    We strive to gain your Goodwill by providing you a great experience. 
+                    Feel free to reach out to us, from basic questions to complex inquires, we are ready to help you learn more about our services or make a consultation.
+                </p>
+                <h3>Frequently Asked Questions</h3>
+                <p>
+                    You can also check out our Frequently Asked Questions(FAQ) to see if your question has already been answered.
+                </p>
+                <a href="" class="action_button">Frequently Asked Questions</a>
+            </div>
+            <div id="contact_details_items">
+                <header>Direct Contact</header>
+                <div><p>Phone: +233 204655978</p></div>
+                <div><p>Whatsapp: +233 202191728</p></div>
+                <div><p>Email: jaskintechsolutions@gmail.com</p></div>
+                <div>
+                    <p>Socials: </p>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact_form_frame">
+            <div>
+                <header>CONTACT US TODAY</header>
+            </div>
+            <form id="contact_form" action="https://api.web3forms.com/submit" onsubmit="clear_form(this)" method="POST">
+                <input type="hidden" name="access_key" value="db46ff7f-97ca-47c2-acc2-f64146099bc7">
+                <input type="hidden" name="from_name" value="Jaskin Tech Contact Page">
+                <input type="hidden" name="redirect" value="https://jaskin.tech/contact/success-thank_you">
+                <div class="half">
+                    <p>Your Name</p>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="half">
+                    <p>Your Email</p>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="half">
+                    <p>Your Phone</p>
+                    <input type="text" name="phone number" placeholder="Your Phone Number (Optional)">
+                </div>
+                <div>
+                    <p>Your Message</p>
+                    <textarea name="message" placeholder="Let's start a conversation on your project" required></textarea>
+                </div>
+                <div><button type="submit">Send Your Message, We'll Answer</button></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+    <div id="footer_header">
+        <p><i>D</i>O <i>Y</i>OU <i>W</i>ANT <i>T</i>O <i>S</i>EE <i>S</i>OMETHING <i>I</i>NTRESTING...<i>?</i></p>
+        <a href="#" class="action_button">EXPLORE</a>
+    </div>
+    <div id="footer_main">
+        <div id="footer_links">
+            <div id="footer_actions">
+                <header><i>F</i>IND <i>O</i>PORTUNITIES <i>W</i>ITH <i>U</i>S</header>
+                <a><i>B</i>ECOME <i>A</i> <i>P</i>ARTNER</a>
+                <a><i>C</i>AREER <i>/</i> <i>O</i>PEN <i>P</i>OSITIONS</a>
+            </div>
+            <div id="footer_pages">
+                <header><i>N</i>AVIGATE</header>
+                <a href=""><i>P</i>RODUCTS</a>
+                <a href=""><i>A</i>BOUT</a>
+                <a href=""><i>P</i>ORTFOLIO</a>
+                <a href=""><i>B</i>LOG</a>
+                <a href=""><i>S</i>ERVICES</a>
+            </div>
+        </div>
+        <div id="footer_improve">
+            <header><i>B</i>USINESS</header>
+            <div>
+                <p><i>S</i>CHEDULE <i>A</i>N <i>A</i>PPOINTMENT</p>
+                <a href="/appointment/" class="action_button">SCHEDULE</a>
+            </div>
+            <div>
+                <p><i>D</i>ROP <i>A</i> <i>H</i>INT, <i>T</i>IP OR <i>S</i>UGGESTION</p>
+                <textarea></textarea>
+                <button>DROP</button>
+            </div>
+
+        </div>
+        <div id="footer_ai_images">
+            <img id="ai_images1" src="/images/man7.jpeg" alt="A man sitting at a cliff">
+            <img id="ai_images2" src="/images/man4.jpeg" alt="A man sitting at a cliff">
+        </div>
+    </div>
+    <div id="copyright">Copyright © 2023 JASKIN TECH</div>
+
+</footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

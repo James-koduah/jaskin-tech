@@ -1,0 +1,30 @@
+- name: Home
+  link: /
+  img: home.jpg
+
+- name: FAQ
+  link: /faq/
+  img: faq.jpg
+
+- name: About
+  link: /about/
+  img: about_us.jpg
+
+- name: Services
+  link: /services/
+  img: services.jpg
+  dropdown: 
+    - name: Web Development
+      link: /services/web_development/
+    - name: Digital Marketing
+      link: /services/digital_marketing
+    - name: Business Software
+      link: /services/business_software
+
+- name: Blogs
+  link: /blog/
+  img: blog.webp
+
+- name: Contact
+  link: /contact/
+  img: contact.webp

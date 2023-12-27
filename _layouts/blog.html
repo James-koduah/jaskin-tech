@@ -1,0 +1,49 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%include blog_head.html %}
+    <link rel="stylesheet" href="/blog/blogs_css/style.css">
+    {%include blog_font_family_choice.txt%}
+</head>
+<body>
+    {%include blog_nav.html%}
+    <div id="page">
+        <main>
+            <div id="blog_header">
+                <h1>{{page.title}}</h1>
+            </div>
+            <div id="main_img"><img src="/images/{{page.main_img}}" alt=""></div>
+            <div id="blog_summary">
+                <header>Summary:</header>
+                <p>{{page.summary}}</p>
+            </div>
+            <section id="blog_content">
+                {{content}}
+            </section>
+        </main>
+        <div id="menu">
+            <div class="menu_item" onclick="toggle_side_menu()">
+                <p>Close</p>
+                <ion-icon name="close"></ion-icon>
+            </div>
+            <a href="/blog/" class="menu_item">
+                <p>Home</p>
+                <ion-icon name="home-outline"></ion-icon>
+            </a>
+            <div class="menu_item_list">
+                <p>Articles</p>
+                <ul>
+                    {%for blog in site.blogs%}
+                    {%if blog.url != page.url%}
+                    <li><a href="{{blog.url}}">{{blog.title}}</a></li>
+                    {%endif%}
+                    {%endfor%}
+                </ul>
+            </div>
+        </div>
+    </div>
+    {%include footer.html%}
+</body>
+</html>

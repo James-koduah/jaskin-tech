@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development & Design Pricing - Jaskin Tech</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/logo.ico" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <img src="/logo.ico" alt="Jaskin Tech logo">
+            <p><i>J</i>ASKIN <i>T</i>ECH .</p>
+        </div>
+        <ul id="nav_right">
+            <li class="nav_right_main mobile_off">
+                <a href="/">Home</a>
+            </li>
+            <li class="nav_right_main mobile_off">
+                <a href="/faq/">FAQ'<span>s</span></a>
+            </li>
+            <li class="nav_right_main mobile_off">
+                <a href="/about/">About</a>
+            </li>
+            <li class="nav_right_main nav_dropdown_parent mobile_off">
+                <a href="">Services <ion-icon name="chevron-down"></ion-icon></a> 
+                <ul class="nav_dropdown">
+                    <li>
+                        <a href="/services/web_development/">Web Development</a>
+                    </li>
+                    <li>
+                        <a href="">Digital Marketing</a>
+                    </li>
+                    <li>
+                        <a href="">Business Software</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav_right_main mobile_off">
+                <a href="">Blogs</a>
+            </li>
+            <li class="nav_right_main mobile_off">
+                <a href="/contact/">Contact</a>
+            </li>
+            <li class="nav_right_main mobile_off">        
+                <a class="action_button" href="/products/web_development/">Talk To Humans</a>
+            </li>
+            <li id="nav_dropdown_button" class="nav_right_main mobile_on" style="font-size: 35px;"><ion-icon name="menu"></ion-icon></li>
+        </ul>
+        <div id="nav_dropdown_menu">
+            <div id="nav_dropdown_main">
+                <a href="" class="action_button">Get Website Price</a>
+                <a href="/" class="item">
+                    <div class="item_image_frame"><img src="/images/home.jpg" alt=""></div>
+                    <p>Home</p>
+                </a>
+                <a href="/about/" class="item">
+                    <div class="item_image_frame"><img src="/images/about_us.jpg" alt=""></div>
+                    <p>About Us</p>
+                </a>
+                <div class="item">
+                    <div class="item_image_frame"><img src="/images/services.jpg" alt=""></div>
+                    <p>Our Services</p>
+                </div>
+                <div class="item">
+                    <div class="item_image_frame"><img src="/images/blog.webp" alt=""></div>
+                    <p>Blogs</p>
+                </div>
+                <a href="/contact/" class="item">
+                    <div class="item_image_frame"><img src="/images/contact.webp" alt=""></div>
+                    <p>Contact</p>
+                </a>
+                <a href="/faq/" class="item">
+                    <div class="item_image_frame"><img src="/images/faq.jpg" alt=""></div>
+                    <p>FAQ'S</p>
+                </a>
+            </div>
+            <div id="nav_dropdown_sub"><img src="/images/iconified/icon-fotor-20231215202510.png" alt=""></div>
+        </div>
+    </nav>
+    <main>
+        <section id="robot">
+            <div id="questions">
+                <p class="question">Please Describe Yourself</p>
+                <p class="sub_question">Are you...</p>
+            </div>
+            <div id="answers">
+                <div id="options">
+                    <div class="option" onclick="dialouge(1)"><ion-icon name="radio-button-off"></ion-icon><p>A Business</p></div>
+                    <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>A Non Profit Organization (NGO)</p></div>
+                    <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>A Company</p></div>
+                    <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>An Event Or Ocassion</p></div>
+                    <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>A Content Creator</p></div>
+                </div>
+                <div id="movement">
+                    <div class="action_button" onclick="dialouge(-1)"><ion-icon name="arrow-back-outline"></ion-icon> Back</div>
+                </div>
+            </div>
+        </section>
+        <section id="pitch">
+            <header>Talk To A Real Person</header>
+            <a href="/contact/" class="action_button">Contact Us</a>
+            <p>
+                Remember, each project is different. Prices listed here are to provide estimates. Contact us to get a proper quote based on your project.
+            </p>
+        </section>
+    </main>
+
+
+    <script src="/js/nav.js"></script>
+    <script src="app.js"></script>    
+</body>
+</html>

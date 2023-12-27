@@ -1,0 +1,111 @@
+#pricing{
+    width: 90vw;
+    padding: 0 5vw 50px 5vw;
+}
+
+#web_inform_products{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#web_inform_products .product{
+    transition: 1.5s;
+    transform: translate(0px, 200px);
+    opacity: 0;
+}
+
+.product{
+    width: 28%;
+    height: fit-content;
+    padding: 0 2% 30px 2%;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px 1px #999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product .product_header{
+    width: 100%;
+    padding: 20px 0 10px 0;
+    font-family: var(--mons);
+    font-size: 5.5em;
+    font-weight: 600;
+    text-align: center;
+    color: var(--txt-soft3);
+}
+.product_subheader{
+    font-size: 3.1em;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--txt-soft3);
+}
+.product_subheader2{
+    font-size: 3.4em;
+    text-align: center;
+    line-height: 160%;
+    color: var(--txt-soft);
+}
+
+.product ul{
+    width: 90%;
+    margin: 30px 0;
+}
+.product ul li{
+    font-size: 2.8em;
+    color: var(--txt-soft);
+    list-style: none;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.product ul li ion-icon{
+    margin-right: 5%;
+    color: green;
+    flex-shrink: 0;
+}
+.product_price{
+    width: 100%;
+    text-align: center;
+    font-family: var(--cam);
+}
+.product_price_h{
+    font-size: 3.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.product_price_p{
+    font-size: 2.9em;
+    color: var(--txt-soft);
+    line-height: 170%;
+    margin-bottom: 15px;
+
+}
+.product_price_amount{
+    padding: 20px 0;
+    font-size: 9em;
+    color: var(--at-bg);
+}
+
+.bronze{
+    background-color: #a52a2a11;
+}
+.silver{
+    background: #c0c0c022;
+}
+.gold{
+    background: #ffd70022;
+}
+
+
+@media (max-width: 850px) {
+    #web_inform_products{
+        flex-wrap: wrap;
+    }
+    .product{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+

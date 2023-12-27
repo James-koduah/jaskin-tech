@@ -1,88 +1,16 @@
+---
+title: FAQ | Jaskin Tech - Web Design and Development
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ | Jaskin Tech - Web Design and Development</title>
-    <link rel="stylesheet" href="/css/main.css">
+    {% include base_head.html %}
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/content.css">
-    <link rel="icon" href="/logo.ico" type="image/x-icon">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <meta name="robots" content="noindex">
 </head>
 <body>
-    <nav>
-        <div id="logo">
-            <img src="/logo.ico" alt="Jaskin Tech logo">
-            <p><i>J</i>ASKIN <i>T</i>ECH .</p>
-        </div>
-        <ul id="nav_right">
-            <li class="nav_right_main mobile_off">
-                <a href="/">Home</a>
-            </li>
-            <li class="nav_right_main mobile_off">
-                <a href="/about/">About</a>
-            </li>
-            <li class="nav_right_main nav_dropdown_parent mobile_off">
-                <a href="">Services <ion-icon name="chevron-down"></ion-icon></a> 
-                <ul class="nav_dropdown">
-                    <li>
-                        <a href="/services/web_development/">Web Development</a>
-                    </li>
-                    <li>
-                        <a href="/services/digital_marketing/">Digital Marketing</a>
-                    </li>
-                    <li>
-                        <a href="/services/business_software/">Business Software</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="nav_right_main mobile_off">
-                <a href="">Blogs</a>
-            </li>
-            <li class="nav_right_main mobile_off">
-                <a href="/contact/">Contact</a>
-            </li>
-            <li class="nav_right_main mobile_off">        
-                <a class="action_button" href="/services/web_development/">Get Website Price</a>
-            </li>
-            <li id="nav_dropdown_button" class="nav_right_main mobile_on" style="font-size: 35px;"><ion-icon name="menu"></ion-icon></li>
-        </ul>
-        <div id="nav_dropdown_menu">
-            <div id="nav_dropdown_main">
-                <a href="" class="action_button">Get Website Price</a>
-                <a href="/" class="item">
-                    <div class="item_image_frame"><img src="/images/home.jpg" alt=""></div>
-                    <p>Home</p>
-                </a>
-                <a href="/about/" class="item">
-                    <div class="item_image_frame"><img src="/images/about_us.jpg" alt=""></div>
-                    <p>About Us</p>
-                </a>
-                <div class="item">
-                    <div class="faq_topic_header">
-                        <div class="item_image_frame"><img src="/images/services.jpg" alt=""></div>
-                        <ion-icon name="add-circle-outline"></ion-icon>
-                    </div>
-                    <p>Our Services</p>
-                </div>
-                <div class="item">
-                    <div class="faq_topic_header">
-                        <div class="item_image_frame"><img src="/images/blog.webp" alt=""></div>
-                        <ion-icon name="add-circle-outline"></ion-icon>
-                    </div>
-                    <p>Blogs</p>
-                </div>
-                <a href="/contact/" class="item">
-                    <div class="item_image_frame"><img src="/images/contact.webp" alt=""></div>
-                    <p>Contact</p>
-                </a>
-            </div>
-            <div id="nav_dropdown_sub"><img src="/images/iconified/icon-fotor-20231215202510.png" alt=""></div>
-        </div>
-    </nav>
+    {% include default_nav.html %}
     <main>
         <section id="hero_section">
             <div id="hero_section_text">
@@ -395,10 +323,7 @@
             </div>
         </section>
     </main>
-
-
-
-
+    {%include footer.html%}
     <script src="/js/nav.js"></script>
     <script src="js/app.js"></script>
 </body>

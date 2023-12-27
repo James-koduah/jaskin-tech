@@ -1,0 +1,42 @@
+<nav>
+    <div id="logo">
+        <img src="/logo.ico" alt="Jaskin Tech logo">
+        <p><i>J</i>ASKIN <i>T</i>ECH .</p>
+    </div>
+    <ul id="nav_right">
+        {%for item in site.data.default_nav%}
+        {%if page.url != item.link%}
+            {%if item.dropdown%}
+            <li class="nav_right_main nav_dropdown_parent mobile_off">
+                <a href="{{item.link}}">{{item.name}} <ion-icon name="chevron-down"></ion-icon></a>
+                <ul class="nav_dropdown">
+                    {%for elem in item.dropdown%}
+                    <li>
+                        <a href="{{elem.link}}">{{elem.name}}</a>
+                    </li>
+                    {%endfor%}
+                </ul>
+            </li>
+            {%else%}
+            <li class="nav_right_main mobile_off">
+                <a href="{{item.link}}">{{item.name}}</a>
+            </li>
+            {%endif%}
+        {%endif%}
+        {%endfor%}
+        <li id="nav_dropdown_button" class="nav_right_main mobile_on" style="font-size: 35px;"><ion-icon name="menu"></ion-icon></li>
+    </ul>
+    <div id="nav_dropdown_menu">
+        <div id="nav_dropdown_main">
+            {%for item in site.data.default_nav%}
+            {%if page.url != item.link%}
+            <a href="{{item.link}}" class="item">
+                <div class="item_image_frame"><img src="/images/{{item.img}}" alt=""></div>
+                <p>{{item.name}}</p>
+            </a>
+            {%endif%}
+            {%endfor%}
+        </div>
+        <div id="nav_dropdown_sub"><img src="/images/iconified/icon-fotor-20231215202510.png" alt=""></div>
+    </div>
+</nav>

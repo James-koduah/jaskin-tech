@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success - Thank You | Jaskin Tech</title>
+    <link rel="icon" href="/logo.ico" type="image/x-icon">
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            background: #0c0610;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 5px;
+            overflow: hidden;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #checkmark{
+            width: 50vw;
+            height: 50vw;
+            max-width: 25em;
+            max-height: 25em;
+            margin-bottom: 10px;
+        }
+        #checkmark img{
+            color: #7325c6;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+
+        }
+        h1{
+            font-size: 4.5em;
+            color: #7325c6;
+            font-weight: 400;
+            text-align: center;
+            max-width: 80vw;
+        }
+        p{
+            font-size: 3.1em;
+            color: #aeb7c2;
+            text-align: center;
+            max-width: 23em;
+        }
+        button{
+            background: transparent;
+            border: none;
+            font-size: 3.2em;
+            color: #eee;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+        h2{
+            position: absolute;
+            bottom: 5vh;
+            font-size: 2.2em;
+            font-weight: 300;
+            color: #aeb7c2;
+        }
+        @media (max-width: 600px) {
+            p{
+                max-width: 90vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="checkmark"><img src="/images/icons_svg/check-circle.svg" alt=""></div>
+    <h1>Form submitted successfully!</h1>
+    <p>Thank you. We have received your message. We will reply to you soon!</p>
+    <button onclick="window.history.back()">Go back</button>
+    <h2>This page will automatically redirect back in the next <span id="sec">20</span> seconds</h2>
+    
+    <script>
+        let time = 20
+        let sec = document.getElementById('sec')
+        setInterval(() => {
+            if (time < 0){
+                window.history.back()
+            }else{
+                sec.innerHTML = time
+                time--
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

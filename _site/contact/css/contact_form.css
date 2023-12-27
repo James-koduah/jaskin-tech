@@ -1,0 +1,76 @@
+#contact_form_frame{
+    width: 80vw;
+    padding: 50px 10vw;
+    background: #f7f7f7;
+
+}
+#contact_form_frame header{
+    font-size: 4.4em;
+    margin-bottom: 30px;
+}
+
+
+
+
+#contact_form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #f7f7f7;
+
+}
+
+#contact_form .half{
+    width: 30% !important;
+}
+#contact_form div{
+    width: 100%;
+}
+#contact_form div p{
+    font-size: 3.3em;
+    margin-bottom: 10px;
+    color: var(--txt-soft);
+}
+
+#contact_form div input{
+    width: 98%;
+    padding-left: 2%;
+    height: 65px;
+    margin-bottom: 30px;
+    background: #ddd;
+    border: none;
+    font-size: 3em;
+    font-weight: 200;
+    border-radius: 5px;
+}
+
+#contact_form div textarea{
+    width: 96%;
+    padding: 15px 2%;
+    height: 200px;
+    font-size: 3em;
+    background: #ddd;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact_form div button{
+    width: 100%;
+    height: 50px;
+    background: var(--at-bg);
+    font-family: var(--cabin-ver);
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    color: var(--ma-bg);
+    font-size: 3em;
+}
+
+@media (max-width: 800px) {
+    #contact_form div{
+    }    
+    #contact_form .half{
+        width: 100% !important;
+    }
+}

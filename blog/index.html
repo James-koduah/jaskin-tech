@@ -1,0 +1,38 @@
+---
+title: Blogs | Jaskin Tech Website Development
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include base_head.html %}
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog_list.css">
+</head>
+<body>
+    {% include default_nav.html %}
+    <main>
+        <section id="hero_section">
+            <div id="hero_section_text">
+                <h1>Our Blogs</h1>
+                <h2>
+                    Step into the digital playground of our blog—where creativity swings, innovation slides, and success is the ultimate game. Let's play and win together!
+                </h2>
+            </div>
+            <div id="hero_section_img"><img src="/images/blog_home2.jpg" alt="stock illustration of a man and woman having a conversation"></div>
+        </section>
+        <section id="blog_list">
+            {%for blog in site.blogs%}
+            <a href="{{blog.url}}" class="blog">
+                <div class="blog_img"><img src="/images/{{blog.main_img}}" alt=""></div>
+                <div class="blog_text">
+                    <header>{{blog.title}}</header>
+                    <p>{{blog.summary}}</p>
+                </div>
+            </a>
+            {%endfor%}
+        </section>
+    </main>
+    
+    {% include footer.html %}
+</body>
+</html>

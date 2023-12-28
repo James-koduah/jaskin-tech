@@ -10,8 +10,8 @@
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <script src="/js/main.js" defer></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/blog_list.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
     <nav>
@@ -129,39 +129,86 @@
             <div id="hero_section_text">
                 <h1>Our Blogs</h1>
                 <h2>
-                    Step into the digital playground of our blog—where creativity swings, innovation slides, and success is the ultimate game. Let's play and win together!
+                    Step into the digital playground of our blog—where creativity swings, innovation slides, and success is the ultimate game. Let's learn and win together!
                 </h2>
             </div>
             <div id="hero_section_img"><img src="/images/pen2.jpg" alt="stock illustration of a man and woman having a conversation"></div>
         </section>
-        <section id="blog_list">
-            
-            <a href="/blogs/buying-a-domain-name" class="blog">
-                <div class="blog_img"><img src="/images/example_domain.webp" alt=""></div>
-                <div class="blog_text">
-                    <header>Buying a domain name</header>
-                    <p>Embark on your digital journey with confidence! Our compelling blog unveils the strategic art of purchasing a domain name. From crafting your unique digital identity to choosing a reputable registrar, we guide you through the process, empowering you to claim your online space with authority. Ready to make your mark in the digital realm? Dive into our expert insights today!</p>
+        <section id="search">
+            <div id="search_box">
+                <input type="text" placeholder="Search for blog title or author">
+                <button onclick="search()"><ion-icon name="search-outline"></ion-icon></button>
+            </div>
+        </section>
+        <section id="blogs">
+            <div id="results">
+                
+                <div class="results_item">
+                    <div class="results_item_img"><img src="/images/example_domain.webp" alt=""></div>
+                    <div class="results_item_text">
+                        <header>Buying a domain name</header>
+                        <p>Embark on your digital journey with confidence! Our compelling blog unveils the strategic art of purchasing a domain name. From crafting your unique digital identity to choosing a reputable registrar, we guide you through the process, empowering you to claim your online space with authority. Ready to make your mark in the digital realm? Dive into our expert insights today!</p>
+                    </div>
+                    <a href="/blogs/buying-a-domain-name" class="action_button">Read</a>
                 </div>
-            </a>
-            
-            <a href="/blogs/web-design-process" class="blog">
-                <div class="blog_img"><img src="/images/web_development_process.jpg" alt=""></div>
-                <div class="blog_text">
-                    <header>Web Development Process</header>
-                    <p>This Blog takes you through the process of building a Website from start to finish. See how ideas are rolled into action from brains, to paper, to wireframes, to code and then to the world!.</p>
+                
+                <div class="results_item">
+                    <div class="results_item_img"><img src="/images/web_development_process.jpg" alt=""></div>
+                    <div class="results_item_text">
+                        <header>Web Development Process</header>
+                        <p>This Blog takes you through the process of building a Website from start to finish. See how ideas are rolled into action from brains, to paper, to wireframes, to code and then to the world!.</p>
+                    </div>
+                    <a href="/blogs/web-design-process" class="action_button">Read</a>
                 </div>
-            </a>
-            
-            <a href="/blogs/why-have-a-contract" class="blog">
-                <div class="blog_img"><img src="/images/signing_contract.jpg" alt=""></div>
-                <div class="blog_text">
-                    <header>Why have a Legal Contract for your project</header>
-                    <p>In the business world, we're usually hopeful and not thinking about bad things happening. But a contract is more than just protection from problems. It's like a helpful tool that not only helps deal with risks but also sets the stage for lots of good stuff.</p>
+                
+                <div class="results_item">
+                    <div class="results_item_img"><img src="/images/signing_contract.jpg" alt=""></div>
+                    <div class="results_item_text">
+                        <header>Why have a Legal Contract for your project</header>
+                        <p>In the business world, we're usually hopeful and not thinking about bad things happening. But a contract is more than just protection from problems. It's like a helpful tool that not only helps deal with risks but also sets the stage for lots of good stuff.</p>
+                    </div>
+                    <a href="/blogs/why-have-a-contract" class="action_button">Read</a>
                 </div>
-            </a>
-            
+                
+            </div>
+            <div id="featured">
+                <header id="featured_header">Featured Posts</header>
+                
+                <div class="featured_item">
+                    <div class="featured_item_img"><img src="/images/example_domain.webp" alt=""></div>
+                    <div class="featured_item_text">
+                        <header>Buying a domain name</header>
+                    </div>
+                </div>
+                
+                <div class="featured_item">
+                    <div class="featured_item_img"><img src="/images/web_development_process.jpg" alt=""></div>
+                    <div class="featured_item_text">
+                        <header>Web Development Process</header>
+                    </div>
+                </div>
+                
+                <div class="featured_item">
+                    <div class="featured_item_img"><img src="/images/signing_contract.jpg" alt=""></div>
+                    <div class="featured_item_text">
+                        <header>Why have a Legal Contract for your project</header>
+                    </div>
+                </div>
+                
+            </div>
         </section>
     </main>
+
+    
+    <div id="hidden" style="display: none;">
+    
+        <p data-title="Buying a domain name" data-img="example_domain.webp" data-author="James Koduah" data-url="/blogs/buying-a-domain-name" data-summary="Embark on your digital journey with confidence! Our compelling blog unveils the strategic art of purchasing a domain name. From crafting your unique digital identity to choosing a reputable registrar, we guide you through the process, empowering you to claim your online space with authority. Ready to make your mark in the digital realm? Dive into our expert insights today!"></p>
+    
+        <p data-title="Web Development Process" data-img="web_development_process.jpg" data-author="James Koduah" data-url="/blogs/web-design-process" data-summary="This Blog takes you through the process of building a Website from start to finish. See how ideas are rolled into action from brains, to paper, to wireframes, to code and then to the world!."></p>
+    
+        <p data-title="Why have a Legal Contract for your project" data-img="signing_contract.jpg" data-author="James Koduah" data-url="/blogs/why-have-a-contract" data-summary="In the business world, we're usually hopeful and not thinking about bad things happening. But a contract is more than just protection from problems. It's like a helpful tool that not only helps deal with risks but also sets the stage for lots of good stuff."></p>
+    
+    </div>
     
     <footer>
     <div id="footer_header">

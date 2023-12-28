@@ -2,7 +2,7 @@ main{
     padding: 0;
     width: 96%;
     max-width: 70vw;
-    padding: 0 2% 100px 2%;
+    padding: 10px 2% 100px 2%;
     background: var(--ma-bg);
     font-family: var(--cabin-sans);
     
@@ -30,16 +30,18 @@ main{
     width: calc(100% - 20px);
     padding: 15px 10px;
     border-left: 5px var(--at-bg) solid;
-    font-family: var(--cabin-ver);
     margin-bottom: 30px;
 }
 #blog_summary header{
     font-size: 3.2em;
     font-weight: 600;
+    margin-bottom: 4px;
 }
 #blog_summary p{
     font-size: 3em;
-    line-height: 140%;
+    line-height: 160%;
+    color: var(--txt-color4);
+    font-family: var(--cabin-sans) !important;
 }
 #blog_content{
     width: 90%;

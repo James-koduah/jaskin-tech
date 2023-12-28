@@ -13,7 +13,12 @@
     --su-bg-gradient: linear-gradient(22deg, #0c001b , #1e0638 43% 56%, #110023);
     --at-bg: #7325c6;
     --su-bg-gradient2: linear-gradient(190deg, #0d011b, #120127, #120127, #100124, #000);
-    /* --at-bg: green; */
+    --txt-color4: #444;
+    --txt-color3: #333333;
+    --txt-color2: #222222;
+    --txt-color1: #1f1f1f;
+    --txt-bright: #aeb7c2;
+    --border-color: #ddd;
     --txt-soft: #444;
     --txt-soft3: #333333;
     --txt-bright: #aeb7c2;
@@ -279,6 +284,7 @@ nav{
     justify-content: space-between;
     height: 100%;
     z-index: 100;
+    font-family: var(--cabin-ver);
 }
 .nav_right_main{
     position: relative;
@@ -290,7 +296,6 @@ nav{
     letter-spacing: 1px;
     display: flex;
     align-items: center;
-    color: #fff;
 }
 .nav_right_main:hover{
     border-bottom:2px #fff solid;

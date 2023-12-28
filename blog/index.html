@@ -5,8 +5,8 @@ title: Blogs | Jaskin Tech Website Development
 <html lang="en">
 <head>
     {% include base_head.html %}
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/blog_list.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
     {% include default_nav.html %}
@@ -15,23 +15,50 @@ title: Blogs | Jaskin Tech Website Development
             <div id="hero_section_text">
                 <h1>Our Blogs</h1>
                 <h2>
-                    Step into the digital playground of our blog—where creativity swings, innovation slides, and success is the ultimate game. Let's play and win together!
+                    Step into the digital playground of our blog—where creativity swings, innovation slides, and success is the ultimate game. Let's learn and win together!
                 </h2>
             </div>
             <div id="hero_section_img"><img src="/images/pen2.jpg" alt="stock illustration of a man and woman having a conversation"></div>
         </section>
-        <section id="blog_list">
-            {%for blog in site.blogs%}
-            <a href="{{blog.url}}" class="blog">
-                <div class="blog_img"><img src="/images/{{blog.main_img}}" alt=""></div>
-                <div class="blog_text">
-                    <header>{{blog.title}}</header>
-                    <p>{{blog.summary}}</p>
+        <section id="search">
+            <div id="search_box">
+                <input type="text" placeholder="Search for blog title or author">
+                <button onclick="search()"><ion-icon name="search-outline"></ion-icon></button>
+            </div>
+        </section>
+        <section id="blogs">
+            <div id="results">
+                {%for blog in site.blogs%}
+                <div class="results_item">
+                    <div class="results_item_img"><img src="/images/{{blog.main_img}}" alt=""></div>
+                    <div class="results_item_text">
+                        <header>{{blog.title}}</header>
+                        <p>{{blog.summary}}</p>
+                    </div>
+                    <a href="{{blog.url}}" class="action_button">Read</a>
                 </div>
-            </a>
-            {%endfor%}
+                {%endfor%}
+            </div>
+            <div id="featured">
+                <header id="featured_header">Featured Posts</header>
+                {%for blog in site.blogs%}
+                <div class="featured_item">
+                    <div class="featured_item_img"><img src="/images/{{blog.main_img}}" alt=""></div>
+                    <div class="featured_item_text">
+                        <header>{{blog.title}}</header>
+                    </div>
+                </div>
+                {%endfor%}
+            </div>
         </section>
     </main>
+
+    
+    <div id="hidden" style="display: none;">
+    {%for blog in site.blogs%}
+        <p data-title="{{blog.title}}" data-img="{{blog.main_img}}" data-author="{{blog.author}}" data-url="{{blog.url}}" data-summary="{{blog.summary}}"></p>
+    {%endfor%}
+    </div>
     
     {% include footer.html %}
 </body>

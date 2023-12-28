@@ -3,7 +3,7 @@ title: Buying a domain name
 summary: Embark on your digital journey with confidence! Our compelling blog unveils the strategic art of purchasing a domain name. From crafting your unique digital identity to choosing a reputable registrar, we guide you through the process, empowering you to claim your online space with authority. Ready to make your mark in the digital realm? Dive into our expert insights today!
 main_img: example_domain.webp
 layout: blog
-header_font_family: cabin-ver
+header_font_family: work-cabin-ver
 p_font_family: apercu
 author: James Koduah
 blog_date: 23 December, 2023

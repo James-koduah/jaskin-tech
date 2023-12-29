@@ -1,3 +1,10 @@
+#page{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px var(--border-color) solid;
+}
+
 main{
     padding: 0;
     width: 96%;
@@ -70,12 +77,11 @@ main{
     color: var(--txt-color4);
     line-height: 32px;
 }
-
-#page{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 1px var(--border-color) solid;
+@media (max-width: 550px) {
+    #blog_content p{
+        font-size: 14px;
+        line-height: 28px;
+    }
 }
 #menu{
     /* display: none; */
@@ -107,33 +113,84 @@ main{
 }
 .menu_item p{
     font-size: 2.8em;
+    font-weight: 600;
 }
 .menu_item ion-icon{
     font-size: 4em;
 }
 
 .menu_item_list{
-    width: 85%;
-    padding: 10px 10% 10px 5%;
+    width: 100%;
     border-bottom: 1px var(--border-color) solid;
     cursor: pointer;
 }
 .menu_item_list p{
     font-size: 2.8em;
     margin-bottom: 3px;
+    padding: 5px 0 2px 5%;
+    font-weight: 600;
 }
 .menu_item_list ul{
     width: 100%;
 }
 .menu_item_list ul li{
     list-style: none;
-    width: 90%;
-    padding: 8px 2% 8px 8%;
+    width: 100%;
     font-size: 2.7em;
 }
 .menu_item_list ul li:hover{
-    box-shadow: 1px 1px 1px 1px var(--border-color);
+    box-shadow: 0px 1px 1px 1px var(--border-color);
 }
+.menu_item_list ul li a{
+    padding: 8px 0% 8px 10%;
+    display: block;
+}
+
+
+.menu_item_group{
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px var(--border-color) solid;
+}
+.menu_item_group p{
+    font-size: 2.8em;
+}
+.menu_item_group ion-icon{
+    font-size: 4em;
+}
+.menu_item_group .main{
+    width: 85%;
+    padding-left: 5%;
+    padding-right: 10%;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_item_group .main p{
+    font-weight: 600;
+}
+.menu_item_group .item{
+    width: 80%;
+    padding: 7px 10% 7px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.menu_item_group .item:hover{
+    background: var(--su-bg);
+    color: var(--border-color);
+}
+.menu_item_group .item p{
+    font-size: 2.5em;
+}
+.menu_item_group .item ion-icon{
+    font-size: 2.8em;
+}
+
+
+
 
 
 @media (max-width: 600px) {
@@ -180,6 +237,39 @@ main{
 
 #explore{
     width: 90%;
-    height: 100vh;
     padding: 50px 5%;
+}
+#explore_header{
+    font-size: 5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#explore_items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.explore_item{
+    width: 32%;
+    max-width: 400px;
+    min-width: 300px;
+    margin-bottom: 40px;
+}
+.explore_item_img{
+    width: 100%;
+    height: 250px;
+}
+.explore_item_text{
+    width: 98%;
+    padding: 13px 1%;
+}
+.explore_item_text header{
+    font-size: 3.4em;
+}
+.explore_item_text .action_button{
+    font-size: 2.8em;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin-top: 10px;
 }

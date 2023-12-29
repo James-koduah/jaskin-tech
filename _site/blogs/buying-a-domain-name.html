@@ -43,7 +43,6 @@
                 <h1>Buying a domain name</h1>
             </div>
             <div id="blog_summary">
-                <header>Summary:</header>
                 <p>Embark on your digital journey with confidence! Our compelling blog unveils the strategic art of purchasing a domain name. From crafting your unique digital identity to choosing a reputable registrar, we guide you through the process, empowering you to claim your online space with authority. Ready to make your mark in the digital realm? Dive into our expert insights today!</p>
             </div>
             <section id="blog_content">
@@ -90,14 +89,28 @@ Before diving into the domain marketplace, take time to conceptualize your domai
                 <p>Home</p>
                 <ion-icon name="home-outline"></ion-icon>
             </a>
-            <div class="menu_item" onclick="light_dark(this)">
-                <p>Dark mode</p>
-                <ion-icon name="moon-outline"></ion-icon>
+            <div class="menu_item_group">
+                <div class="main">
+                    <p>Settings</p>
+                    <ion-icon name="settings-outline"></ion-icon>
+                </div>
+                <div class="item" onclick="light_dark(this)">
+                    <p>Dark mode</p>
+                    <ion-icon name="moon-outline"></ion-icon>
+                </div>
+                <div class="item" onclick="auto_scroll_page(this)">
+                    <p>Auto Scroll</p>
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
             </div>
             <div class="menu_item_list">
-                <p>Articles</p>
+                <p>More articles</p>
                 <ul>
                     
+                    
+                    
+                    
+                    <li><a href="/blogs/how-long-to-build-a-site">How long does it take to build a website</a></li>
                     
                     
                     
@@ -113,7 +126,34 @@ Before diving into the domain marketplace, take time to conceptualize your domai
         </div>
     </div>
     <div id="explore">
-        
+        <header id="explore_header">Explore</header>
+        <div id="explore_items">
+            
+            <div class="explore_item">
+                <div class="explore_item_img"><img src="/images/example_domain.webp" alt=""></div>
+                <div class="explore_item_text">
+                    <header>Buying a domain name</header>
+                    <a href="/blogs/buying-a-domain-name" class="action_button">Explore</a>
+                </div>
+            </div>
+            
+            <div class="explore_item">
+                <div class="explore_item_img"><img src="/images/time.jpg" alt=""></div>
+                <div class="explore_item_text">
+                    <header>How long does it take to build a website</header>
+                    <a href="/blogs/how-long-to-build-a-site" class="action_button">Explore</a>
+                </div>
+            </div>
+            
+            <div class="explore_item">
+                <div class="explore_item_img"><img src="/images/web_development_process.jpg" alt=""></div>
+                <div class="explore_item_text">
+                    <header>Web Development Process</header>
+                    <a href="/blogs/web-design-process" class="action_button">Explore</a>
+                </div>
+            </div>
+            
+        </div>
     </div>
     <footer>
     <div id="footer_header">
@@ -129,11 +169,11 @@ Before diving into the domain marketplace, take time to conceptualize your domai
             </div>
             <div id="footer_pages">
                 <header><i>N</i>AVIGATE</header>
-                <a href=""><i>P</i>RODUCTS</a>
-                <a href=""><i>A</i>BOUT</a>
-                <a href=""><i>P</i>ORTFOLIO</a>
-                <a href=""><i>B</i>LOG</a>
-                <a href=""><i>S</i>ERVICES</a>
+                <a href="/about/"><i>A</i>BOUT</a>
+                <a href="/portfolio"><i>P</i>ORTFOLIO</a>
+                <a href="/blog/"><i>B</i>LOG</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/services/"><i>S</i>ERVICES</a>
             </div>
         </div>
         <div id="footer_improve">

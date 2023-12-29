@@ -1,4 +1,7 @@
 let side_menu_toggle = true
+if (window.innerWidth < 600){
+    side_menu_toggle = false
+}
 function toggle_side_menu(){
     let menu = document.getElementById('menu')
     if (side_menu_toggle){
@@ -45,4 +48,27 @@ function light_dark(e=false){
         }
         light_dark_toogle = true
     }
+}
+
+
+let auto_scroll_on = false
+function auto_scroll_page(e=false){
+    if (auto_scroll_on){
+        clearInterval(auto_scroll_on)
+        auto_scroll_on = false
+        if (e){
+            e.querySelector('p').innerText = 'Auto Scroll'
+            e.querySelector('ion-icon').name = 'play-circle-outline'
+        }
+    }
+    else{
+        auto_scroll_on = setInterval(() => {
+            window.scrollBy(0, 1)
+        }, 70);
+        if (e){
+            e.querySelector('p').innerText = 'Stop Auto Scroll'
+            e.querySelector('ion-icon').name = 'stop-circle-outline'
+        }
+    }
+    
 }

@@ -16,7 +16,6 @@
                 <h1>{{page.title}}</h1>
             </div>
             <div id="blog_summary">
-                <header>Summary:</header>
                 <p>{{page.summary}}</p>
             </div>
             <section id="blog_content">
@@ -32,12 +31,22 @@
                 <p>Home</p>
                 <ion-icon name="home-outline"></ion-icon>
             </a>
-            <div class="menu_item" onclick="light_dark(this)">
-                <p>Dark mode</p>
-                <ion-icon name="moon-outline"></ion-icon>
+            <div class="menu_item_group">
+                <div class="main">
+                    <p>Settings</p>
+                    <ion-icon name="settings-outline"></ion-icon>
+                </div>
+                <div class="item" onclick="light_dark(this)">
+                    <p>Dark mode</p>
+                    <ion-icon name="moon-outline"></ion-icon>
+                </div>
+                <div class="item" onclick="auto_scroll_page(this)">
+                    <p>Auto Scroll</p>
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
             </div>
             <div class="menu_item_list">
-                <p>Articles</p>
+                <p>More articles</p>
                 <ul>
                     {%for blog in site.blogs%}
                     {%if blog.url != page.url%}
@@ -49,7 +58,18 @@
         </div>
     </div>
     <div id="explore">
-        
+        <header id="explore_header">Explore</header>
+        <div id="explore_items">
+            {%for blog in site.blogs limit: 3%}
+            <div class="explore_item">
+                <div class="explore_item_img"><img src="/images/{{blog.main_img}}" alt=""></div>
+                <div class="explore_item_text">
+                    <header>{{blog.title}}</header>
+                    <a href="{{blog.url}}" class="action_button">Explore</a>
+                </div>
+            </div>
+            {%endfor%}
+        </div>
     </div>
     {%include footer.html%}
 </body>

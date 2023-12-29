@@ -43,7 +43,6 @@
                 <h1>Why have a Legal Contract for your project</h1>
             </div>
             <div id="blog_summary">
-                <header>Summary:</header>
                 <p>In the business world, we're usually hopeful and not thinking about bad things happening. But a contract is more than just protection from problems. It's like a helpful tool that not only helps deal with risks but also sets the stage for lots of good stuff.</p>
             </div>
             <section id="blog_content">
@@ -106,16 +105,30 @@ A well-crafted contract acts as a roadmap, clearly defining the scope of the pro
                 <p>Home</p>
                 <ion-icon name="home-outline"></ion-icon>
             </a>
-            <div class="menu_item" onclick="light_dark(this)">
-                <p>Dark mode</p>
-                <ion-icon name="moon-outline"></ion-icon>
+            <div class="menu_item_group">
+                <div class="main">
+                    <p>Settings</p>
+                    <ion-icon name="settings-outline"></ion-icon>
+                </div>
+                <div class="item" onclick="light_dark(this)">
+                    <p>Dark mode</p>
+                    <ion-icon name="moon-outline"></ion-icon>
+                </div>
+                <div class="item" onclick="auto_scroll_page(this)">
+                    <p>Auto Scroll</p>
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
             </div>
             <div class="menu_item_list">
-                <p>Articles</p>
+                <p>More articles</p>
                 <ul>
                     
                     
                     <li><a href="/blogs/buying-a-domain-name">Buying a domain name</a></li>
+                    
+                    
+                    
+                    <li><a href="/blogs/how-long-to-build-a-site">How long does it take to build a website</a></li>
                     
                     
                     
@@ -129,7 +142,34 @@ A well-crafted contract acts as a roadmap, clearly defining the scope of the pro
         </div>
     </div>
     <div id="explore">
-        
+        <header id="explore_header">Explore</header>
+        <div id="explore_items">
+            
+            <div class="explore_item">
+                <div class="explore_item_img"><img src="/images/example_domain.webp" alt=""></div>
+                <div class="explore_item_text">
+                    <header>Buying a domain name</header>
+                    <a href="/blogs/buying-a-domain-name" class="action_button">Explore</a>
+                </div>
+            </div>
+            
+            <div class="explore_item">
+                <div class="explore_item_img"><img src="/images/time.jpg" alt=""></div>
+                <div class="explore_item_text">
+                    <header>How long does it take to build a website</header>
+                    <a href="/blogs/how-long-to-build-a-site" class="action_button">Explore</a>
+                </div>
+            </div>
+            
+            <div class="explore_item">
+                <div class="explore_item_img"><img src="/images/web_development_process.jpg" alt=""></div>
+                <div class="explore_item_text">
+                    <header>Web Development Process</header>
+                    <a href="/blogs/web-design-process" class="action_button">Explore</a>
+                </div>
+            </div>
+            
+        </div>
     </div>
     <footer>
     <div id="footer_header">
@@ -145,11 +185,11 @@ A well-crafted contract acts as a roadmap, clearly defining the scope of the pro
             </div>
             <div id="footer_pages">
                 <header><i>N</i>AVIGATE</header>
-                <a href=""><i>P</i>RODUCTS</a>
-                <a href=""><i>A</i>BOUT</a>
-                <a href=""><i>P</i>ORTFOLIO</a>
-                <a href=""><i>B</i>LOG</a>
-                <a href=""><i>S</i>ERVICES</a>
+                <a href="/about/"><i>A</i>BOUT</a>
+                <a href="/portfolio"><i>P</i>ORTFOLIO</a>
+                <a href="/blog/"><i>B</i>LOG</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/services/"><i>S</i>ERVICES</a>
             </div>
         </div>
         <div id="footer_improve">

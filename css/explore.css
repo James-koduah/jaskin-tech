@@ -1,50 +1,44 @@
 #explore{
-    width: 80vw;
-    padding: 120px 10vw 10vh 10vw;
+    width: 90%;
+    padding: 50px 5%;
 }
-
 #explore_header{
-    font-size: 5.5em;
-    font-weight: 700;
-    margin-bottom: 60px;
-    font-family: var(--cabin-ver);
+    font-size: 5em;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
-
-
 #explore_items{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
-
 .explore_item{
-    width: 28%;
-    padding-right: 4%;
-    height: 120px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 32%;
+    max-width: 400px;
+    min-width: 300px;
+    margin-bottom: 40px;
 }
-.explore_item header{
-    font-size: 3.5em;
-    font-weight: 500;
-    margin-bottom: 10px;
+.explore_item_img{
+    width: 100%;
+    height: 250px;
 }
-.explore_item .action_button{
-    padding: 10px 25px;
+.explore_item_text{
+    width: 98%;
+    padding: 13px 1%;
 }
-
-
-@media (max-width: 550px) {
-    #explore_items{
-        flex-direction: column;
-    }
+.explore_item_text header{
+    font-size: 3.4em;
+}
+.explore_item_text .action_button{
+    font-size: 2.8em;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+@media (max-width: 600px) {
     .explore_item{
         width: 100%;
-        height: fit-content;
-    }
-    .explore_item header{
-        font-size: 2.7em;
+        min-width: 0px;
     }
 }

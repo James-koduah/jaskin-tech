@@ -1,6 +1,6 @@
 - name: Home
   link: /
-  img: home.jpg
+  img: home_nav.jpg
 
 - name: FAQ
   link: /faq/
@@ -8,7 +8,7 @@
 
 - name: About
   link: /about/
-  img: about_us.jpg
+  img: about_us1.jpg
 
 - name: Services
   link: /services/
@@ -23,8 +23,8 @@
 
 - name: Blogs
   link: /blog/
-  img: blog.webp
+  img: blog.png
 
 - name: Contact
   link: /contact/
-  img: contact.webp
+  img: contact.png

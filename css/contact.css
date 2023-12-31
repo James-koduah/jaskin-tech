@@ -187,6 +187,7 @@
     }
     #contact_phone_frame{
         width: 100%;
+        justify-content: center;
     }
     #contact_form{
         width: 100%;

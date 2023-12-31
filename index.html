@@ -1,5 +1,7 @@
 ---
 title: Jaskin Tech - Web Design and Development
+nav_cta: Get Website Price
+nav_cta_url: /services/web_development/
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -48,7 +50,7 @@ title: Jaskin Tech - Web Design and Development
             </div>
         </section>
 
-        <section id="hero_helper">
+        <section class="svg_break">
             <div class="item">
                 <div class="item_image_frame">
                     <img src="/images/icons_svg/pc_and_smartphone.svg" alt="">
@@ -237,12 +239,37 @@ title: Jaskin Tech - Web Design and Development
             <div id="portfolio_more"><a href="/portfolio" class="action_button">See more Projects</a></div>
         </section>
 
-        <section id="strength">
+        <section class="svg_break" style="background: #ffffff; padding-bottom: 50px;">
             <div class="information_header">
                 <h3><i>J</i>ASKIN <i>T</i>ECH</h3>
                 <h4><i>W</i>HAT <i>M</i>AKES <i>U</i>S <i>G</i>REAT</h4>
             </div>
-            <div id="strength_frame">
+            <div class="item">
+                <div class="item_image_frame">
+                    <img src="/images/icons_svg/convenient.png" alt="">
+                </div>
+                <div class="item_text"><p>Convenience</p></div>
+            </div>
+            <div class="item">
+                <div class="item_image_frame">
+                    <img src="/images/icons_svg/choice.svg" alt="">
+                </div>
+                <div class="item_text"><p>Wide Choices</p></div>
+            </div>
+            <div class="item">
+                <div class="item_image_frame">
+                    <img src="/images/icons_svg/money.svg" alt="">
+                </div>
+                <div class="item_text"><p>Flexible Pricing <br> Your Budget-Your Terms</p></div>
+            </div>
+            <div class="item">
+                <div class="item_image_frame">
+                    <img src="/images/public_relation.png" alt="">
+                </div>
+                <div class="item_text"><p>Efficiency <br> At Warp Speed</p></div>
+            </div>
+            
+            <!-- <div id="strength_frame">
 
                 <div class="strength_item" id="strength_convenience">
                     <div class="strength_item_img">
@@ -288,7 +315,7 @@ title: Jaskin Tech - Web Design and Development
                         <header>We Value You <br> Our Client</header>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
 
         <section id="about">
@@ -376,20 +403,17 @@ title: Jaskin Tech - Web Design and Development
         </section>
 
         <section id="explore">
-            <div id="explore_header">Explore</div>
+            <header id="explore_header">Explore</header>
             <div id="explore_items">
+                {%for blog in site.blogs limit: 3%}
                 <div class="explore_item">
-                    <header>Check Our Full Products And Services List</header>
-                    <a href="" class="action_button">Explore</a>
+                    <div class="explore_item_img"><img src="/images/{{blog.main_img}}" alt=""></div>
+                    <div class="explore_item_text">
+                        <header>{{blog.title}}</header>
+                        <a href="{{blog.url}}" class="action_button">Explore</a>
+                    </div>
                 </div>
-                <div class="explore_item">
-                    <header>Increase Your Knowledge By Reading A Thing Or Two About Tech</header>
-                    <a href="" class="action_button">Explore</a>
-                </div>
-                <div class="explore_item">
-                    <header>See Some Fun Projects We've Built</header>
-                    <a href="" class="action_button">Explore</a>
-                </div>
+                {%endfor%}
             </div>
         </section>
     </main>

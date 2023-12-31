@@ -12,20 +12,20 @@ title: Web Development & Design Pricing - Jaskin Tech
 
     <main>
         <section id="robot">
-            <div id="questions">
-                <p class="question">Please Describe Yourself</p>
-                <p class="sub_question">Are you...</p>
+            <div id="dialouge">
+                <p class="dialouge">Please Describe Yourself</p>
+                <p class="sub_dialouge">Are you...</p>
             </div>
             <div id="answers">
                 <div id="options">
-                    <div class="option" onclick="dialouge(1)"><ion-icon name="radio-button-off"></ion-icon><p>A Business</p></div>
+                    <div class="option" onclick="dialouge('business')"><ion-icon name="radio-button-off"></ion-icon><p>A Business</p></div>
                     <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>A Non Profit Organization (NGO)</p></div>
                     <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>A Company</p></div>
                     <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>An Event Or Ocassion</p></div>
                     <div class="option"><ion-icon name="radio-button-off"></ion-icon><p>A Content Creator</p></div>
                 </div>
                 <div id="movement">
-                    <div class="action_button" onclick="dialouge(-1)"><ion-icon name="arrow-back-outline"></ion-icon> Back</div>
+                    <div class="action_button" onclick="dialouge(-1)" style="cursor: pointer"><ion-icon name="arrow-back-outline"></ion-icon> Back</div>
                 </div>
             </div>
         </section>
@@ -39,7 +39,6 @@ title: Web Development & Design Pricing - Jaskin Tech
     </main>
 
 
-    <script src="/js/nav.js"></script>
     <script src="app.js"></script>    
 </body>
 </html>

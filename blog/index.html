@@ -42,12 +42,12 @@ title: Blogs | Jaskin Tech Website Development
             <div id="featured">
                 <header id="featured_header">Featured Posts</header>
                 {%for blog in site.blogs%}
-                <div class="featured_item">
+                <a href="{{blog.url}}" class="featured_item">
                     <div class="featured_item_img"><img src="/images/{{blog.main_img}}" alt=""></div>
                     <div class="featured_item_text">
                         <header>{{blog.title}}</header>
                     </div>
-                </div>
+                </a>
                 {%endfor%}
             </div>
         </section>

@@ -180,7 +180,7 @@
 
 
 
-#hero_helper{
+.svg_break{
     width: 90vw;
     padding: 30px 5vw;
     display: flex;
@@ -188,30 +188,30 @@
     justify-content: space-between;
 }
 
-#hero_helper .item{
+.svg_break .item{
     width: 23%;
     padding: 30px 0;
     /* box-shadow: 0px 0px 10px 6px #d7d4d9; */
 }
-#hero_helper .item .item_image_frame{
+.svg_break .item .item_image_frame{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#hero_helper .item .item_image_frame img{
+.svg_break .item .item_image_frame img{
     object-fit: contain;
     width: 13em;
     height: auto;
 }
-#hero_helper .item .item_text p{
+.svg_break .item .item_text p{
     text-align: center;
     padding-top: 20px;
     font-size: 3em;
 }
 
 @media (max-width: 550px) {
-    #hero_helper .item{
+    .svg_break .item{
         width: 47%;
     }
 }

@@ -1,0 +1,50 @@
+{
+    "1": {
+        "dialouge": "What do you need your Website for?",
+        "options": [
+            ["I want to put my information on the internet so people can find me online", "11"],
+            ["I want to sell my products online", "12"],
+            ["I want a database so I can manage my business processes with technology", "13"]
+        ]
+    },
+    "11": {
+        "dialouge": "How big is your budget?",
+        "options": [
+            ["GHC 0 - GHC 3,900", "111"],
+            ["GHC 3,900 - GHC 6,000", "112"],
+            ["GHC 6,000 and above", "113"]
+        ]
+    },
+    "111": {
+        "dialouge": "Informational Website",
+        "subdialouge": "Our Bronze package is well suited for your needs",
+        "link": "Check Product",
+        "link_url": "/services/web_development/informational_website/#web_inform_bronze"
+    },
+    "112": {
+        "dialouge": "Informational Website",
+        "subdialouge": "Our Silver package is well suited for your needs",
+        "link": "Check Product",
+        "link_url": "/services/web_development/informational_website/#web_inform_silver"
+    },
+    "113": {
+        "dialouge": "Informational Website",
+        "subdialouge": "Our Gold package is well suited for your needs",
+        "link": "Check Product",
+        "link_url": "/services/web_development/informational_website/#web_inform_gold"
+    },
+
+    
+    "12": {
+        "dialouge": "Explore Our Commercial Website Development Package",
+        "link": "Explore",
+        "link_url": "/services/web_development/commercial_website"
+    },
+
+    "13": {
+        "dialouge": "Great, Explore Our Web Application Development Package",
+        "link": "Explore Product",
+        "link_url": "/services/web_development/web_application"
+    }
+
+}

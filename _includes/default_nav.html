@@ -24,6 +24,11 @@
             {%endif%}
         {%endif%}
         {%endfor%}
+        {%if page.nav_cta%}
+            <li class="nav_right_main mobile_off">
+                <a href="{{page.nav_cta_url}}" class="action_button">{{page.nav_cta}}</a>
+            </li>
+        {%endif%}
         <li id="nav_dropdown_button" class="nav_right_main mobile_on" style="font-size: 35px;"><ion-icon name="menu"></ion-icon></li>
     </ul>
     <div id="nav_dropdown_menu">

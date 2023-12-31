@@ -23,7 +23,7 @@
 .content_text p{
     font-size: 3.8em;
     font-family: var(--cabin-sans);
-    line-height: 140%;
+    line-height: 160%;
     color: var(--txt-soft3)
 }
 .content_text .action_button{

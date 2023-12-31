@@ -15,13 +15,17 @@
 
 
 .strength_item{
-    width: 20%;
+    width: 19%;
+    padding: 40px 0;
     /* background: var(--su-bg-gradient2); */
     /* border-radius: 10px; */
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
     /* border: 1px #000 solid; */
+    background: var(--ma-bg-gradient);
+    border: 1px var(--border-color) solid;
+    border-radius: 5px;
 }
 
 .strength_item_img{
@@ -30,11 +34,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 .strength_item_img img{
-    width: 16em;
-    height: 16em;
+    width: 14em;
+    height: 14em;
     object-fit: contain;
+    color: aliceblue;
 }
 
 .strength_item_text{

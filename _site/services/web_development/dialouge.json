@@ -45,6 +45,18 @@
         "dialouge": "Great, Explore Our Web Application Development Package",
         "link": "Explore Product",
         "link_url": "/services/web_development/web_application"
-    }
+    },
 
+
+
+
+    "2": {
+        "dialouge": "An informational website is great for you",
+        "subdialouge": "You can also consider adding a blog feature.<br>State your budget...",
+        "options": [
+            ["GHC 0 - GHC 3,900", "111"],
+            ["GHC 3,900 - GHC 6,000", "112"],
+            ["GHC 6,000 and above", "113"]
+        ]
+    }
 }

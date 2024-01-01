@@ -31,6 +31,9 @@
     --work-ver: "Work Sans", Verdana, Geneva, Tahoma, sans-serif;
     --work-cabin-ver: "Work Sans", "Cabin", Verdana, Geneva, Tahoma, sans-serif;
     --mons: "Montserrat", Arial, Tahoma, sans-serif;
+    --museo: "Museo Sans Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    --open-sans: open sans,Arial,Verdana,Sans-Serif;
+    --apercu: 'Apercu',Helvetica,Arial,sans-serif;;
     font-size: 5px;
 }
 i{

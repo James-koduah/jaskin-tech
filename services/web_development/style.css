@@ -1,5 +1,6 @@
-main{
+#home{
     display: flex;
+    flex-wrap: wrap;
 }
 
 #robot{
@@ -10,7 +11,8 @@ main{
     min-height: calc(100vh - 80px);
 }
 #dialouge{
-    width: 100%;
+    width: 80%;
+    padding: 0 10%;
     min-height: 90px;
     display: flex;
     flex-direction: column;
@@ -23,6 +25,7 @@ main{
 .sub_dialouge{
     font-size: 4em;
     margin-top: 14px;
+    text-align: center;
 }
 #answers{
     width: 80%;
@@ -126,5 +129,62 @@ main{
     #pitch{
         width: 90%;
         padding: 50px 5%;
+    }
+}
+
+
+
+
+
+
+#products{
+    width: 90%;
+    padding: 50px 5%;
+    font-family: var(--cabin-sans);
+}
+#products_header{
+    padding: 20px;
+    text-align: center;
+    font-size: 6em;
+}
+
+#product_items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#product_items .item{
+    width: 27%;
+    background: var(--ma-bg-gradient);
+    border-radius: 10px;
+    padding: 20px 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#product_items .item .text{
+    min-height: 180px;
+}
+#product_items .item ion-icon{
+    font-size: 8em;
+    margin-bottom: 30px;
+}
+#product_items .item header{
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+#product_items .item p{
+    font-size: 3.2em;
+}
+#product_items .item a{
+    margin-top: 20px;
+}
+
+
+@media (max-width: 800px) {
+    #product_items .item{
+        width: 100%;
+        margin-bottom: 30px;
     }
 }

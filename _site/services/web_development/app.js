@@ -13,12 +13,12 @@ function dialouge_display(data){
     if (data.subdialouge){
         let p = document.createElement('p')
         p.className = 'sub_dialouge'
-        p.innerText = data.subdialouge
+        p.innerHTML = data.subdialouge
         dialouge_box.appendChild(p)
     }
     if (data.options){
         for (let elem of data.options){
-            options_box.innerHTML += `<div class="option" onclick="dialouge('${elem[1]}')"><ion-icon name="radio-button-off"></ion-icon><p>${elem[0]}</p></div>`
+            options_box.innerHTML += `<div class="option" onclick="dialouge('${elem[1]}')"><ion-icon name="radio-button-on"></ion-icon><p>${elem[0]}</p></div>`
         }
     }
     if (data.link){
@@ -28,13 +28,6 @@ function dialouge_display(data){
 
 let dialouge_history = [0]
 function dialouge(arg){
-    if (arg === 'business'){
-        current_dialouge = business_dialouge
-        dialouge_display(current_dialouge[1])
-        dialouge_history.push('1')
-        return;
-    }
-
     if (arg === -1){
         let last = dialouge_history.pop()
         last = dialouge_history.pop()
@@ -50,11 +43,11 @@ function dialouge(arg){
             "dialouge": "Please Describe Yourself",
             "subdialouge": "Are you...",
             "options": [
-                ['A Business', 'business'],
-                ['A Non Profit Organization (NGO)', 'ngo'],
-                ['A Company', 'company'],
-                ['An Event', 'event'],
-                ['A Content Creator', 'blogger']
+                ['A Business', '1'],
+                ['A Non Profit Organization (NGO)', '2'],
+                ['A Company', '3'],
+                ['An Event', '4'],
+                ['A Content Creator', '5']
             ]
         }
         dialouge_display(data)
@@ -64,17 +57,14 @@ function dialouge(arg){
 
 
     dialouge_display(current_dialouge[arg])
-    
     dialouge_history.push(arg)
-    console.log(dialouge_history)
 
 }
 
-let business_dialouge = ''
-fetch('/services/web_development/dialouge_files/business.json', {
+fetch('/services/web_development/dialouge.json', {
     method : "GET"
 }).then((res)=>{
     return res.json()
 }).then((res)=>{
-    business_dialouge = res
+    current_dialouge = res
 })

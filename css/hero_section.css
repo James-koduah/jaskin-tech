@@ -108,7 +108,7 @@
         padding-top: 35px;
         margin-bottom: 30px;
         background: url(/images/code_computer4.webp) no-repeat;
-        background-size: auto 100%;
+        background-size: cover;
         background-attachment: fixed;
     }
     #hero_section_text{

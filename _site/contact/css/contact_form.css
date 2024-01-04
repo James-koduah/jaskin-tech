@@ -43,6 +43,7 @@
     font-size: 3em;
     font-weight: 200;
     border-radius: 5px;
+    font-family: var(--cabin-sans);
 }
 
 #contact_form div textarea{
@@ -53,6 +54,7 @@
     background: #ddd;
     border: none;
     border-radius: 5px;
+    font-family: var(--cabin-sans);
 }
 
 #contact_form div button{
@@ -67,9 +69,7 @@
     font-size: 3em;
 }
 
-@media (max-width: 800px) {
-    #contact_form div{
-    }    
+@media (max-width: 800px) { 
     #contact_form .half{
         width: 100% !important;
     }

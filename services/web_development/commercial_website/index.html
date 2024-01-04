@@ -1,117 +1,107 @@
+---
+title: Commercial Websites | Jaskin Tech - Web Design and Development
+nav_cta: Start Your Project
+nav_cta_url: start_project/
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Websites - Jaskin Tech</title>
-    <link rel="stylesheet" href="../../../css/main.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <link rel="icon" type="image/x-icon" href="../../../images/favicon.ico" />
+    {%include base_head.html%}
+    <link rel="stylesheet" href="style.css">
     <meta name="robots" content="noindex">
 </head>
 <body>
-    <nav>
-        <div id="logo">
-            <img src="../../../images/favicon.ico" alt="">
-            <p><i>J</i>ASKIN <i>T</i>ECH .</p>
-        </div>
-        <ul id="nav_right">
-            <li class="nav_right_main mobile_off">
-                <a href="">FAQ'<span>s</span></a>
-            </li>
-            <li class="nav_right_main mobile_off">
-                <a href="">About</a>
-            </li>
-            <li class="nav_right_main nav_dropdown_parent mobile_off">
-                <a href="">Services <ion-icon name="chevron-down"></ion-icon></a> 
-                <ul class="nav_dropdown">
-                    <li>
-                        <a href="">Web Development</a>
-                    </li>
-                    <li>
-                        <a href="">Digital Marketing</a>
-                    </li>
-                    <li>
-                        <a href="">Business Software</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="nav_right_main mobile_off">
-                <a href="">Blogs</a>
-            </li>
-            <li class="nav_right_main mobile_off">
-                <a href="">Contact</a>
-            </li>
-            <li class="nav_right_main mobile_off">        
-                <a class="action_button" href="#">Start Your Project</a>
-            </li>
-            <li class="nav_right_main mobile_on" style="font-size: 35px;"><ion-icon name="menu"></ion-icon></li>
-        </ul>
-    </nav>
+    {%include default_nav.html%}
+    <main>
+        <section class="hero" style="background: url(/images/laptop17.jpg) no-repeat;">
+            <div class="hero_text">
+                <h1>Get Your Commercial Website</h1>
+                <p>Let's create a site that sells - simple, sleek and just for you</p>
+                <a href="start_project/" class="action_button">Start Your Project</a>
+            </div>
+        </section>
 
-    <section id="hero_section">
-        <div id="hero_lobby"></div>
-        <div id="hero_description">
-            <header>Commercial Websites</header>
-            <p>
-                It's a dynamic platform designed to inform, educate, and engage your audience.
-                These websites are like treasure chests of information. 
-               They share important details about your brand, services, or cause.
-            </p>
-            <a href="" class="action_button">Start Your Project</a>
-        </div>
-    </section>
-
-    <section id="content1"></section>
-
-
-
-
-
-
-
-
-    <footer>
-        <div id="footer_main">
-            <div id="footer_links">
-                <div id="footer_actions">
-                    <header><i>F</i>IND <i>O</i>PORTUNITIES <i>W</i>ITH <i>U</i>S</header>
-                    <a><i>B</i>ECOME <i>A</i> <i>P</i>ARTNER</a>
-                    <a><i>C</i>AREER <i>/</i> <i>O</i>PEN <i>P</i>OSITIONS</a>
+        <section class="shelve">
+            <div class="shelve_header">
+                <header>Featured</header>
+                <p>See More <ion-icon name="chevron-forward-circle-outline"></ion-icon></p>
+            </div>
+            <div class="shelve_content">
+                <div class="shelve_item">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <p>Add to Cart</p>
                 </div>
-                <div id="footer_pages">
-                    <header><i>N</i>AVIGATE</header>
-                    <a href=""><i>P</i>RODUCTS</a>
-                    <a href=""><i>A</i>BOUT</a>
-                    <a href=""><i>P</i>ORTFOLIO</a>
-                    <a href=""><i>B</i>LOG</a>
-                    <a href=""><i>S</i>ERVICES</a>
+                <div class="shelve_item">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <p>Add to Cart</p>
+                </div>
+                <div class="shelve_item hide">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <p>Add to Cart</p>
                 </div>
             </div>
-            <div id="footer_improve">
-                <header><i>B</i>USINESS</header>
-                <div>
-                    <p><i>S</i>CHEDULE <i>A</i>N <i>A</i>PPOINTMENT</p>
-                    <a href="/appointment/" class="action_button">SCHEDULE</a>
-                </div>
-                <div>
-                    <p><i>D</i>ROP <i>A</i> <i>H</i>INT, <i>T</i>IP OR <i>S</i>UGGESTION</p>
-                    <textarea></textarea>
-                    <button>DROP</button>
-                </div>
+        </section>
 
+        <section class="hero" style="background-color: var(--su-bg);">
+            <div class="hero_text" style="color: #fff !important;">
+                <h1>Take Your Business To The Next Level</h1>
+                <p>Let the world shop with you</p>
+                <a href="" class="action_button">Start Your Project</a>
             </div>
-            <div id="footer_ai_images">
-                <img id="ai_images1" src="images/man7.jpeg" alt="">
-                <img id="ai_images2" src="images/man4.jpeg" alt="">
-            </div>
-        </div>
-        <div id="copyright">Copyright © 2023 JASKIN TECH</div>
+        </section>
 
-    </footer>
+        <section class="shelve" >
+            <div class="shelve_header">
+                <header>Popular</header>
+                <p>See More <ion-icon name="chevron-forward-circle-outline"></ion-icon></p>
+            </div>
+            <div class="shelve_content">
+                <div class="shelve_item">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <p>Add to Cart</p>
+                </div>
+                <div class="shelve_item">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <p>Add to Cart</p>
+                </div>
+                <div class="shelve_item hide">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <p>Add to Cart</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero">
+            <div class="hero_text">
+                <h1>Start Small - Grow Big</h1>
+                <p>Get a website that can grow as your business grows</p>
+                <a href="" class="action_button">Start Your Project</a>
+            </div>
+        </section>
+
+        <section class="shelve">
+            <div class="shelve_header">
+                <header>Classics</header>
+                <p>See More <ion-icon name="chevron-forward-circle-outline"></ion-icon></p>
+            </div>
+            <div class="shelve_content">
+                <div class="shelve_item">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <p>Add to Cart</p>
+                </div>
+                <div class="shelve_item">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <p>Add to Cart</p>
+                </div>
+                <div class="shelve_item hide">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <p>Add to Cart</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    {%include footer.html%}
 
     
 </body>

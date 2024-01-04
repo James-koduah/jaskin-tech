@@ -1,0 +1,27 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%include base_head.html%}
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+<body>
+    <main>
+        <div id="form_div">
+            <h1>{{page.header}}</h1>
+            <form id="contact_form" action="https://api.web3forms.com/submit" onsubmit="clear_form(this)" method="POST">
+                
+                <input type="hidden" name="access_key" value="db46ff7f-97ca-47c2-acc2-f64146099bc7">
+                <input type="hidden" name="from_name" value="{{page.form_name}}">
+                <input type="hidden" name="redirect" value="https://jaskin.tech/contact/success-thank_you">
+                {{content}}
+                <div>
+                    <button type="submit" >{{page.button_text}}</button>
+                </div>
+
+            </form>
+        </div>
+    </main>
+</body>
+</html>

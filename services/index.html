@@ -5,8 +5,58 @@ title: Services | Jaskin tech
 <html lang="en">
 <head>
     {%include base_head.html%}
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     {% include default_nav.html%}
+    <main>
+        <section id="hero_section">
+            <div id="hero_section_text">
+                <h1>Satisfy your need</h1>
+                <h2>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia eveniet iste ab maxime aliquid quis culpa, similique 
+                    tempore quisquam nobis dolore velit iure delectus nesciunt?
+                </h2>
+                <p>
+                    Feel free to reach out to us if you have a custom need you feel we can help you with. <a href="/contact/" style="color: var(--at-bg);">Contact Us</a>.
+                </p>
+            </div>
+            <div id="hero_section_img"><img src="/images/website_inspiration65.png" alt="stock illustration of a man and woman having a conversation"></div>
+        </section>
+
+        <section id="products">
+            <header id="products_header">Services</header>
+            <div id="product_items">
+
+                <div class="item">
+                    <div class="text">
+                        <ion-icon name="desktop-outline"></ion-icon>
+                        <header>Web Development</header>
+                        <p>This is the standard online presence. Get your information on the internet and boost your popularity, credibility and business.</p>
+                    </div>
+                    <a href="/services/web_development/" class="action_button">Explore Service</a>
+                </div>
+
+                <div class="item">
+                    <div class="text">
+                        <ion-icon name="desktop-outline"></ion-icon>
+                        <header>Digital Marketing</header>
+                        <p>Get your engine to start your content journey. Impress your audience with a beautiful website design.</p>
+                    </div>
+                    <a href="/services/digital_marketing/" class="action_button">Explore Service</a>
+                </div>
+
+                <div class="item">
+                    <div class="text">
+                        <ion-icon name="cash-outline"></ion-icon>
+                        <header>Business Software</header>
+                        <p>Earn money over the internet with online payments, inventory control, coupons, tickets etc. You can also have these features integrated with your informational site.</p>
+                    </div>
+                    <a href="/services/business_software/" class="action_button">Explore Service</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
 </body>
 </html>

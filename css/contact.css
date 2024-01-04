@@ -149,6 +149,7 @@
     border: none;
     background: #ddd;
     border-radius: 5px;
+    font-family: var(--cabin-sans);
 }
 #contact_form div p{
     font-size: 2.5em;
@@ -165,6 +166,7 @@
     background: #ddd;
     border-radius: 5px;
     font-size: 3em;
+    font-family: var(--cabin-sans);
 }
 #contact_form div button{
     width: 100%;

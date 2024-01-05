@@ -18,7 +18,7 @@
 let p_projects = [
     ['images/mission12.jpeg', '#'],
     ['images/website_inspiration.jpeg', '#'],
-    ['images/site4.png'],
+    ['images/datacenter4.jpeg'],
     ['images/website_inspiration2.jpeg', '#'],
     ['images/website_inspiration3.jpeg', '#'],
     ['images/computer.jpeg', '#'],

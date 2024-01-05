@@ -1,6 +1,7 @@
 #pricing{
-    width: 90vw;
-    padding: 0 5vw 50px 5vw;
+    width: 96vw;
+    padding: 0 2vw 50px 2vw;
+    font-family: var(--cabin-ver);
 }
 
 #web_inform_products{
@@ -95,7 +96,7 @@
     background: #c0c0c022;
 }
 .gold{
-    background: #ffd70022;
+    background: #ffd70011;
 }
 
 

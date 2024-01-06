@@ -29,8 +29,8 @@
     min-height: 500px;
     max-height: 570px;
     border: 3px #000 solid;
-    background: url(../images/mobile_wallpaper.jpeg) no-repeat;
-    background-size: 100% 100%;
+    background: url(../images/water-background2.jpg) no-repeat;
+    background-size: cover;
     border-radius: 20px;
     overflow: hidden;
     display: flex;

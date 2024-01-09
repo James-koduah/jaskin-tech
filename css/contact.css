@@ -23,7 +23,7 @@
 
 #contact_phone{
     position: relative;
-    width: 80%;
+    width: 85%;
     max-width: 95vw;
     width: 320px;
     height: 80vh;
@@ -83,6 +83,7 @@
     bottom: 0;
     z-index: 6;
     color: #fff;
+    background-color: #00000033;
 }
 
 
@@ -102,7 +103,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #00000099;
+    background: #00000044;
     z-index: 3;
 }
 

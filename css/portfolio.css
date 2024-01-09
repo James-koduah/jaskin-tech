@@ -1,15 +1,23 @@
 #portfolio{
     width: 100%;
     background: var(--su-bg);
-    padding: 180px 0;
-}
-#portfolio .information_header{
-    color: #ccc;
-    width: 90%;
-    padding: 0% 5%;
-    padding-bottom: 40px;
+    padding: 50px 0 180px 0;
 }
 
+#portfolio_header{
+    width: 96%;
+    padding: 100px 2% 60px 2%;
+    color: var(--ma-bg);
+}
+
+#portfolio_header header{
+    font-size: 12em;
+    margin-bottom: 20px;
+}
+#portfolio_header p{
+    font-size: 4em;
+    margin-bottom: 20px;
+}
 
 #portfolio_PC{
     width: 100%;
@@ -183,8 +191,14 @@
 
 @media (max-width: 550px) {
     
-    #portfolio .information_header h4{
-        font-size: 1em;
-        text-align: center;
+    #portfolio_header{
+        width: calc(100% - 80px);
+        padding: 100px 40px 60px 40px;
+    }
+    #portfolio_header header{
+        font-size: 10em;
+    }
+    #portfolio_header p{
+        font-size: 3.5em;
     }
 }

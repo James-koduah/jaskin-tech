@@ -11,7 +11,7 @@ function scroll_translate_reset(element_id, offset = 0, instant=false){
         element.style.opacity = 1
     }
 }
-scroll_translate_reset('service_marketing', 1000)
+// scroll_translate_reset('service_marketing', 1000)
 scroll_translate_reset('portfolio_PC', 100)
 
 

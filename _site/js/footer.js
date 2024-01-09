@@ -1,26 +1,27 @@
-// function preload_all_images(){
-    
-//     let images = [
-//         '/images/man4.jpeg',
-//         '/images/man5.jpeg',
-//         '/images/man6.jpeg',
-//         '/images/man7.jpeg',
-//         '/images/man8.jpeg',
-//         '/images/astronaut3.jpeg',
-//         '/images/astronaut4.jpeg',
-//         '/images/astronaut5.jpeg',
-//         '/images/astronaut6.jpeg',
-//         '/images/astronaut7.jpeg',
-//         '/images/astronaut8.jpeg',
-//         '/images/astronaut9.jpeg',
-//     ]
-//     for (let img of images){
-//         preload_image(img)
-//     }
-
-// }
-// preload_all_images()
-
+function preload_all_images(images){
+    function preload_image(im_url) {
+        let img = new Image();
+        img.src = im_url;
+    }
+    for (let img of images){
+        preload_image(img)
+    }
+}
+let images = [
+    '/images/man4.jpeg',
+    '/images/man5.jpeg',
+    '/images/man6.jpeg',
+    '/images/man7.jpeg',
+    '/images/man8.jpeg',
+    '/images/astronaut3.jpeg',
+    '/images/astronaut4.jpeg',
+    '/images/astronaut5.jpeg',
+    '/images/astronaut6.jpeg',
+    '/images/astronaut7.jpeg',
+    '/images/astronaut8.jpeg',
+    '/images/astronaut9.jpeg',
+]
+preload_all_images(images)
 function image_slide(element1, element2, images=[]){
     let image_index = 0;
     let elem1 = document.getElementById(element1);
@@ -49,18 +50,5 @@ function image_slide(element1, element2, images=[]){
         }
     },5000)
 }
-let images = [
-    '/images/man4.jpeg',
-    '/images/man5.jpeg',
-    '/images/man6.jpeg',
-    '/images/man7.jpeg',
-    '/images/man8.jpeg',
-    '/images/astronaut3.jpeg',
-    '/images/astronaut4.jpeg',
-    '/images/astronaut5.jpeg',
-    '/images/astronaut6.jpeg',
-    '/images/astronaut7.jpeg',
-    '/images/astronaut8.jpeg',
-    '/images/astronaut9.jpeg',
-]
+
 image_slide('ai_images1', 'ai_images2', images)

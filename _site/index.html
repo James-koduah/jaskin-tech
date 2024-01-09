@@ -54,19 +54,19 @@
         
             
             <li class="nav_right_main nav_dropdown_parent mobile_off">
-                <a href="/services/">Services <ion-icon name="chevron-down"></ion-icon></a>
+                <a href="/services/web_development/">Services <ion-icon name="chevron-down"></ion-icon></a>
                 <ul class="nav_dropdown">
                     
                     <li>
-                        <a href="/services/web_development/">Web Development</a>
+                        <a href="/services/web_development/informational_website">Informational Websites</a>
                     </li>
                     
                     <li>
-                        <a href="/services/digital_marketing">Digital Marketing</a>
+                        <a href="/services/web_development/blog_website">Blog Websites</a>
                     </li>
                     
                     <li>
-                        <a href="/services/business_software">Business Software</a>
+                        <a href="/services/web_development/commercial_website">Commercial Websites</a>
                     </li>
                     
                 </ul>
@@ -117,7 +117,7 @@
             
             
             
-            <a href="/services/" class="item">
+            <a href="/services/web_development/" class="item">
                 <div class="item_image_frame"><img src="/images/services.jpg" alt=""></div>
                 <p>Services</p>
             </a>
@@ -280,7 +280,7 @@
                 </div>
             </div>
             
-            <div id="service_marketing" class="scroll_slider mobile_flex_c_reverse" style="background-color: #f1f1f1;">
+            <!-- <div id="service_marketing" class="scroll_slider mobile_flex_c_reverse" style="background-color: #f1f1f1;">
                 <div class="scroll_slider_text">
                     <div class="scroll_slider_item">
                         <header>Search Engine Optimization</header>
@@ -316,7 +316,7 @@
                     </div>
                     <div class="scroll_slider_visual_video"><img src="/images/digital_marketing.jpeg" alt="charts on a computer screen"></div>
                 </div>
-            </div>
+            </div> -->
         </section>
 
         <section id="portfolio">
@@ -422,7 +422,12 @@
             <div id="contact_phone_frame">
                 <div id="contact_phone">
                     <div id="contact_phone_cover"></div>
-                    <div id="contact_phone_bezel"></div>
+                    <div id="contact_phone_bezel">
+                        <ion-icon name="wifi"></ion-icon>
+                        <ion-icon name="cellular"></ion-icon>
+                        <ion-icon name="battery-full"></ion-icon>
+                        <p>99%</p>
+                    </div>
                     <div id="contact_phone_buttons">
                         <div class="contact_phone_buttons_item">
                             <ion-icon name="stop-outline"></ion-icon>
@@ -439,7 +444,7 @@
                         <div class="phone_home_item"><img src="images/facebook_icon.png" alt="Fackbook icon"></div>
                         <div class="phone_home_item"><img src="images/linkedin_icon.png" alt="Linkedin icon"></div>
                         <div class="phone_home_item"><img src="images/gmail_icon.png" alt="Gmail icon"></div>
-                        <div class="phone_home_item" onclick="contact_app('phone')"><img src="images/phone_icon.png" alt="Phone App icon"></div>
+                        <div class="phone_home_item" onclick="contact_app('phone', this)"><img src="images/phone_icon.png" alt="Phone App icon"></div>
                         <div class="phone_home_item"><img src="images/whatsapp_icon.png" alt="Whatsapp icon"></div>
                     </div>
                     <div id="contact_phone_app"></div>
@@ -461,7 +466,7 @@
                     <label for="phone_number">Your Phone Number</label>
                     <input type="text" name="phone_number" placeholder="Phone (Optional)">
                 </div>
-                <div>
+                <div style="margin-bottom: 5px;">
                     <label for="message">Your Message</label>
                     <textarea name="message" placeholder="Message us about your website project. Lets talk about the requirements, time, price or examples to get started" required></textarea>
                 </div>

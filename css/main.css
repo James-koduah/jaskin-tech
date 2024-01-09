@@ -339,7 +339,10 @@ nav{
     width: 200px;
     top: 100%;
     margin-left: -20px;
-    background-color: #fff;
+    background-color: var(--ma-bg);
+    overflow: hidden;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .nav_dropdown li{
     width: 100%;
@@ -348,6 +351,10 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px var(--border-color) solid;
+}
+.nav_dropdown li a{
+    justify-content: left;
 }
 .nav_dropdown li a:hover{
     background: #000;

@@ -11,15 +11,15 @@
   img: about_us1.jpg
 
 - name: Services
-  link: /services/
+  link: /services/web_development/
   img: services.jpg
   dropdown: 
-    - name: Web Development
-      link: /services/web_development/
-    - name: Digital Marketing
-      link: /services/digital_marketing
-    - name: Business Software
-      link: /services/business_software
+    - name: Informational Websites
+      link: /services/web_development/informational_website
+    - name: Blog Websites
+      link: /services/web_development/blog_website
+    - name: Commercial Websites
+      link: /services/web_development/commercial_website
 
 - name: Blogs
   link: /blog/

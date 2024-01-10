@@ -23,14 +23,14 @@
 
 #contact_phone{
     position: relative;
-    width: 80%;
+    width: 85%;
     max-width: 95vw;
-    width: 320px;
+    width: 300px;
     height: 80vh;
     min-height: 500px;
     max-height: 570px;
     border: 3px #000 solid;
-    background: url(../images/water-background2.jpg) no-repeat;
+    background: url(../images/mobile_path.jpg) no-repeat;
     background-size: cover;
     border-radius: 13px;
     overflow: hidden;
@@ -68,6 +68,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#contact_phone_app div{
+    width: 90%;
+    padding: 10px 0%;
+    margin: 0 5% 5px 5%;
+}
+#contact_phone_app p{
+    font-size: 3.2em;
+    text-align: center;
+}
+#contact_phone_app .action_button{
+    padding: 8px 15px;
+    margin-top: 10px;
 }
 #contact_phone_app header{
     font-size: 3.5em;
@@ -218,4 +231,36 @@
     #contact_form .half{
         width: 95% !important;
     }
+}
+
+
+
+
+
+
+.bob{
+    animation-name: bob;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes bob {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
+
+.pop{
+    background: #222;
+    border-radius: 5px;
+    /* border: 1px var(--border-color) solid; */
 }

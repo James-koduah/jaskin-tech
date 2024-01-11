@@ -23,7 +23,7 @@ function light_dark(e=false){
     if (light_dark_toogle){
         document.documentElement.style.setProperty('--ma-bg', '#0c0610')
         document.documentElement.style.setProperty('--su-bg', '#ffffff')
-        document.documentElement.style.setProperty('--txt-color4', '#bbb')
+        document.documentElement.style.setProperty('--txt-color4', '#ccc')
         document.documentElement.style.setProperty('--txt-color3', '#ccc')
         document.documentElement.style.setProperty('--txt-color2', '#ddd')
         document.documentElement.style.setProperty('--txt-color1', '#eee')

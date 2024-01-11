@@ -3,17 +3,21 @@
     padding: 5vh 5vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    background: var(--su-bg);
+    margin-bottom: 100px;
 }
 
 #contact .information_header{
     width: 100%;
     padding: 0 0 40px 0;
+    color: var(--ma-bg);
 }
 
 #contact_phone_frame{
-    width: 45%;
-    height: 100vh;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px 0;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -23,7 +27,6 @@
 
 #contact_phone{
     position: relative;
-    width: 85%;
     max-width: 95vw;
     width: 300px;
     height: 80vh;
@@ -77,6 +80,9 @@
 #contact_phone_app p{
     font-size: 3.2em;
     text-align: center;
+}
+#contact_phone_app button{
+    border: none;
 }
 #contact_phone_app .action_button{
     padding: 8px 15px;
@@ -159,6 +165,11 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 50px 10px 0px 10px;
+    /* border: 1px #000 solid; */
+    box-shadow: 0px 1px 1px 2px var(--border-color);
+    background: #f7f7f7;
+    border-radius: 5px;
 }
 #contact_form div{
     width: 100%;
@@ -217,13 +228,15 @@
     }
     #contact_phone_frame{
         width: 100%;
+        height: fit-content;
+        padding: 50px 0;
         justify-content: center;
     }
     #contact_phone{
         max-width: 70%;
     }
     #contact_form{
-        width: 100%;
+        width: calc(100% - 20px);
     }
     #contact_form div{
         width: 95%;

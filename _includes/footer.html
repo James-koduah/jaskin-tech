@@ -25,11 +25,14 @@
                 <p><i>S</i>CHEDULE <i>A</i>N <i>A</i>PPOINTMENT</p>
                 <a href="/appointment/" class="action_button">SCHEDULE</a>
             </div>
-            <div>
+            <form action="https://api.web3forms.com/submit" onsubmit="clear_form(this)" method="POST">
+                <input type="hidden" name="access_key" value="db46ff7f-97ca-47c2-acc2-f64146099bc7">
+                <input type="hidden" name="from_name" value="Suggestion - {{page.url}}">
+                <input type="hidden" name="redirect" value="https://jaskin.tech/contact/success-thank_you">
                 <p><i>D</i>ROP <i>A</i> <i>H</i>INT, <i>T</i>IP OR <i>S</i>UGGESTION</p>
-                <textarea></textarea>
-                <button>DROP</button>
-            </div>
+                <textarea name="message"></textarea>
+                <button type="submit">DROP</button>
+            </form>
 
         </div>
         <div id="footer_ai_images">

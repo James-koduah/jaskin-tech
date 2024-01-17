@@ -82,14 +82,11 @@ footer{
 #footer_improve div{
     margin-bottom: 25px;
 }
-#footer_improve div p{
+#footer_improve p{
     font-size: 2.2em;
     margin-bottom: 10px;
 }
-#footer_improve div .learn_more{
-    margin-top: 0px;
-}
-#footer_improve div textarea{
+#footer_improve form textarea{
     width: 86%;
     padding: 5px 2% 5px 2%;
     height: 100px;
@@ -97,7 +94,7 @@ footer{
     border:1px var(--at-bg) solid;
     color: #ddd;
 }
-#footer_improve div button{
+#footer_improve form button{
     width: 91%;
     padding: 10px;
     background-color: var(--at-bg);

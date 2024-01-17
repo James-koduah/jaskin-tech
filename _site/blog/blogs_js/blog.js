@@ -27,6 +27,7 @@ function light_dark(e=false){
         document.documentElement.style.setProperty('--txt-color3', '#ccc')
         document.documentElement.style.setProperty('--txt-color2', '#ddd')
         document.documentElement.style.setProperty('--txt-color1', '#eee')
+        document.documentElement.style.setProperty('--highlight', '#222')
         document.documentElement.style.setProperty('--border-color', '#444')
         light_dark_toogle = false
         if (e){
@@ -41,6 +42,7 @@ function light_dark(e=false){
         document.documentElement.style.setProperty('--txt-color3', '#333333')
         document.documentElement.style.setProperty('--txt-color2', '#222222')
         document.documentElement.style.setProperty('--txt-color1', '#1f1f1f')
+        document.documentElement.style.setProperty('--highlight', '#eee')
         document.documentElement.style.setProperty('--border-color', '#ddd')
         if (e){
             e.querySelector('p').innerText = 'Dark mode'

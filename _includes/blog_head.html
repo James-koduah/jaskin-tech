@@ -1,3 +1,11 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWXXE72PMY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZWXXE72PMY');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{page.title}}</title>
@@ -6,5 +14,13 @@
 <link rel="icon" href="/logo.ico" type="image/x-icon">
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<!-- <script src="/js/main.js" defer></script> -->
 <script src="/blog/blogs_js/blog.js"></script>
+
+
+<meta property="og:title" content="{{page.title}}">
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://jaskin.tech/images/{{page.main_img}}">
+<meta property="og:image:alt" content="{{page.main_img_alt}}" />
+<meta property="og:description" content="{{page.summary}}">
+<meta property="og:site_name" content="Jaskin Web Development">
+<meta property="og:url" content="{{page.url}}">

@@ -1,5 +1,5 @@
 ---
-title: Blogs | Jaskin Tech Website Development
+title: Blogs Home | Jaskin Tech Website Development
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -7,6 +7,13 @@ title: Blogs | Jaskin Tech Website Development
     {% include base_head.html %}
     <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>
+    <meta property="og:title" content="{{page.title}}">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://jaskin.tech/images/pen2.jpg">
+    <meta property="og:image:alt" content="a pen on a table" />
+    <meta property="og:description" content=" Step into the digital playground of our blog—where creativity swings, innovation slides, and success is the ultimate game. Let's learn and win together!">
+    <meta property="og:site_name" content="Jaskin Web Development">
+    <meta property="og:url" content="https://jaskin.tech/blog">
 </head>
 <body>
     {% include default_nav.html %}
@@ -18,7 +25,7 @@ title: Blogs | Jaskin Tech Website Development
                     Step into the digital playground of our blog—where creativity swings, innovation slides, and success is the ultimate game. Let's learn and win together!
                 </h2>
             </div>
-            <div id="hero_section_img"><img src="/images/pen2.jpg" alt="stock illustration of a man and woman having a conversation"></div>
+            <div id="hero_section_img"><img src="/images/pen2.jpg" alt="a pen on a table"></div>
         </section>
         <section id="search">
             <div id="search_box">

@@ -35,8 +35,8 @@ footer{
     color: var(--purple);
 }
 #footer_main a{
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    font-size: 2.2em;
+    margin-bottom: 15px;
     cursor: pointer;
 }
 #footer_main a:hover{

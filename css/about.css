@@ -1,6 +1,6 @@
 #about{
-    width: 100vw;
-    padding: 0vh 0vw 10vh 0vw;
+    width: 80vw;
+    padding: 0vh 10vw 150px 10vw;
     display: flex;
     flex-direction: column;
 }
@@ -15,8 +15,7 @@
 }
 
 #about_text{
-    width: 90%;
-    padding-left: 5%;
+    width: 100%;
 }
 #about_text header{
     font-size: 7em;
@@ -27,7 +26,6 @@
 }
 
 #about_text p{
-    width: 90%;
     font-size: 3.4em;
     color: var(--txt-soft);
     line-height: 160%;
@@ -49,6 +47,7 @@
 #about_img_frame img{
     max-height: 70vh;
     min-height: 300px;
+    border-radius: 10px;
 }
 
 

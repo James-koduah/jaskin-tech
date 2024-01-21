@@ -9,7 +9,7 @@ author: James Koduah
 blog_date: 26th December, 2023
 ---
 
-
+<!-- 
 Welcome to the heart of our digital workshop, where ideas take shape and visions come to life—our Web Development Process. As your trusted web agency, we believe in transparency and want to take you on a journey through the intricate steps that bring your digital dreams to reality.
 
 ## Discovery: Unveiling the Canvas
@@ -36,4 +36,4 @@ Our commitment doesn't end with the launch. We provide ongoing maintenance and s
 ## Conclusion: Your Digital Journey Begins Here
 Embarking on a web development journey with us is not just a transaction; it's a collaboration. From the initial spark of an idea to the full realization of your digital presence, our web development process is a testament to our dedication to craftsmanship and your online success.
 
-Ready to take the plunge into the digital universe? Let's embark on this journey together. Your website, your story—crafted with passion and precision by our web development team.3
+Ready to take the plunge into the digital universe? Let's embark on this journey together. Your website, your story—crafted with passion and precision by our web development team.3 -->

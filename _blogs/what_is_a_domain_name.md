@@ -37,33 +37,6 @@ Some Top Level Domain examples are .net, .org, .tech, .store, .info, .io, .onlin
 Using popular Top Level extensions can give your website credibility but the downside is finding an available and relevant name as most are already taken.
 {: .highlight}
 
-<!-- #### Types of Top Level Domains
-
-#### ccTLD: Country-Code Top Level Domain
-{: .left_header}
-
-These are domains that are specific to a country. They are based on international country codes. Some examples are: 
-
-* **.gh** - Ghana : www.jaskin.gh
-* **.ng** - Nigeria : www.jaskin.ng
-* **.de** - Germany : www.jaskin.de
-* **.us** - USA : www.jaskin.usa
-* **.es** - Spain: www.jaskin.es
-* etc
-{: .average_ul}
-
-A ccTLD is used to localize an organizations offerings or business to a specific country. 
-
-#### gTLD: Generic Top-Level Domain
-{: .left_header}
-
-These are Top Level domains that are associated with a specific community or organizations. There are set rules as to which organizations can use them. Some examples are
-
-* **.edu** - This is managed by the EDUCAUSE, and is reserved for US higher education institutions
-* **.asia** - This is managed by the DotAsia Organisation Ltd, and is reserved for entities, businesses and organizations operating in the Asia-Pacific region
-* **.gov** - This is managed by the Cybersecurity and Infrastructure Security Agency and is reserved for governmental organizations.
-* etc
-{: .average_ul} -->
 
 
 ### Second Level Domain:
@@ -77,7 +50,7 @@ To get your Second Level Domain, you would have to buy and register it. [You can
 It is an extension of your domain and can be used to represent a part of your website. A website can have numerous Sub Domains and each can be named anything you want. For example 'blogs.jaskin.tech', 'shop.jaskin.tech', 'school.jaskin.tech', 'party.jaskin.tech', 'lalalala.jaskin.tech' etc, can all be Sub Domains of 'jaskin.tech'.
 
 
-## Technical perspective
+## The Domain Name System (DNS)
 {: .left_header}
 
 ![Magnifing glass over binary code](/images/OILI620.jpg)
@@ -103,7 +76,7 @@ Your Device then goes to the IP Address, displays the website, and you can then 
 ## Choosing your Domain Name
 {: .left_header}
 
-Naming your website is just as important as naming your child. Choose a wrong name - it's 2024, maybe Osama bin Adolf - and you've set that child up for trouble.
+Naming your website is just as important as naming your child. Choose a wrong name - maybe Osama bin Adolf - and you've set that child up for trouble.
 
 Your aim in naming your website should be to select a name that is memorable, brandable and aligns with your goals. Here are some best practices:
 
@@ -111,11 +84,9 @@ Your aim in naming your website should be to select a name that is memorable, br
 * Consider Keywords
 * Choose the right Top Level Domain - *.com*, *.org*, *.tech* etc
 * Check Availability - Make sure someone has not bought it yet
-* Avoid Trademark Issues
 * Keep it Broad
 * Secure Social Media Handles
-* Renewal Fees
 * Test it out
-{: .average_ul}
+{: .average_ul .list_style_none}
 
 Read more about things to consider when [choosing your domain name.](/){:target="_blank"}

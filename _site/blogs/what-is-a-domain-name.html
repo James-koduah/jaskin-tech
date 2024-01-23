@@ -12,12 +12,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>What is a domain name?</title>
-<link rel="stylesheet" href="/blog/blogs_css/blog.css">
+<link rel="stylesheet" href="/blogs/blogs_css/blog.css">
+<link rel="stylesheet" href="/blogs/blogs_css/style.css">
 <link rel="stylesheet" href="/css/footer.css">
 <link rel="icon" href="/logo.ico" type="image/x-icon">
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="/blog/blogs_js/blog.js"></script>
+<script src="/blogs/blogs_js/blog.js"></script>
 
 
 <meta property="og:title" content="What is a domain name?">
@@ -27,7 +28,6 @@
 <meta property="og:description" content="Understand the concept behind those web addresses you type into your internet browser and see how you can apply this knowledge when deciding on your own domain name.">
 <meta property="og:site_name" content="Jaskin Web Development">
 <meta property="og:url" content="/blogs/what-is-a-domain-name">
-    <link rel="stylesheet" href="/blog/blogs_css/style.css">
     
 <style>
     
@@ -44,10 +44,10 @@
 </head>
 <body>
     <nav>
-    <div id="logo">
+    <a href="/" id="logo">
         <img src="/logo.ico" alt="Jaskin Tech logo">
         <p><i>J</i>ASKIN <i>T</i>ECH .</p>
-    </div>
+    </a>
     <div >
         <div id="menu_button" class="links_main" onclick="toggle_side_menu()"><ion-icon name="menu"></ion-icon></div>
     </div>
@@ -87,34 +87,6 @@ In the same way, if you own a website at www.bestfriend.com, anyone who wants to
 
 <p class="highlight">Using popular Top Level extensions can give your website credibility but the downside is finding an available and relevant name as most are already taken.</p>
 
-<!-- #### Types of Top Level Domains
-
-#### ccTLD: Country-Code Top Level Domain
-{: .left_header}
-
-These are domains that are specific to a country. They are based on international country codes. Some examples are: 
-
-* **.gh** - Ghana : www.jaskin.gh
-* **.ng** - Nigeria : www.jaskin.ng
-* **.de** - Germany : www.jaskin.de
-* **.us** - USA : www.jaskin.usa
-* **.es** - Spain: www.jaskin.es
-* etc
-{: .average_ul}
-
-A ccTLD is used to localize an organizations offerings or business to a specific country. 
-
-#### gTLD: Generic Top-Level Domain
-{: .left_header}
-
-These are Top Level domains that are associated with a specific community or organizations. There are set rules as to which organizations can use them. Some examples are
-
-* **.edu** - This is managed by the EDUCAUSE, and is reserved for US higher education institutions
-* **.asia** - This is managed by the DotAsia Organisation Ltd, and is reserved for entities, businesses and organizations operating in the Asia-Pacific region
-* **.gov** - This is managed by the Cybersecurity and Infrastructure Security Agency and is reserved for governmental organizations.
-* etc
-{: .average_ul} -->
-
 <h3 id="second-level-domain">Second Level Domain:</h3>
 <p>The Second Level Domain is the more specific and personalized part of a Domain Name.</p>
 
@@ -125,7 +97,7 @@ These are Top Level domains that are associated with a specific community or org
 <h3 id="sub-domain">Sub Domain</h3>
 <p>It is an extension of your domain and can be used to represent a part of your website. A website can have numerous Sub Domains and each can be named anything you want. For example ‘blogs.jaskin.tech’, ‘shop.jaskin.tech’, ‘school.jaskin.tech’, ‘party.jaskin.tech’, ‘lalalala.jaskin.tech’ etc, can all be Sub Domains of ‘jaskin.tech’.</p>
 
-<h2 class="left_header" id="technical-perspective">Technical perspective</h2>
+<h2 class="left_header" id="the-domain-name-system-dns">The Domain Name System (DNS)</h2>
 
 <p><img src="/images/OILI620.jpg" alt="Magnifing glass over binary code" />
 Us Humans communicate with computers in our <em>human languages</em> and programmed systems can interact with us using languages we understand. Computers also possess their own <em>language</em> that they use to communicate with one another.</p>
@@ -147,19 +119,17 @@ An IP Address is a string of numbers that represents the real address of the web
 
 <h2 class="left_header" id="choosing-your-domain-name">Choosing your Domain Name</h2>
 
-<p>Naming your website is just as important as naming your child. Choose a wrong name - it’s 2024, maybe Osama bin Adolf - and you’ve set that child up for trouble.</p>
+<p>Naming your website is just as important as naming your child. Choose a wrong name - maybe Osama bin Adolf - and you’ve set that child up for trouble.</p>
 
 <p>Your aim in naming your website should be to select a name that is memorable, brandable and aligns with your goals. Here are some best practices:</p>
 
-<ul class="average_ul">
+<ul class="average_ul list_style_none">
   <li>Keep it Simple and Memorable</li>
   <li>Consider Keywords</li>
   <li>Choose the right Top Level Domain - <em>.com</em>, <em>.org</em>, <em>.tech</em> etc</li>
   <li>Check Availability - Make sure someone has not bought it yet</li>
-  <li>Avoid Trademark Issues</li>
   <li>Keep it Broad</li>
   <li>Secure Social Media Handles</li>
-  <li>Renewal Fees</li>
   <li>Test it out</li>
 </ul>
 
@@ -172,7 +142,7 @@ An IP Address is a string of numbers that represents the real address of the web
                 <p></p>
                 <ion-icon name="close"></ion-icon>
             </div>
-            <a href="/blog/" class="menu_item">
+            <a href="/blogs/" class="menu_item">
                 <p>Home</p>
                 <ion-icon name="home-outline"></ion-icon>
             </a>
@@ -193,6 +163,10 @@ An IP Address is a string of numbers that represents the real address of the web
             <div class="menu_item_list">
                 <p>More articles</p>
                 <ul>
+                    
+                    
+                    <li><a href="/blogs/choosing-a-domain-name">Choosing a domain name</a></li>
+                    
                     
                     
                     <li><a href="/blogs/how-long-to-build-a-site">How long does it take to build a website</a></li>
@@ -216,6 +190,17 @@ An IP Address is a string of numbers that represents the real address of the web
         <header id="explore_header">Explore</header>
         <div id="explore_items">
             
+            
+            <div class="explore_item">
+                <div class="explore_item_img"><img src="/images/How-to-choose-a-Domain-Name.jpg" alt=""></div>
+                <div class="explore_item_text">
+                    <header>Choosing a domain name</header>
+                    <a href="/blogs/choosing-a-domain-name" class="action_button">Explore</a>
+                </div>
+            </div>
+            
+            
+            
             <div class="explore_item">
                 <div class="explore_item_img"><img src="/images/time.jpg" alt=""></div>
                 <div class="explore_item_text">
@@ -223,6 +208,8 @@ An IP Address is a string of numbers that represents the real address of the web
                     <a href="/blogs/how-long-to-build-a-site" class="action_button">Explore</a>
                 </div>
             </div>
+            
+            
             
             <div class="explore_item">
                 <div class="explore_item_img"><img src="/images/web_development_process.jpg" alt=""></div>
@@ -232,13 +219,6 @@ An IP Address is a string of numbers that represents the real address of the web
                 </div>
             </div>
             
-            <div class="explore_item">
-                <div class="explore_item_img"><img src="/images/example_domain.webp" alt=""></div>
-                <div class="explore_item_text">
-                    <header>What is a domain name?</header>
-                    <a href="/blogs/what-is-a-domain-name" class="action_button">Explore</a>
-                </div>
-            </div>
             
         </div>
     </div>

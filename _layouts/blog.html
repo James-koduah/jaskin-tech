@@ -4,7 +4,6 @@
 <html lang="en">
 <head>
     {%include blog_head.html %}
-    <link rel="stylesheet" href="/blog/blogs_css/style.css">
     {%include blog_font_family_choice.txt%}
 </head>
 <body>
@@ -27,7 +26,7 @@
                 <p></p>
                 <ion-icon name="close"></ion-icon>
             </div>
-            <a href="/blog/" class="menu_item">
+            <a href="/blogs/" class="menu_item">
                 <p>Home</p>
                 <ion-icon name="home-outline"></ion-icon>
             </a>
@@ -61,6 +60,7 @@
         <header id="explore_header">Explore</header>
         <div id="explore_items">
             {%for blog in site.blogs limit: 3%}
+            {% if blog.url != page.url %}
             <div class="explore_item">
                 <div class="explore_item_img"><img src="/images/{{blog.main_img}}" alt=""></div>
                 <div class="explore_item_text">
@@ -68,6 +68,7 @@
                     <a href="{{blog.url}}" class="action_button">Explore</a>
                 </div>
             </div>
+            {% endif %}
             {%endfor%}
         </div>
     </div>

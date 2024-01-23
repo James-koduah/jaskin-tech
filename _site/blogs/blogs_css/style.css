@@ -295,17 +295,23 @@ main{
 .left_header{
     text-align: left !important;
 }
+.left{
+    text-align: left !important;
+}
 
 
-.average_ul{
+ul{
     margin-bottom: 20px;
 }
-.average_ul li{
+li{
     font-size: 3.1em;
     margin-bottom: 5px;
-    list-style: none;
     color: var(--txt-color3);
+    list-style-position: inside;
 
+}
+.list_style_none{
+    list-style: none !important;
 }
 
 .average_ul_bold{
@@ -315,7 +321,6 @@ main{
     font-size: 3.1em;
     margin-bottom: 5px;
     font-weight: 600;
-    list-style: none;
     color: var(--txt-color3);
 
 }

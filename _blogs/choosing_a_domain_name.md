@@ -1,6 +1,6 @@
 ---
 title: Choosing a domain name
-summary: Choosing the right name for your website is vital as it is the name your audience will remember you by. Let's consider some things to have in mind when choosing your domain name.
+summary: Your website's name is what your audience will remember you by. Let's consider some things to have in mind when choosing your domain name.
 main_img: How-to-choose-a-Domain-Name.jpg
 main_img_alt: Url in search bar
 layout: blog

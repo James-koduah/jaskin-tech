@@ -33,8 +33,8 @@ Remember, whatever name you choose, your users will actually have to type it and
 As a business owner you may be fortunate to already have a brand name. In this case, you'll want to make it easy for people to connect your online and physical business. But regardless of this, you still want to :
 
 * Keep it to a maximum of 15 characters
-* Avoid slang - don't use "U" instead of "you"
-* Avoid words with complex spelling an meanings
+* Resist using slang - don't use "U" instead of "you"
+* Hold off words with complex spelling and meanings
 
 For example, if you own a retail shop named 'Angels phones and accessories', having the domain name *'angelsphonesandaccessories.com'* can really hurt your business. You would have to be creative and choose a name that while shorter, matches your business and brand. Maybe something like angeltech.com, heavenphones.com etc, the possibilities are endless.
 

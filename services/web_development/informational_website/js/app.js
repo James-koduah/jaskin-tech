@@ -12,8 +12,8 @@ function scroll_translate_reset(element_id, offset = 0, instant=false){
     }
 }
 
-window.addEventListener('scroll', ()=>{
-    scroll_translate_reset("web_inform_bronze")
-    scroll_translate_reset("web_inform_silver")
-    scroll_translate_reset("web_inform_gold")
-})
+// window.addEventListener('scroll', ()=>{
+//     scroll_translate_reset("web_inform_bronze")
+//     scroll_translate_reset("web_inform_silver")
+//     scroll_translate_reset("web_inform_gold")
+// })

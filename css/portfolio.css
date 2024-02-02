@@ -1,22 +1,22 @@
 #portfolio{
     width: 100%;
-    background: var(--su-bg);
-    padding: 50px 0 180px 0;
+    /* background: var(--su-bg); */
+    padding: 50px 0 80px 0;
 }
 
 #portfolio_header{
     width: 96%;
-    padding: 100px 2% 60px 2%;
-    color: var(--ma-bg);
+    padding: 30px 2% 5px 2%;
+    /* color: var(--ma-bg); */
 }
 
 #portfolio_header header{
-    font-size: 12em;
-    margin-bottom: 20px;
+    font-size: 10em;
+    margin-bottom: 10px;
 }
 #portfolio_header p{
     font-size: 4em;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #portfolio_PC{
@@ -54,6 +54,9 @@
     filter: blur(1px);
     transition: 0.5s;
     cursor: pointer;
+    border: 1px var(--border-color) solid;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .portfolio_PC_current{
     height: 400px;
@@ -64,6 +67,7 @@
     top: 40%; left: 0%;
     width: 100px; height: 100px;
     background-color: #ffffffdd;
+    border: 1px #000 solid;
     color: #000;
     border-radius: 50%;
     display: flex;
@@ -77,6 +81,7 @@
     top: 40%; right: 0%;
     width: 100px; height: 100px;
     background-color: #ffffffdd;
+    border: 1px #000 solid;
     color: #000;
     border-radius: 50%;
     display: flex;
@@ -118,6 +123,7 @@
     justify-content: space-around;
     align-items: center;
     margin: 50px 0;
+    display: none;
 }
 
 #portfolio_MOBILE_move_left{
@@ -173,7 +179,7 @@
     flex-shrink: 0;
 }
 .portfolio_MOBILE_item img{
-    height: 60%;
+    height: 100%;
 }
 
 .portfolio_MOBILE_item header{
@@ -189,11 +195,14 @@
     color: #bbb;
 }
 
-@media (max-width: 550px) {
-    
+@media (max-width: 800px) {
+    #portfolio{
+        background: var(--su-bg);
+    }
     #portfolio_header{
         width: calc(100% - 80px);
         padding: 100px 40px 60px 40px;
+        color: var(--ma-bg);
     }
     #portfolio_header header{
         font-size: 10em;
@@ -201,5 +210,19 @@
     #portfolio_header p{
         font-size: 3.5em;
     }
+
+    #portfolio_PC{
+        display: none;
+    }
+    #portfolio_MOBILE{
+        display: flex;
+        /* height: 500px; */
+    }
 }
 
+
+@media (max-width: 550px) {
+    #portfolio_MOBILE{
+        height: 230px;
+    }
+}

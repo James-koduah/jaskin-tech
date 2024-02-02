@@ -8,6 +8,9 @@ function display_faq_section(id, nav_elem){
     if (window.innerWidth < 850){
         document.getElementById('last_nav').scrollIntoView({ behavior: 'smooth', block: 'start'});
     }
+    else{
+        document.getElementById('content').scrollIntoView({ behavior: 'smooth', block: 'start'});
+    }
 
     let nav_items = document.getElementById('faq_nav').getElementsByClassName('item')
     for (let item of nav_items){

@@ -103,15 +103,15 @@ function portfolio_scroll_mobile(direction){
         console.log('ran')
     }
     let img = document.createElement('img')
-    let header = document.createElement('header')
-    header.innerText = 'CLEAN HANDS PAINTING AND ARTWORK COMPANY'
-    let p = document.createElement('p')
-    p.innerText = 'A compact business and portfolio site completed in a month'
+    // let header = document.createElement('header')
+    // header.innerText = 'CLEAN HANDS PAINTING AND ARTWORK COMPANY'
+    // let p = document.createElement('p')
+    // p.innerText = 'A compact business and portfolio site completed in a month'
     let new_p = document.createElement('div')
     new_p.className = 'portfolio_MOBILE_item'
     new_p.appendChild(img)
-    new_p.appendChild(header)
-    new_p.appendChild(p)
+    // new_p.appendChild(header)
+    // new_p.appendChild(p)
     if (direction == 0){
         p_projects_index_l--
         if (p_projects_index_l < 0){

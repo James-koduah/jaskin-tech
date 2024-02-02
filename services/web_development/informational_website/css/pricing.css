@@ -24,8 +24,8 @@
 
 #web_inform_products .product{
     transition: 1.5s;
-    transform: translate(0px, 200px);
-    opacity: 0;
+    /* transform: translate(0px, 200px);
+    opacity: 0; */
 }
 
 .product{

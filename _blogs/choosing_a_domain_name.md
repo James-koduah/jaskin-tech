@@ -10,7 +10,6 @@ author: James Koduah
 blog_date: 22 January, 2024
 ---
 
-
 So... you're looking for a name for your website.
 If you are a business, corporate entity or any other professional service, you should want a website name that would reveal your identity. On the other hand, if your website is something casual, you can go all out and pick a fun name.
 

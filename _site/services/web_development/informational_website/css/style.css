@@ -78,7 +78,7 @@
     font-size: 2.8em;
     font-weight: 400;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 10px 0 40px 0;
     text-align: center;
     color: var(--txt-soft);
 }
@@ -86,8 +86,8 @@
 .section_header{
     width: 100%;
     text-align: center;
-    padding: 50px 0;
-    font-size: 6em;
+    padding: 50px 0 100px 0;
+    font-size: 4.7em;
     letter-spacing: 1px;
     font-weight: 600;
     font-family: var(--cabin-ver);

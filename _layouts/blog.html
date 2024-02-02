@@ -17,6 +17,16 @@
             <div class="blog_summary">
                 <p>{{page.summary}}</p>
             </div>
+            {% if page.table_of_contents %}
+            <div id="table_of_contents">
+                <header>Table of Contents</header>
+                <ul>
+                    {% for item in page.table_of_contents %}
+                    <li><a href="#{{item.link}}">{{item.text}}</a></li>
+                    {%endfor%}
+                </ul>
+            </div>
+            {%endif%}
             <section id="blog_content">
                 {{content}}
             </section>

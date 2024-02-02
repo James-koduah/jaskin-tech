@@ -4,6 +4,9 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-margin-top: 75px;
+    /*Because of the fixed nav, when you snap navigate to an element, it hides behind the nav
+    element so we give a scroll-margin-top to make the element appear below the nav bar*/ 
 }
 
 :root{

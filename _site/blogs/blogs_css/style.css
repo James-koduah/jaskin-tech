@@ -50,6 +50,31 @@ main{
     color: var(--txt-color4);
     font-family: var(--cabin-sans) !important;
 }
+
+
+#table_of_contents{
+    padding-bottom: 40px;
+}
+#table_of_contents header{
+    font-size: 4.8em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#table_of_contents li{
+    margin-left: 5%;
+    font-size: 3.3em;
+}
+#table_of_contents a{
+    color: var(--txt-color3) !important;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+
+
+
 #blog_content{
     width: 90%;
     padding: 0px 5% 0 5%;

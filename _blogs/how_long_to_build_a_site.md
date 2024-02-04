@@ -2,7 +2,7 @@
 layout: blog
 title: How long does it take to build a website
 summary: Learn about the factors that should be taken into consideration in estimating the build time for any website project
-main_img: time.jpg
+thumbnail: time.jpg
 author: James Koduah
 blog_date: 28 December, 2023
 ---

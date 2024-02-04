@@ -1,8 +1,8 @@
 ---
 title: Choosing a domain name
 summary: Crafting your website's name? Examine thoughtful considerations for your ideal domain. 
-main_img: How-to-choose-a-Domain-Name.jpg
-main_img_alt: Url in search bar
+thumbnail: How-to-choose-a-Domain-Name.jpg
+thumbnail_alt: Url in search bar
 layout: blog
 header_font_family: cabin-ver
 p_font_family: cabin-sans

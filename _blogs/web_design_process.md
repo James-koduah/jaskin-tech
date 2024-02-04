@@ -1,7 +1,7 @@
 ---
 title: Web Development Process
 summary: This Blog takes you through the process of building a Website from start to finish. See how ideas are rolled into action from brains, to paper, to wireframes, to code and then to the world!.
-main_img: web_development_process.jpg
+thumbnail: web_development_process.jpg
 layout: blog
 header_font_family: cabin-ver
 p_font_family: museo

@@ -1,8 +1,8 @@
 ---
 title: What is a domain name?
 summary: Understand the concept behind those web addresses you type into your internet browser and see how you can apply this knowledge when deciding on your own domain name.
-main_img: example_domain.webp
-main_img_alt: Url in search bar
+thumbnail: example_domain.webp
+thumbnail_alt: Url in search bar
 layout: blog
 header_font_family: cabin-ver
 p_font_family: cabin-sans

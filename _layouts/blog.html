@@ -10,7 +10,7 @@
     {%include blog_nav.html%}
     <div id="page">
         <main>
-            <div id="main_img"><img src="/images/{{page.main_img}}" alt="{{page.main_img_alt}}"></div>
+            <div id="main_img"><img src="/images/{{page.thumbnail}}" alt="{{page.main_img_alt}}"></div>
             <div id="blog_header">
                 <h1>{{page.title}}</h1>
             </div>
@@ -72,7 +72,7 @@
             {%for blog in site.blogs limit: 3%}
             {% if blog.url != page.url %}
             <div class="explore_item">
-                <div class="explore_item_img"><img src="/images/{{blog.main_img}}" alt=""></div>
+                <div class="explore_item_img"><img src="/images/{{blog.thumbnail}}" alt="{{blog.thumbnail_alt}}"></div>
                 <div class="explore_item_text">
                     <header>{{blog.title}}</header>
                     <a href="{{blog.url}}" class="action_button">Explore</a>

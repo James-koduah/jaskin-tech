@@ -21,6 +21,8 @@ nav_cta_url: /services/web_development/
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/explore.css">
     <link rel="stylesheet" href="css/footer.css">
+    <!-- netlify CMS -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
     {% include default_nav.html %}
@@ -271,14 +273,8 @@ nav_cta_url: /services/web_development/
         </section>
 
         <section id="about">
-
-            <div id="about_header">
-                <header>Promoting the Utilization of <br> Technology</header>
-            </div>
-            <div id="about_img">
-                <div id="about_img_frame"><img src="images/laptop16.jpeg" alt="computers in an office"></div>
-            </div>
             <div id="about_text">
+                <header>Promoting the Utilization of <br> Technology</header>
                 <p>
                     We are Jaskin Tech, a web development agency that believes in the power of technology and it's ability to work for you. 
                     We design, develop, and deliver websites that aren't just visually appealling, but provides you with a strong marketing engine.
@@ -295,6 +291,9 @@ nav_cta_url: /services/web_development/
                 <div id="about_action">
                     <a class="action_button" href="/services/web_development/">See All Services</a>
                 </div>
+            </div>
+            <div id="about_img">
+                <div id="about_img_frame"><img src="images/datacenter4.jpeg" alt="computers in an office"></div>
             </div>
         </section>
 
@@ -365,7 +364,7 @@ nav_cta_url: /services/web_development/
             <div id="explore_items">
                 {%for blog in site.blogs limit: 3%}
                 <div class="explore_item">
-                    <div class="explore_item_img"><img src="/images/{{blog.main_img}}" alt=""></div>
+                    <div class="explore_item_img"><img src="/images/{{blog.thumbnail}}" alt="{{blog.thumbnail_alt}}"></div>
                     <div class="explore_item_text">
                         <header>{{blog.title}}</header>
                         <a href="{{blog.url}}" class="action_button">Explore</a>
@@ -379,5 +378,16 @@ nav_cta_url: /services/web_development/
     <script src="js/contact_phone.js"></script>
     <script src="js/app.js"></script>
     <script src="js/image_slide.js"></script>
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+    </script>
 </body>
 </html>

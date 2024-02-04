@@ -34,6 +34,8 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/explore.css">
     <link rel="stylesheet" href="css/footer.css">
+    <!-- netlify CMS -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
     <nav>
@@ -398,14 +400,8 @@
         </section>
 
         <section id="about">
-
-            <div id="about_header">
-                <header>Promoting the Utilization of <br> Technology</header>
-            </div>
-            <div id="about_img">
-                <div id="about_img_frame"><img src="images/laptop16.jpeg" alt="computers in an office"></div>
-            </div>
             <div id="about_text">
+                <header>Promoting the Utilization of <br> Technology</header>
                 <p>
                     We are Jaskin Tech, a web development agency that believes in the power of technology and it's ability to work for you. 
                     We design, develop, and deliver websites that aren't just visually appealling, but provides you with a strong marketing engine.
@@ -422,6 +418,9 @@
                 <div id="about_action">
                     <a class="action_button" href="/services/web_development/">See All Services</a>
                 </div>
+            </div>
+            <div id="about_img">
+                <div id="about_img_frame"><img src="images/datacenter4.jpeg" alt="computers in an office"></div>
             </div>
         </section>
 
@@ -492,7 +491,7 @@
             <div id="explore_items">
                 
                 <div class="explore_item">
-                    <div class="explore_item_img"><img src="/images/How-to-choose-a-Domain-Name.jpg" alt=""></div>
+                    <div class="explore_item_img"><img src="/images/How-to-choose-a-Domain-Name.jpg" alt="Url in search bar"></div>
                     <div class="explore_item_text">
                         <header>Choosing a domain name</header>
                         <a href="/blogs/choosing-a-domain-name" class="action_button">Explore</a>
@@ -534,7 +533,7 @@
                 <header><i>N</i>AVIGATE</header>
                 <a href="/about/"><i>A</i>BOUT</a>
                 <a href="/portfolio"><i>P</i>ORTFOLIO</a>
-                <a href="/blog/"><i>B</i>LOG</a>
+                <a href="/blogs/"><i>B</i>LOG</a>
                 <a href="/faq/">FAQ</a>
                 <a href="/services/"><i>S</i>ERVICES</a>
                 <a href="/contact/"><i>C</i>ONTACT</a>
@@ -570,5 +569,16 @@
     <script src="js/contact_phone.js"></script>
     <script src="js/app.js"></script>
     <script src="js/image_slide.js"></script>
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+    </script>
 </body>
 </html>

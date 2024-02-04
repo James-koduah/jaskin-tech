@@ -37,7 +37,7 @@ title: Blogs Home | Jaskin Tech Website Development
             <div id="results">
                 {% for blog in site.blogs %}
                 <div class="results_item">
-                    <div class="results_item_img"><img src="/images/{{blog.main_img}}" alt=""></div>
+                    <div class="results_item_img"><img src="/images/{{blog.thumbnail}}" alt="{{blog.thumbnail_alt}}"></div>
                     <div class="results_item_text">
                         <header>{{blog.title}}</header>
                         <p>{{blog.summary}}</p>
@@ -50,7 +50,7 @@ title: Blogs Home | Jaskin Tech Website Development
                 <header id="featured_header">Featured Posts</header>
                 {%for blog in site.blogs%}
                 <a href="{{blog.url}}" class="featured_item">
-                    <div class="featured_item_img"><img src="/images/{{blog.main_img}}" alt=""></div>
+                    <div class="featured_item_img"><img src="/images/{{blog.thumbnail}}" alt="{{blog.thumbnail_alt}}"></div>
                     <div class="featured_item_text">
                         <header>{{blog.title}}</header>
                     </div>
@@ -63,7 +63,7 @@ title: Blogs Home | Jaskin Tech Website Development
     
     <div id="hidden" style="display: none;">
     {%for blog in site.blogs%}
-        <p data-title="{{blog.title}}" data-img="{{blog.main_img}}" data-author="{{blog.author}}" data-url="{{blog.url}}" data-summary="{{blog.summary}}"></p>
+        <p data-title="{{blog.title}}" data-img="{{blog.thumbnail}}" data-author="{{blog.author}}" data-url="{{blog.url}}" data-summary="{{blog.summary}}"></p>
     {%endfor%}
     </div>
     

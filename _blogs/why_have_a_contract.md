@@ -1,7 +1,7 @@
 ---
 title: Why have a Legal Contract for your project
 summary: In the business world, we're usually hopeful and not thinking about bad things happening. But a contract is more than just protection from problems. It's like a helpful tool that not only helps deal with risks but also sets the stage for lots of good stuff.
-main_img: signing_contract.jpg
+thumbnail: signing_contract.jpg
 layout: blog
 header_font_family: cabin-ver
 p_font_family: museo

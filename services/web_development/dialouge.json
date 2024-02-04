@@ -1,4 +1,31 @@
 {
+    "informational_website": {
+        "options": [
+            ["GHC 0 - GHC 4,000", "informational_website_bronze"],
+            ["GHC 4,000 - GHC 9,000", "informational_website_silver"],
+            ["GHC 9,000 and above", "informational_website_gold"]
+        ]
+    },
+    "informational_website_bronze": {
+        "dialouge": "Informational Website",
+        "subdialouge": "Our Bronze package is well suited for your needs",
+        "link": "Check Product",
+        "link_url": "/services/web_development/informational_website/#web_inform_bronze"
+    },
+    "informational_website_silver": {
+        "dialouge": "Informational Website",
+        "subdialouge": "Our Silver package is well suited for your needs",
+        "link": "Check Product",
+        "link_url": "/services/web_development/informational_website/#web_inform_silver"
+    },
+    "informational_website_gold": {
+        "dialouge": "Informational Website",
+        "subdialouge": "Our Gold package is well suited for your needs",
+        "link": "Check Product",
+        "link_url": "/services/web_development/informational_website/#web_inform_gold"
+    },
+
+
     "1": {
         "dialouge": "What do you need your Website for?",
         "options": [
@@ -10,37 +37,16 @@
     "11": {
         "dialouge": "How big is your budget?",
         "options": [
-            ["GHC 0 - GHC 3,900", "111"],
-            ["GHC 3,900 - GHC 6,000", "112"],
-            ["GHC 6,000 and above", "113"]
+            ["GHC 0 - GHC 4,000", "informational_website_bronze"],
+            ["GHC 4,000 - GHC 9,000", "informational_website_silver"],
+            ["GHC 9,000 and above", "informational_website_gold"]
         ]
     },
-    "111": {
-        "dialouge": "Informational Website",
-        "subdialouge": "Our Bronze package is well suited for your needs",
-        "link": "Check Product",
-        "link_url": "/services/web_development/informational_website/#web_inform_bronze"
-    },
-    "112": {
-        "dialouge": "Informational Website",
-        "subdialouge": "Our Silver package is well suited for your needs",
-        "link": "Check Product",
-        "link_url": "/services/web_development/informational_website/#web_inform_silver"
-    },
-    "113": {
-        "dialouge": "Informational Website",
-        "subdialouge": "Our Gold package is well suited for your needs",
-        "link": "Check Product",
-        "link_url": "/services/web_development/informational_website/#web_inform_gold"
-    },
-
-    
     "12": {
         "dialouge": "Explore Our Commercial Website Development Package",
         "link": "Explore",
         "link_url": "/services/web_development/commercial_website"
     },
-
     "13": {
         "dialouge": "Great, Explore Our Web Application Development Package",
         "link": "Explore Product",
@@ -53,10 +59,10 @@
     "2": {
         "dialouge": "An informational website is great for you",
         "subdialouge": "You can also consider adding a blog feature.<br>State your budget...",
-        "options": [
-            ["GHC 0 - GHC 3,900", "111"],
-            ["GHC 3,900 - GHC 6,000", "112"],
-            ["GHC 6,000 and above", "113"]
+        "options":  [
+            ["GHC 0 - GHC 4,000", "informational_website_bronze"],
+            ["GHC 4,000 - GHC 9,000", "informational_website_silver"],
+            ["GHC 9,000 and above", "informational_website_gold"]
         ]
     }
 }

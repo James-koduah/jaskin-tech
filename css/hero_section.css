@@ -113,6 +113,7 @@
         background: url(/images/code_computer4.webp) no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        border: none;
     }
     #hero_section_text{
         width: 85vw;
@@ -155,7 +156,6 @@
 }
 
 @media (max-width: 550px) {
-    
     #hero_section_text{
         width: 85vw;
         padding: 30px 5vw 20px 5vw; 
@@ -186,7 +186,7 @@
 
 .svg_break{
     width: 90vw;
-    padding: 0px 5vw 30px 5vw;
+    padding: 0px 5vw 20px 5vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

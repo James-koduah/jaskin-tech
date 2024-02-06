@@ -8,16 +8,14 @@ header_font_family: cabin-ver
 p_font_family: cabin-sans
 author: James Koduah
 blog_date: 23 December, 2023
-table_of_contents:
-    - text: What is a Domain Name
-      link: start
-    - text: Parts of a Domain Name
-      link: parts-of-a-domain-name
-    - text: The Domain Name System (DNS)
-      link: the-domain-name-system-dns
-    - text: Choosing Your Domain Name
-      link: choosing-your-domain-name
 ---
+
+* Table of Contents
+* [What is a Domain Name](#start)
+* [Parts of a Domain Name](#parts-of-a-domain-name)
+* [The Domain Name System (DNS)](#the-domain-name-system-dns)
+* [Choosing Your Domain Name](#choosing-your-domain-name)
+{: #table_of_contents}
 
 A Domain Name is simply an internet address. It is unique and generally made to be easy to remember. Just as physical locations on Earth have addresses (like your house, school, workplace), virtual locations on the internet also have addresses. For example, if you want to visit the White House in the USA, you would travel to *'1600 Pennsylvania Avenue NW, Washington, DC 20500, USA'*.
 In the same way, if you own a website at www.bestfriend.com, anyone who wants to visit your website will have to *travel*, in a manner of speaking, to that address.

@@ -1,13 +1,12 @@
 ---
+layout: blog
 title: Choosing a domain name
 summary: Crafting your website's name? Examine thoughtful considerations for your ideal domain. 
 thumbnail: How-to-choose-a-Domain-Name.jpg
 thumbnail_alt: Url in search bar
-layout: blog
 header_font_family: cabin-ver
 p_font_family: cabin-sans
 author: James Koduah
-blog_date: 22 January, 2024
 ---
 
 So... you're looking for a name for your website.

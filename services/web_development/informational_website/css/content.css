@@ -52,6 +52,7 @@
 #content1 .item li ion-icon{
     font-size: 150%;
     margin-right: 2%;
+    flex-shrink: 0;
     color: var(--at-bg);
 }
 

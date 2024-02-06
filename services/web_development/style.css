@@ -4,7 +4,8 @@
 }
 
 #robot{
-    width: 65%;
+    width: 55%;
+    padding: 0 5%;
     background: var(--su-bg);
     color: var(--ma-bg);
     font-family: var(--cabin-ver);
@@ -20,7 +21,8 @@
     align-items: center;
 }
 .dialouge{
-    font-size: 6em;
+    font-size: 5em;
+    text-align: center;
 }
 .sub_dialouge{
     font-size: 4em;
@@ -40,8 +42,9 @@
     overflow-x: hidden;
 }
 .option{
-    width: 97%;
+    width: 94%;
     padding-left: 2%;
+    padding-right: 3%;
     height: 70px;
     display: flex;
     align-items: center;
@@ -82,14 +85,15 @@
     flex-direction: column;
     justify-content: center;
     font-family: var(--cabin-ver);
+    padding-top: 70px;
 }
 #pitch header{
-    font-size: 8em;
-    margin-bottom: 20px;
+    font-size: 7em;
+    margin-bottom: 10px;
 }
 #pitch p{
-    margin-top: 30px;
-    font-size: 3.5em;
+    margin-bottom: 15px;
+    font-size: 3.2em;
     font-family: var(--cabin-ver);
     line-height: 150%;
 }
@@ -102,7 +106,7 @@
     #robot{
         flex-direction: column;
         width: 100%;
-        padding-top: 50px;
+        padding-top: 50px 0;
     }
     #dialouge{
         width: 90%;
@@ -145,7 +149,7 @@
 #products_header{
     padding: 20px;
     text-align: center;
-    font-size: 6em;
+    font-size: 4.5em !important;
 }
 
 #product_items{
@@ -155,8 +159,9 @@
     justify-content: space-around;
 }
 #product_items .item{
-    width: 27%;
+    width: 100%;
     background: var(--ma-bg-gradient);
+    margin-bottom: 30px;
     border-radius: 10px;
     padding: 20px 2%;
     display: flex;
@@ -183,8 +188,7 @@
 
 
 @media (max-width: 800px) {
-    #product_items .item{
-        width: 100%;
-        margin-bottom: 30px;
+    #pitch{
+        padding: 0;
     }
 }

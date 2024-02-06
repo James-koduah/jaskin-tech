@@ -16,5 +16,5 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Summary", name: "summary", widget: "string"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
-      - {label: "Thumbnail_alt", name: "thumbnail_alt", widget: "image"}
+      - {label: "Thumbnail_alt", name: "thumbnail_alt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

@@ -24,9 +24,15 @@ function dialouge_display(data){
     if (data.link){
         options_box.innerHTML += `<a href='${data.link_url}' class="option"><ion-icon name="desktop-outline"></ion-icon><p>${data.link}</p></a>`
     }
+    if (data.defer){
+        let options = current_dialouge[data.defer]
+        for (let elem of options){
+            options_box.innerHTML += `<div class="option" onclick="dialouge('${elem[1]}')"><ion-icon name="radio-button-on"></ion-icon><p>${elem[0]}</p></div>`
+        }
+    }
 }
 
-let dialouge_history = [0]
+let dialouge_history = []
 function dialouge(arg){
     if (arg === -1){
         let last = dialouge_history.pop()
@@ -38,24 +44,6 @@ function dialouge(arg){
         dialouge(last)
         return;
     }
-    if (arg === 0){
-        let data = {
-            "dialouge": "Please Describe Yourself",
-            "subdialouge": "Are you...",
-            "options": [
-                ['A Business', '1'],
-                ['A Non Profit Organization (NGO)', '2'],
-                ['A Company', '3'],
-                ['An Event', '4'],
-                ['A Content Creator', '5']
-            ]
-        }
-        dialouge_display(data)
-        dialouge_history.push(0)
-        return
-    }
-
-
     dialouge_display(current_dialouge[arg])
     dialouge_history.push(arg)
 
@@ -67,4 +55,5 @@ fetch('/services/web_development/dialouge.json', {
     return res.json()
 }).then((res)=>{
     current_dialouge = res
+    dialouge(0)
 })

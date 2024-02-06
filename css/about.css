@@ -17,13 +17,13 @@
 #about_text{
     width: 45%;
     padding-right: 5%;
+    font-family: var(--cabin-ver);
 }
 #about_text header{
     font-size: 7em;
     font-weight: 700;
     line-height: 115%;
     margin-bottom: 40px;
-    font-family: var(--cabin-ver);
 }
 
 #about_text p{

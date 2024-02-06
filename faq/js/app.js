@@ -1,4 +1,4 @@
-let current_section = document.getElementById('getting_started')
+let current_section = document.getElementById('development_process')
 
 function display_faq_section(id, nav_elem){
     let section = document.getElementById(id)

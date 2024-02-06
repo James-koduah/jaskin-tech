@@ -96,12 +96,29 @@
 
 
 @media (max-width: 850px) {
+    #pricing_header{
+        font-size: 4em;
+    }
     #web_inform_products{
         flex-wrap: wrap;
+        justify-content: center;
     }
     .product{
-        width: 100%;
-        margin-bottom: 15px;
+        width: 85%;
+        height: fit-content;
+        margin-bottom: 50px;
+        min-height: 0;
+        box-shadow: 0px 0px 1px 1px var(--border-color);
+    }
+    .product .product_header{
+        font-size: 3.8em;
+    }
+    .product_subheader2{
+        font-size: 3.2em;
+    }
+
+    .product_price{
+        margin-top: 30px;
     }
 }
 

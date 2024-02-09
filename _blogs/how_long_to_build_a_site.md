@@ -7,20 +7,42 @@ thumbnail: time.jpg
 author: James Koduah
 blog_date: 28 December, 2023
 thumbnail_alt: Clocks
-publish_date: 2024-02-06T21:11:12.482Z
+publish_date: 2024-02-07T06:11:32.515Z
 ---
-* Table of Contents
-* Number 1
-* Number 2
-* Number 3
-* Number 4
-{: #table_of_contents}
+When it comes to building a website, just like any other constructive project, you should prepare yourself for estimates. The length of time used to develop your site depends on numerous factors beginning from what type of site is to be built, the size, the experience of the website developers and other factors. 
+
+There are different paths to getting a website and each would come with it's own time range and capability. But regardless of whatever avenue you are using, whether you decide to Do It Yourself(DIY) with a website builder or hire a developer or agency, to estimate the build time of your website you will need to evaluate the skills and resources at your disposal when it comes to the following four processes:
+
+1. Planning
+2. Content Creation
+3. Development
+4. Review and Testing
+
+## Planning
+{: .left}
 
 
 
-In the fast-paced digital landscape, establishing an online presence is paramount for businesses and individuals alike. One of the crucial aspects of this process is building a website. However, the burning question on many minds is: How long does it take to build a website? The answer, as you might expect, is not one-size-fits-all. Let's delve into the factors that influence the timeline of website development.
 
-<!--### Scope and Complexity: The Backbone of Timelines
+## Content Creation
+{: .left}
+
+
+## Development
+{: .left}
+
+
+
+
+## Review and Testing
+{: .left}
+
+<!--In the fast-paced digital landscape, establishing an online presence is paramount for businesses and individuals alike. One of the crucial aspects of this process is building a website. However, the burning question on many minds is: How long does it take to build a website? The answer, as you might expect, is not one-size-fits-all. Let's delve into the factors that influence the timeline of website development.
+
+design is an art and until you've spent a whole day changing the font size and font family of text on a website, you might not appreciate this art
+
+
+\### Scope and Complexity: The Backbone of Timelines
 The foundation of any website project lies in its scope and complexity. A simple informational site might only take a few weeks, while a complex e-commerce platform with intricate features could extend the timeline into several months. Clearly defining the project's scope from the outset is key to managing expectations and timelines effectively.
 
 ### Requirements and Features: A Feature-Rich Endeavor

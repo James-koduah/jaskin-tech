@@ -11,7 +11,7 @@ publish_date: 2024-02-07T06:11:32.515Z
 ---
 When it comes to building a website, just like any other constructive project, you should prepare yourself for estimates. The length of time used to develop your site depends on numerous factors beginning from what type of site is to be built, the size and scope, the experience of the website's developers and other factors. 
 
-There are different paths to getting a website and each would come with it's own time range and capability. But regardless of whatever avenue you are using, whether you decide to Do It Yourself(DIY) with a website builder or hire a developer or agency, when estimating the build time of your website, you will need to evaluate the skills and resources at your disposal when it comes to the following four processes:
+There are different paths to getting a website and each would come with it's own time range and capability. Regardless of the path you choose - whether you opt for a Do-It-Yourself(DIY) approach with a website builder or enlist the services of a developer or agency - when estimating the build time of your website, you will need to evaluate the skills and resources at your disposal for the following four processes:
 
 1. Planning
 2. Content Creation

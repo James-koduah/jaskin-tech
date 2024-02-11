@@ -41,6 +41,8 @@ There are different paths to getting a website and each would come with it's own
 
 design is an art and until you've spent a whole day changing the font size and font family of text on a website, you might not appreciate this art
 
+measure twice and cut once. the importance of planning
+
 
 \### Scope and Complexity: The Backbone of Timelines
 The foundation of any website project lies in its scope and complexity. A simple informational site might only take a few weeks, while a complex e-commerce platform with intricate features could extend the timeline into several months. Clearly defining the project's scope from the outset is key to managing expectations and timelines effectively.

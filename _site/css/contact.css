@@ -233,7 +233,7 @@
         justify-content: center;
     }
     #contact_phone{
-        max-width: 70%;
+        max-width: 80%;
     }
     #contact_form{
         width: calc(100% - 20px);

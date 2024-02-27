@@ -1,5 +1,5 @@
 ---
-title: Blogs Home | Jaskin Tech Website Development
+title: Blogs Home | Jaskin Tech Website Development in Ghana
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -14,6 +14,7 @@ title: Blogs Home | Jaskin Tech Website Development
     <meta property="og:description" content=" Step into the digital playground of our blog—where creativity swings, innovation slides, and success is the ultimate game. Let's learn and win together!">
     <meta property="og:site_name" content="Jaskin Web Development">
     <meta property="og:url" content="https://jaskin.tech/blog">
+    <script src='http://teemboom.com/static/app/dist.1.0/teemboom.js' defer > </script>
 </head>
 <body>
     {% include default_nav.html %}
@@ -45,6 +46,7 @@ title: Blogs Home | Jaskin Tech Website Development
                     <a href="{{blog.url}}" class="action_button">Read</a>
                 </div>
                 {%endfor%}
+                <section id="teemboom_comments"></section>
             </div>
             <div id="featured">
                 <header id="featured_header">Featured Posts</header>

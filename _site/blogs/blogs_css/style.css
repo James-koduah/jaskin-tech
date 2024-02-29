@@ -9,7 +9,7 @@ main{
     padding: 0;
     width: 96%;
     max-width: 70vw;
-    padding: 10px 2% 100px 2%;
+    padding: 10px 2% 80px 2%;
     background: var(--ma-bg);
     font-family: var(--cabin-sans);
     
@@ -78,7 +78,7 @@ main{
 
 #blog_content{
     width: 90%;
-    padding: 0px 5% 0 5%;
+    padding: 0px 5% 0px 5%;
 }
 #blog_content h1{
     font-size: 6em;
@@ -120,6 +120,11 @@ main{
         font-size: 14px;
         line-height: 28px;
     }
+}
+
+#comments_section{
+    width: 90%;
+    padding: 30px 5% 0px 5%;
 }
 #menu{
     /* display: none; */

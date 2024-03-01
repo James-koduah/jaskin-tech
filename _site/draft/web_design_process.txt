@@ -27,7 +27,7 @@
 <meta property="og:image:alt" content="" />
 <meta property="og:description" content="This Blog takes you through the process of building a Website from start to finish. See how ideas are rolled into action from brains, to paper, to wireframes, to code and then to the world!.">
 <meta property="og:site_name" content="Jaskin Web Development">
-<meta property="og:url" content="/blogs/web-design-process">
+<meta property="og:url" content="/draft/web_design_process.txt">
 
 
     
@@ -93,7 +93,6 @@ Our commitment doesn't end with the launch. We provide ongoing maintenance and s
 Embarking on a web development journey with us is not just a transaction; it's a collaboration. From the initial spark of an idea to the full realization of your digital presence, our web development process is a testament to our dedication to craftsmanship and your online success.
 
 Ready to take the plunge into the digital universe? Let's embark on this journey together. Your website, your story—crafted with passion and precision by our web development team.3 -->
-
             </section>
             <div id="comments_section">
                 <section id="teemboom_comments"> </section>
@@ -135,13 +134,7 @@ Ready to take the plunge into the digital universe? Let's embark on this journey
                     
                     
                     
-                    
-                    
                     <li><a href="/blogs/what-is-a-domain-name">What is a domain name?</a></li>
-                    
-                    
-                    
-                    <li><a href="/blogs/why-have-a-contract">Why have a Legal Contract for your project</a></li>
                     
                     
                 </ul>
@@ -172,6 +165,14 @@ Ready to take the plunge into the digital universe? Let's embark on this journey
             </div>
             
             
+            
+            <div class="explore_item">
+                <div class="explore_item_img"><img src="/images/example_domain.webp" alt="Url in search bar"></div>
+                <div class="explore_item_text">
+                    <header>What is a domain name?</header>
+                    <a href="/blogs/what-is-a-domain-name" class="action_button">Explore</a>
+                </div>
+            </div>
             
             
         </div>
@@ -209,7 +210,7 @@ Ready to take the plunge into the digital universe? Let's embark on this journey
             </div>
             <form action="https://api.web3forms.com/submit" onsubmit="clear_form(this)" method="POST">
                 <input type="hidden" name="access_key" value="db46ff7f-97ca-47c2-acc2-f64146099bc7">
-                <input type="hidden" name="from_name" value="Suggestion - /blogs/web-design-process">
+                <input type="hidden" name="from_name" value="Suggestion - /draft/web_design_process.txt">
                 <input type="hidden" name="redirect" value="https://jaskin.tech/contact/success-thank_you">
                 <p><i>D</i>ROP <i>A</i> <i>H</i>INT, <i>T</i>IP OR <i>S</i>UGGESTION</p>
                 <textarea name="message"></textarea>

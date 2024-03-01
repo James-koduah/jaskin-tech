@@ -9,8 +9,42 @@ blog_date: 28 December, 2023
 thumbnail_alt: Clocks
 publish_date: 2024-02-07T06:11:32.515Z
 ---
-When it comes to building a website, just like any other constructive project, you should prepare yourself for estimates. The length of time used to develop your site depends on numerous factors beginning from what type of site is to be built, the size, the experience of the website developers and other factors. 
+When it comes to building a website, just like any other constructive project, you should prepare yourself for estimates. The length of time used to develop your site depends on numerous factors beginning from what type of site is to be built, the size and the processes involved.
 
+Whether you're an individual looking for a portfolio site, a small business owner looking to establish a professional website or a corporation aiming to launch a complex web application,
+to help you get a good estimation of your project's timeline you'll need an understanding of the following two factors 
+
+* Website Type
+* Development Processes
+
+
+## Website Type
+
+It goes without saying that the timeline for building a Skyscrapper is different from a 5 story building which is also different from a 1 story facility spanning 10 acers. With a similar nature is the timeline for building a website. A lot is going to depend on the **scale** and **scope** of your project.
+
+### Simple Websites
+{: .left}
+Simple websites, such as basic informational sites for businesses, portfolios and other straightforward websites, typically require less time to develop. Theses are sites with lower complexity, content and customizations.
+
+These projects may take anywhere from a few days to a couple of weeks to complete all other things being equal.
+
+### Medium Scale Websites
+{: .left}
+Websites with additional content - like a lot of individual webpages - and features like e-commerce functionality, user authentication systems, or integration with third-party services fall into this category. Sites like these require a more thought out development process and in some cases will have some redesigns that will lengthen the time.
+
+Developing such a site may take several weeks to a few months, considering the complexity and features.
+
+### Large Scale Websites
+{: .left}
+Complex web applications, enterprise-level portals, platforms with intricate functionality and extensive backend systems represent large-scale projects. Building these sites are generally long-term endeavors. For sites like these, companies usually elect to have an in house team of developers to handle the project.
+
+The estimated time for a site like this is largely going to depend on the vision and the skills of the developers.
+
+
+
+
+## Development Processeses
+![Vector image of two characters planning a website](/images/website_process.jpg)
 There are different paths to getting a website and each would come with it's own time range and capability. But regardless of whatever avenue you are using, whether you decide to Do It Yourself(DIY) with a website builder or hire a developer or agency, to estimate the build time of your website you will need to evaluate the skills and resources at your disposal when it comes to the following four processes:
 
 1. Planning
@@ -18,23 +52,22 @@ There are different paths to getting a website and each would come with it's own
 3. Development
 4. Review and Testing
 
-## Planning
+### Planning
+{: .left}
+
+
+
+### Content Creation
+{: .left}
+
+
+### Development
 {: .left}
 
 
 
 
-## Content Creation
-{: .left}
-
-
-## Development
-{: .left}
-
-
-
-
-## Review and Testing
+### Review and Testing
 {: .left}
 
 <!--In the fast-paced digital landscape, establishing an online presence is paramount for businesses and individuals alike. One of the crucial aspects of this process is building a website. However, the burning question on many minds is: How long does it take to build a website? The answer, as you might expect, is not one-size-fits-all. Let's delve into the factors that influence the timeline of website development.

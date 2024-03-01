@@ -27,7 +27,7 @@
 <meta property="og:image:alt" content="" />
 <meta property="og:description" content="In the business world, we're usually hopeful and not thinking about bad things happening. But a contract is more than just protection from problems. It's like a helpful tool that not only helps deal with risks but also sets the stage for lots of good stuff.">
 <meta property="og:site_name" content="Jaskin Web Development">
-<meta property="og:url" content="/blogs/why-have-a-contract">
+<meta property="og:url" content="/draft/why_have_a_contract.txt">
 
 
     
@@ -159,13 +159,7 @@ In essence, a contract is more than a formality; it's a commitment to excellence
                     
                     
                     
-                    <li><a href="/blogs/web-design-process">Web Development Process</a></li>
-                    
-                    
-                    
                     <li><a href="/blogs/what-is-a-domain-name">What is a domain name?</a></li>
-                    
-                    
                     
                     
                 </ul>
@@ -198,10 +192,10 @@ In essence, a contract is more than a formality; it's a commitment to excellence
             
             
             <div class="explore_item">
-                <div class="explore_item_img"><img src="/images/web_development_process.jpg" alt=""></div>
+                <div class="explore_item_img"><img src="/images/example_domain.webp" alt="Url in search bar"></div>
                 <div class="explore_item_text">
-                    <header>Web Development Process</header>
-                    <a href="/blogs/web-design-process" class="action_button">Explore</a>
+                    <header>What is a domain name?</header>
+                    <a href="/blogs/what-is-a-domain-name" class="action_button">Explore</a>
                 </div>
             </div>
             
@@ -241,7 +235,7 @@ In essence, a contract is more than a formality; it's a commitment to excellence
             </div>
             <form action="https://api.web3forms.com/submit" onsubmit="clear_form(this)" method="POST">
                 <input type="hidden" name="access_key" value="db46ff7f-97ca-47c2-acc2-f64146099bc7">
-                <input type="hidden" name="from_name" value="Suggestion - /blogs/why-have-a-contract">
+                <input type="hidden" name="from_name" value="Suggestion - /draft/why_have_a_contract.txt">
                 <input type="hidden" name="redirect" value="https://jaskin.tech/contact/success-thank_you">
                 <p><i>D</i>ROP <i>A</i> <i>H</i>INT, <i>T</i>IP OR <i>S</i>UGGESTION</p>
                 <textarea name="message"></textarea>

@@ -10,7 +10,7 @@ author: James Koduah
 blog_date: 23 December, 2023
 ---
 
-* Table of Contents
+* Jump To
 * [What is a Domain Name](#start)
 * [Parts of a Domain Name](#parts-of-a-domain-name)
 * [The Domain Name System (DNS)](#the-domain-name-system-dns)
@@ -96,4 +96,4 @@ Your aim in naming your website should be to select a name that is memorable, br
 * Test it out
 {: .average_ul .list_style_none}
 
-Read more about things to consider when [choosing your domain name.](/){:target="_blank"}
+Read more about things to consider when [choosing your domain name.](/blogs/choosing-a-domain-name)

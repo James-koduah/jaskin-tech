@@ -9,22 +9,16 @@ blog_date: 28 December, 2023
 thumbnail_alt: Clocks
 publish_date: 2024-02-07T06:11:32.515Z
 ---
-When it comes to building a website, just like any other constructive project, you should prepare yourself for estimates. The length of time used to develop your site depends on numerous factors beginning from what type of site is to be built, the size and the processes involved.
+When it comes to building your website, just like any other constructive project, you should prepare yourself for estimates. The length of time used to develop your site depends on what type of site is to be built, the size and the skills available for the development processes.
+{:style="margin-top: 50px"}
 
-Whether you're an individual looking for a portfolio site, a small business owner looking to establish a professional website or a corporation aiming to launch a complex web application,
-to help you get a good estimation of your project's timeline you'll need an understanding of the following two factors 
-
-* Website Type
-* Development Processes
-
-
-## Website Type
-
-It goes without saying that the timeline for building a Skyscrapper is different from a 5 story building which is also different from a 1 story facility spanning 10 acers. With a similar nature is the timeline for building a website. A lot is going to depend on the **scale** and **scope** of your project.
+## Website Type and Size
+![5 webpages](/images/website_types.webp)
+It goes without saying that the timeline for building a Skyscraper is different from a 5 story building which in turn is also different from a 1 story facility spanning 10 acres. With a similar nature is the timeline for building a website. A lot is going to depend on the **scale** and **scope** of your project.
 
 ### Simple Websites
 {: .left}
-Simple websites, such as basic informational sites for businesses, portfolios and other straightforward websites, typically require less time to develop. Theses are sites with lower complexity, content and customizations.
+Simple websites, such as basic informational sites for businesses, portfolios and other straightforward websites, typically require less time to develop. These are sites with lower complexity, content and customizations.
 
 These projects may take anywhere from a few days to a couple of weeks to complete all other things being equal.
 
@@ -43,9 +37,10 @@ The estimated time for a site like this is largely going to depend on the vision
 
 
 
-## Development Processeses
-![Vector image of two characters planning a website](/images/website_process.jpg)
-There are different paths to getting a website and each would come with it's own time range and capability. But regardless of whatever avenue you are using, whether you decide to Do It Yourself(DIY) with a website builder or hire a developer or agency, to estimate the build time of your website you will need to evaluate the skills and resources at your disposal when it comes to the following four processes:
+## Skills Available for Development
+![Vector image of two characters planning a website](/images/planning_website.jpeg)
+You can take different paths to get your website. You can decide to Do It Yourself(DIY) with a website builder or hire a developer or an agency. Regardless of which path you choose, you will still have to go through the following development steps.
+
 
 1. Planning
 2. Content Creation
@@ -55,48 +50,31 @@ There are different paths to getting a website and each would come with it's own
 ### Planning
 {: .left}
 
+Planning is very important. For example, you've made 5 million dollars and want to build a mansion. Well this is a pretty straight forward purpose and self-explanatory right? Wrong. How many swimming pools do you want? How big should the garage be? What color should we paint the house? Do you want the master bedroom towards the east facing the sunrise or towards the west facing the sunset? All these questions and more will require you to smooth out the fine details of your project.
+
+So to estimate the build time for your website, you would do well to ask yourself how clear
+your vision for the final product is. What is the purpose (advertising, selling products, engaging people etc) of the site? Who are your target audience? What features would you like to have? etc. Only after getting a clear picture would it be advisable to continue to the next stage.
+
+The time taken for this stage will depend on you, your developer or agency and the amount of skill and experience available. This period can last a day to a week.
 
 
 ### Content Creation
 {: .left}
+Content is king. Content includes the text, images and video elements of the website. If content is ready, you can move on to the next stage, but if there is a delay in content provision or content now has to be thought of, revised and integrated, you can expect extra time.
 
+For example, if you want to make an ecommerce store you should have pictures of your product ready, their descriptions, category and other content available. If not, well, that's more development time. 
 
 ### Development
 {: .left}
-
-
+It's time to start building and only two things matter, **skills** and **experience**. No more needs to be said.
 
 
 ### Review and Testing
 {: .left}
+After development the site needs to be tested, were there any mistakes during development? Are things working the way they should? Are there minor changes to be made?
 
-<!--In the fast-paced digital landscape, establishing an online presence is paramount for businesses and individuals alike. One of the crucial aspects of this process is building a website. However, the burning question on many minds is: How long does it take to build a website? The answer, as you might expect, is not one-size-fits-all. Let's delve into the factors that influence the timeline of website development.
+It also includes having people test the site, getting feedback, and improving based on said feedback.  
 
-design is an art and until you've spent a whole day changing the font size and font family of text on a website, you might not appreciate this art
+## Conclusion
+In conclusion, while it's tempting to focus solely on the finish line, understanding and embracing the nuances of website development will result in a more successful and impactful online presence. Work closely with your development team, set realistic expectations, and remember: quality often takes time.
 
-
-\### Scope and Complexity: The Backbone of Timelines
-The foundation of any website project lies in its scope and complexity. A simple informational site might only take a few weeks, while a complex e-commerce platform with intricate features could extend the timeline into several months. Clearly defining the project's scope from the outset is key to managing expectations and timelines effectively.
-
-### Requirements and Features: A Feature-Rich Endeavor
-The more features and functionality a website requires, the longer it will take to build. From user authentication systems to dynamic content updates, each feature adds a layer of complexity to the development process. It's crucial to prioritize features and functionalities to ensure a streamlined development timeline.
-
-### Design: Crafting the Visual Identity
-The design phase is not only about aesthetics but also about user experience. The complexity of the design, the number of revisions, and the collaboration between designers and developers can significantly impact the overall timeline. A well-thought-out design process ensures a visually appealing and functional end product.
-
-### Content Development: Filling in the Blanks
-Content is king, and creating or gathering content for your website can influence the development timeline. Whether it's text, images, videos, or other media, having a content plan in place can expedite the development process.
-
-### Platform and Technology: Choosing the Right Tools
-The choice of the website platform and underlying technologies plays a crucial role. Using pre-built templates or themes can save time, but custom development with specific technologies may extend the timeline. The decision should align with the project's goals and requirements.
-
-### Customization and Coding: Tailoring Solutions
-Custom coding and functionality require time and expertise. If your website demands unique features, be prepared for a more extended development phase. However, the investment in customization often pays off with a more tailored and impactful online presence.
-
-### Testing and Debugging: Ensuring Smooth Operation
-Thorough testing is non-negotiable. Identifying and resolving bugs and issues may take additional time, but it is essential for delivering a seamless user experience. Rigorous testing ensures that the website functions correctly across various devices and browsers.
-
-### Client Feedback and Revisions: A Collaborative Journey
-Effective communication between clients and development teams is critical. Timely feedback and revisions can significantly impact the project's timeline. Clear communication channels and a collaborative approach ensure that the website aligns with the client's vision.
-
-In conclusion, the timeline for building a website is influenced by a myriad of factors. While it's tempting to focus solely on the finish line, understanding and embracing the nuances of website development will result in a more successful and impactful online presence. Work closely with your development team, set realistic expectations, and remember: quality often takes time. -->

@@ -43,6 +43,7 @@
     }
     
 </style>
+    <script src='https://teemboom.com/static/app/dist.1.0/teemboom.js' defer></script>
 </head>
 <body>
     <nav>
@@ -119,6 +120,7 @@ In essence, a contract is more than a formality; it's a commitment to excellence
 
             </section>
             <div id="comments_section">
+                <section id="teemboom_comments"> </section>
             </div>
         </main>
         <div id="menu">

@@ -43,6 +43,7 @@
     }
     
 </style>
+    <script src='https://teemboom.com/static/app/dist.1.0/teemboom.js' defer></script>
 </head>
 <body>
     <nav>
@@ -94,6 +95,7 @@ Embarking on a web development journey with us is not just a transaction; it's a
 Ready to take the plunge into the digital universe? Let's embark on this journey together. Your website, your story—crafted with passion and precision by our web development team.3 -->
             </section>
             <div id="comments_section">
+                <section id="teemboom_comments"> </section>
             </div>
         </main>
         <div id="menu">

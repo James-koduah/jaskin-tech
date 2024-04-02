@@ -16,8 +16,8 @@
 
 
 let p_projects = [
-    ['images/mission12.jpeg', '#'],
-    ['images/website_inspiration.jpeg', '#'],
+    ['images/cleanhands.jpg', '#'],
+    ['images/james_portfolio.jpg', '#'],
     ['images/afrispark.jpg'],
     ['images/website_inspiration2.jpeg', '#'],
     ['images/website_inspiration3.jpeg', '#'],
@@ -53,8 +53,9 @@ function portfolio_scroll(movement){
         p_scroll_position += -50 
         p_scroll.style.left = `${p_scroll_position}vw`
         /* Add a new elemeent to the right */
-        let new_p = document.createElement('div')
+        let new_p = document.createElement('a')
         new_p.className = 'portfolio_PC_item'
+        new_p.href = p_projects[p_projects_index_l][1]
         new_p.appendChild(img)
         p_scroll.appendChild(new_p)
         /* Make the element on the right of the previous centered element the new center */

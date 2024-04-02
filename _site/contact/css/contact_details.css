@@ -51,7 +51,7 @@
     font-family: var(--cabin-ver);
     margin-bottom: 20px;
 }
-#contact_details_items ion-icon{
+#contact_details_items a{
     font-size: 4em;
     margin-left: 6%;
     cursor: pointer;

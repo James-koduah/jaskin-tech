@@ -58,6 +58,9 @@
     border-radius: 10px;
     overflow: hidden;
 }
+.portfolio_PC_item img{
+    object-position: top left;
+}
 .portfolio_PC_current{
     height: 400px;
     filter: blur(0px);
@@ -180,6 +183,7 @@
 }
 .portfolio_MOBILE_item img{
     height: 100%;
+    object-position: top left;
 }
 
 .portfolio_MOBILE_item header{

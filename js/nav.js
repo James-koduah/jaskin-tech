@@ -20,3 +20,20 @@ nav_dropdown_button.addEventListener('click', ()=>{
     }
     
 })
+
+
+swipe_event({
+    'element_id': 'nav_dropdown_menu',
+    'minimumDistance': 120,
+    'allowedTime': 800,
+    'callback': nav_swipe
+})
+
+
+function nav_swipe(swipe){
+    console.log('called')
+    if (swipe.top){
+        nav_dropdown_button.click()
+    }
+    console.log(swipe.top)
+}

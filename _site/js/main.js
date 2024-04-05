@@ -24,7 +24,7 @@ function nav_dropdown_func(){
 
 swipe_event({
     'element_id': 'nav_dropdown_menu',
-    'minimumDistance': 120,
+    'minimumDistance': 80,
     'allowedTime': 800,
     'callback': nav_swipe
 })

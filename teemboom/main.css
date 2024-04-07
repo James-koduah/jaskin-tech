@@ -1,7 +1,11 @@
+body{
+    background: #f1eff1;
+}
 main{
     width: 80%;
     margin: 0 auto;
     padding-bottom: 100px;
+    padding-top: 40px;
 }
 #head_img{
     margin-top: 30px;

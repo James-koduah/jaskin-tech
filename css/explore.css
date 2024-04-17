@@ -32,6 +32,12 @@
 .explore_item_text header{
     font-size: 3.4em;
 }
+.explore_item_text p{
+    font-size: 2.8em;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    line-height: 160%;
+}
 .explore_item_text .action_button{
     font-size: 2.8em;
     font-weight: 400;

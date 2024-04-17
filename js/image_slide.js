@@ -19,10 +19,6 @@ let p_projects = [
     ['images/cleanhands.jpg', '#'],
     ['images/james_portfolio.jpg', '#'],
     ['images/afrispark.jpg'],
-    ['images/website_inspiration2.jpeg', '#'],
-    ['images/website_inspiration3.jpeg', '#'],
-    ['images/computer.jpeg', '#'],
-    ['images/businesss_software.jpeg', '#']
 ]
 let p_projects_index_r = 4
 let p_projects_index_l = 0

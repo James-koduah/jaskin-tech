@@ -44,7 +44,6 @@ function dialouge(arg){
         dialouge(last)
         return;
     }
-    return;
     dialouge_display(current_dialouge[arg])
     dialouge_history.push(arg)
 

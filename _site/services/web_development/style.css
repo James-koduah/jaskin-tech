@@ -9,7 +9,9 @@
     background: var(--su-bg);
     color: var(--ma-bg);
     font-family: var(--cabin-ver);
-    min-height: calc(100vh - 80px);
+    height: calc(100vh - 70px);
+    position: sticky;
+    top: 70px;
 }
 #dialouge{
     width: 80%;
@@ -104,6 +106,10 @@
         height: fit-content;
     }
     #robot{
+        position: relative;
+        min-height: calc(100vh - 70px);
+        height: fit-content;
+        top: 0px;
         flex-direction: column;
         width: 100%;
         padding-top: 50px 0;
@@ -189,6 +195,12 @@
 
 @media (max-width: 800px) {
     #pitch{
+        padding: 0;
+        width: 90%;
+        padding: 20px 5%;
+    }
+    #products{
+        width: 100%;
         padding: 0;
     }
 }

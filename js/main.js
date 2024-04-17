@@ -74,11 +74,11 @@ function swipe_event(args){
         startX = touchObject.pageX
         startY = touchObject.pageY
         startTime = new Date().getTime()
-        e.preventDefault()
+        // e.preventDefault()
     }, false)
 
     surface.addEventListener('touchmove', (e)=>{
-        e.preventDefault()
+        // e.preventDefault()
     })
 
     surface.addEventListener('touchend', (e)=>{

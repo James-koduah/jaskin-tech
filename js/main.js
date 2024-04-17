@@ -78,7 +78,7 @@ function swipe_event(args){
     }, false)
 
     surface.addEventListener('touchmove', (e)=>{
-        // e.preventDefault()
+        e.preventDefault()
     })
 
     surface.addEventListener('touchend', (e)=>{

@@ -1,10 +1,11 @@
 #home{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column-reverse;
 }
 
 #robot{
-    width: 55%;
+    width: 90%;
     padding: 0 5%;
     background: var(--su-bg);
     color: var(--ma-bg);
@@ -80,7 +81,7 @@
 
 
 #pitch{
-    width: 30%;
+    width: 94%;
     padding-left: 3%;
     padding-right: 2%;
     display: flex;
@@ -111,7 +112,7 @@
         height: fit-content;
         top: 0px;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         padding-top: 50px 0;
     }
     #dialouge{

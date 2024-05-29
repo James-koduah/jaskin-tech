@@ -16,9 +16,9 @@
 
 
 let p_projects = [
-    ['images/cleanhands.jpg', '#'],
-    ['images/james_portfolio.jpg', '#'],
-    ['images/afrispark.jpg'],
+    ['images/cleanhands.jpg', 'https://cleanhands.jaskintech.com/'],
+    ['images/james_portfolio.jpg', 'https://personal.jaskintech.com'],
+    ['images/afrispark.jpg', 'https://sparkworld.jaskintech.com/'],
 ]
 let p_projects_index_r = 4
 let p_projects_index_l = 0
@@ -100,21 +100,17 @@ function portfolio_scroll_mobile(direction){
         console.log('ran')
     }
     let img = document.createElement('img')
-    // let header = document.createElement('header')
-    // header.innerText = 'CLEAN HANDS PAINTING AND ARTWORK COMPANY'
-    // let p = document.createElement('p')
-    // p.innerText = 'A compact business and portfolio site completed in a month'
-    let new_p = document.createElement('div')
+    let new_p = document.createElement('a')
+    new_p.target = '_blank'
     new_p.className = 'portfolio_MOBILE_item'
     new_p.appendChild(img)
-    // new_p.appendChild(header)
-    // new_p.appendChild(p)
     if (direction == 0){
         p_projects_index_l--
         if (p_projects_index_l < 0){
             p_projects_index_l = p_projects.length - 1;
         }
         img.src = p_projects[p_projects_index_l][0]
+        new_p.href = p_projects[p_projects_index_l][1]
         
         p_mobile_left_position -= p_moveby
         portfolio_mobile_left.style.left = `${p_mobile_left_position}px`
@@ -126,6 +122,7 @@ function portfolio_scroll_mobile(direction){
             p_projects_index_r = 0
         }
         img.src = p_projects[p_projects_index_r][0]
+        new_p.href = p_projects[p_projects_index_r][1]
     }
     if (direction === 1){
         p_mobile_left_position += p_moveby

@@ -16,9 +16,10 @@
 
 
 let p_projects = [
-    ['images/cleanhands.jpg', 'https://cleanhands.jaskintech.com/'],
-    ['images/james_portfolio.jpg', 'https://personal.jaskintech.com'],
     ['images/afrispark.jpg', 'https://sparkworld.jaskintech.com/'],
+    ['images/cleanhands.jpg', 'https://cleanhands.jaskintech.com/'],
+    ['images/glory_metal_works.jpg', 'https://glorymetal.jaskintech.com/'],
+    ['images/james_portfolio.jpg', 'https://personal.jaskintech.com'],
 ]
 let p_projects_index_r = 4
 let p_projects_index_l = 0
@@ -51,6 +52,7 @@ function portfolio_scroll(movement){
         /* Add a new elemeent to the right */
         let new_p = document.createElement('a')
         new_p.className = 'portfolio_PC_item'
+        new_p.target = '_blank'
         new_p.href = p_projects[p_projects_index_l][1]
         new_p.appendChild(img)
         p_scroll.appendChild(new_p)
@@ -72,8 +74,10 @@ function portfolio_scroll(movement){
         p_scroll_right.style.width = `${p_r_pos_w}vw`
         p_scroll_right.style.left = `${p_r_pos}vw`
         /* Add a new elemeent to the left */
-        let new_p = document.createElement('div')
+        let new_p = document.createElement('a')
         new_p.className = 'portfolio_PC_item'
+        new_p.target = '_blank'
+        new_p.href = p_projects[p_projects_index_r][1]
         new_p.appendChild(img)
         p_scroll.insertBefore(new_p, p_scroll.children[0])
         /* Make the element on the left of the previous centered element the new center */

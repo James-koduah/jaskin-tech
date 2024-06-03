@@ -5,6 +5,11 @@ Objective: Understand the client’s needs, goals, and expectations.
 
 Discussion Topics:
 Business goals and objectives.
+-------------------------
+if you have a website what would you like it to do?
+    Sell products?
+    Manage other things?
+-------------------------
 Target audience and market.
 Competitors and industry standards.
 Desired features and functionalities.

@@ -95,7 +95,7 @@ function contact_app(app, e){
         let a = document.createElement('a')
         a.className = 'action_button'
         a.innerHTML = 'Open WhatsApp'
-        a.href = 'https://wa.me/+233204655978'
+        a.href = 'https://wa.me/+233539697314'
         div.appendChild(p)
         screen.appendChild(div)
         screen.appendChild(a)

@@ -23,7 +23,7 @@
 
 <meta property="og:title" content="Why have a Legal Contract for your project">
 <meta property="og:type" content="website" />
-<meta property="og:image" content="https://jaskin.tech/images/signing_contract.jpg">
+<meta property="og:image" content="https://jaskintech.com/images/signing_contract.jpg">
 <meta property="og:image:alt" content="" />
 <meta property="og:description" content="In the business world, we're usually hopeful and not thinking about bad things happening. But a contract is more than just protection from problems. It's like a helpful tool that not only helps deal with risks but also sets the stage for lots of good stuff.">
 <meta property="og:site_name" content="Jaskin Web Development">

@@ -52,18 +52,20 @@
 #services .scroll_slider_item ul{
     width: 100%;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 15px;
     font-family: var(--cabin-ver);
 }
 #services .scroll_slider_item li{
-    width: 50%;
+    width: 45%;
     color: var(--txt-soft);
     list-style-type: none;
     font-size: 3.2em;
+    line-height: 120%;
     margin-bottom: 15px;
     display: flex;
-    align-items: center;
+    align-items: top;
 }
 #services .scroll_slider_item li ion-icon{
     font-size: 150%;

@@ -16,10 +16,13 @@
 
 
 let p_projects = [
+    ['images/parma.jpg', ''],
     ['images/afrispark.jpg', 'https://sparkworld.jaskintech.com/'],
     ['images/cleanhands.jpg', 'https://cleanhands.jaskintech.com/'],
     ['images/glory_metal_works.jpg', 'https://glorymetal.jaskintech.com/'],
-    ['images/james_portfolio.jpg', 'https://personal.jaskintech.com'],
+    ['images/pointOfSale.jpg', ''],
+    ['images/teemboomhero.jpg', 'https://teemboom.com'],
+    ['images/classcentralteachersmanagement.jpg', ''],
 ]
 let p_projects_index_r = 4
 let p_projects_index_l = 0

@@ -21,6 +21,7 @@ let p_projects = [
     ['images/cleanhands.jpg', 'https://cleanhands.jaskintech.com/'],
     ['images/glory_metal_works.jpg', 'https://glorymetal.jaskintech.com/'],
     ['images/pointOfSale.jpg', ''],
+    ['images/pointOfSaleTransactions.jpg', ''],
     ['images/teemboomhero.jpg', 'https://teemboom.com'],
     ['images/classcentralteachersmanagement.jpg', ''],
 ]

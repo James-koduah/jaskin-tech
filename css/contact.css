@@ -1,11 +1,12 @@
 #contact{
     width: 90vw;
-    padding: 5vh 5vw;
+    padding: 100px 5vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background: var(--su-bg);
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+    z-index: 2;
 }
 
 #contact .information_header{

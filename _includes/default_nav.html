@@ -5,7 +5,7 @@
     </a>
     <ul id="nav_right">
         {%for item in site.data.default_nav%}
-        {%if page.url != item.link%}
+        {%if page.url != item.link and page.url != item.link2  %}
             {%if item.dropdown%}
             <li class="nav_right_main nav_dropdown_parent mobile_off">
                 <a href="{{item.link}}">{{item.name}} <ion-icon name="chevron-down"></ion-icon></a>

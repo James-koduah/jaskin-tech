@@ -218,4 +218,11 @@
     .svg_break .item{
         width: 47%;
     }
+    .svg_break .item .item_image_frame img{
+        width: 9em;
+        height: auto;
+    }
+    .svg_break .item .item_text p{
+        font-size: 2.5em;
+    }
 }

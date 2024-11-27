@@ -160,3 +160,12 @@
         font-size: 2.9em;
     }
 }
+
+
+
+.stm{
+    display: block;
+    font-size: 2em;
+    color: var(--at-bg);
+    margin-top: 10px;
+}

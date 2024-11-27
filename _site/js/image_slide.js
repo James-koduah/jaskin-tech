@@ -142,3 +142,45 @@ function portfolio_scroll_mobile(direction){
         portfolio_mobile_left.insertBefore(new_p, portfolio_mobile_left.children[0])
     }
 }
+
+
+
+
+
+let contactPopupState = false
+function contactPopup(header){
+    let container = document.getElementById('contactPopup')
+    if (!contactPopupState){
+        container.style.display = 'flex'
+        container.innerHTML = `
+            <div class="contactPCover fadein" onclick="contactPopup()" ></div>
+            <div class="contactPContent slideup">
+                <button class="contactPClose" onclick="contactPopup()">X</button>
+                <header class="contactPHeader">${header}</header>
+                <div class="contactPSocials">
+                    <header>Don't Delay - Reach out on your preferred platform and let's get started!</header>
+                    <div class="cpsItems">
+                        <div class="cpsItem"><img src="images/x_icon.png" alt="X icon"></div>
+                        <div class="cpsItem"><img src="images/facebook_icon.png" alt="Fackbook icon"></div>
+                        <div class="cpsItem"><img src="images/linkedin_icon.png" alt="Linkedin icon"></div>
+                        <div class="cpsItem"><img src="images/gmail_icon.png" alt="Gmail icon"></div>
+                        <div class="cpsItem"><img src="images/phone_icon.png" alt="Phone App icon"></div>
+                        <div class="cpsItem"><img src="images/whatsapp_icon.png" alt="Whatsapp icon"></div>
+                    </div>
+                </div>
+                <div class="contactPInputBox">
+                    <header>Even better, share your email, social handle, or phone number, and we’ll reach out to you!</header>
+                    <input type="text">
+                </div>
+            </div>`
+            contactPopupState = true
+    }else{
+        document.getElementsByClassName('contactPCover')[0].classList.add('fadeout')
+        document.getElementsByClassName('contactPContent')[0].classList.add('slideDown')
+        setTimeout(() => {
+            container.style.display = 'none'
+            container.innerHTML = ''
+        }, 200);
+        contactPopupState = false
+    }
+}

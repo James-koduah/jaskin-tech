@@ -278,3 +278,163 @@
     border-radius: 5px;
     /* border: 1px var(--border-color) solid; */
 }
+
+
+.slideup{
+    animation: slideup .3s 1;
+}
+@keyframes slideup {
+    0%{
+        margin-top: 100vh;
+        transform: scale(0.5);
+    }
+    100%{
+        margin-top: 0vh;
+        transform: scale(1)
+    }
+}
+
+.slideDown{
+    animation: slidedown .3s 1;
+}
+@keyframes slidedown {
+    0%{
+        margin-top: 0vh;
+        transform: scale(1)
+    }
+    100%{
+        margin-top: 100vh;
+        transform: scale(0.5);
+    }
+}
+
+.fadein {
+    animation: fadein 0.3s ease-in-out 1;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeout {
+    animation: fadeout 0.3s ease-in-out 1;
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#contactPopup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    font-family: var(--cabin-sans);
+}
+.contactPCover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10001;
+    background-color: #00000066;
+}
+.contactPContent{
+    position: relative;
+    width: calc(90% - 40px);
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    border: 2px var(--border-color) solid;
+    border-radius: 8px; 
+    z-index: 10002;  
+}
+.contactPClose{
+    width: 30px;
+    height: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 10px; right: 20px;
+    border-radius: 50%;
+    border: none;
+}
+.contactPHeader{
+    margin-top: 40px;
+    font-size: 5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contactPSocials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactPSocials header{
+    font-size: 2.8em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cpsItems{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+.cpsItem{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    .contactPHeader{
+        font-size: 4.3em;
+    }
+    .cpsItem{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+
+.contactPInputBox{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactPInputBox header{
+    font-size: 2.8em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.contactPInputBox input{
+    width: 80%;
+    padding: 0 3%;
+    height: 35px;
+}

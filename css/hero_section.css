@@ -186,7 +186,7 @@
 
 .svg_break{
     width: 90vw;
-    padding: 0px 5vw 20px 5vw;
+    padding: 0px 5vw 0px 5vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

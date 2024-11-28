@@ -124,7 +124,7 @@
     height: 300px;
     justify-content: space-around;
     align-items: center;
-    margin: 50px 0;
+    margin: 50px 0 20px 0;
     display: none;
 }
 
@@ -201,11 +201,11 @@
 @media (max-width: 800px) {
     #portfolio{
         /* background: var(--su-bg); */
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
     #portfolio_header{
         width: calc(100% - 80px);
-        padding: 60px 40px 0px 40px;
+        padding: 0px 40px 0px 40px;
         /* color: var(--ma-bg); */
     }
     #portfolio_header header{

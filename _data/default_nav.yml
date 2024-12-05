@@ -6,9 +6,9 @@
   link: /faq/
   img: faq.jpg
 
-- name: About
-  link: /about/
-  img: about_us1.jpg
+# - name: About
+#   link: /about/
+#   img: about_us1.jpg
 
 - name: Services
   link: /services/

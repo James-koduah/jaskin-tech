@@ -109,7 +109,6 @@
         flex-direction: column-reverse;
         height: fit-content;
         padding-top: 35px;
-        margin-bottom: 30px;
         background: url(/images/code_computer4.webp) no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -205,7 +204,7 @@
 }
 .svg_break .item .item_image_frame img{
     object-fit: contain;
-    width: 13em;
+    width: 12em;
     height: auto;
 }
 .svg_break .item .item_text p{
@@ -219,7 +218,7 @@
         width: 47%;
     }
     .svg_break .item .item_image_frame img{
-        width: 9em;
+        width: 7em;
         height: auto;
     }
     .svg_break .item .item_text p{

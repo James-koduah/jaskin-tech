@@ -1,11 +1,11 @@
-#shop{
+#shop {
     width: 94vw;
     padding: 20px 3vw;
     background-color: var(--su-bg);
     font-family: var(--cabin-sans);
 }
 
-.shopShelf{
+.shopShelf {
     width: 100%;
     height: fit-content;
     border-radius: 4px;
@@ -13,83 +13,114 @@
     margin-bottom: 25px;
     overflow: hidden;
 }
-.shopShelfHead{
+
+.shopShelfHead {
     width: calc(100% - 30px);
     height: fit-content;
-    padding: 10px 15px; 
+    padding: 10px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
-.shopShelfHead header{
+
+.shopShelfHead header {
     font-size: 4em;
     font-weight: 700;
     display: flex;
     align-items: center;
 }
-.shopShelfHead header ion-icon{
+
+.shopShelfHead header ion-icon {
     width: 25px;
     height: 25px;
     color: #000;
     margin-right: 5px;
 }
-.shopShelfHead header svg{
+
+.shopShelfHead header svg {
     width: 25px;
     height: 25px;
     color: #000;
     fill: #000;
     margin-right: 5px;
 }
-.shopShelfItems{
+
+.shopShelfItems {
     width: calc(100% - 24px);
     padding: 12px;
     padding-bottom: 25px;
     display: flex;
     justify-content: space-between;
 }
-.shopShelfflash{
+
+.shopShelfflash {
     background: red;
     color: #fff;
 }
-.shopShelfflash header ion-icon{
+
+.shopShelfflash header ion-icon {
     color: yellow;
     fill: yellow;
 }
-.shopShelfItem{
+
+.shopShelfItem {
     width: 16%;
     height: 100%;
 }
-.ssiImage{
+
+.ssiImage {
     width: 100%;
     aspect-ratio: 1/1;
+    border-radius: 5px;
+    overflow: hidden;
 }
-.shopShelfItem header{
+
+.shopShelfItem header {
     margin-top: 5px;
-    font-size: 3.2em;
-    /* font-weight: 600; */
+    font-size: 3em;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: inline-block;
 }
-.ssiPrice{
+
+.ssiPrice {
     margin-top: 4px;
     font-size: 3em;
     font-weight: 600;
 }
-.ssiExeTime{
+.ssicompare{
+    font-size: 1.7em;
+    margin-top: 0px;
+    /* color: green; */
+}
+.ssiExeTime {
     margin-top: 5px;
     font-size: 2.3em;
     color: var(--text-color4)
 }
-.shopShelfItems::-webkit-scrollbar{
+
+.shopShelfItems::-webkit-scrollbar {
     display: none;
+}
+
+.ssiextra {
+    font-size: 2em;
+    color: #555;
+    margin-top: 5px;
 }
 
 /* @media (max-width: 1100px) {
 } */
 @media (max-width: 1000px) {
-    .shopShelfItems{
+    .shopShelfItems {
         overflow-x: auto;
     }
-    .shopShelfItem{
+
+    .shopShelfItem {
         width: 20vw;
         margin-right: 15px;
         flex-shrink: 0;
@@ -97,25 +128,30 @@
 }
 
 @media (max-width: 720px) {
-    .shopShelfItem{
+    .shopShelfItem {
         width: 30vw;
     }
 }
+
 @media (max-width: 600px) {
-    .shopShelfItem{
+    .shopShelfItem {
         width: 38vw;
     }
-    .shopShelfItem header{
+
+    .shopShelfItem header {
         font-size: 2.7em;
     }
-    .ssiPrice{
+
+    .ssiPrice {
         font-size: 2.7em;
     }
-    .shopShelfHead header{
+
+    .shopShelfHead header {
         font-size: 3.2em;
         font-weight: 500;
     }
-    .shopShelfHead ion-icon{
+
+    .shopShelfHead ion-icon {
         width: 18px;
         height: 18px;
     }

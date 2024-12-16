@@ -34,7 +34,7 @@
     min-height: 500px;
     max-height: 570px;
     border: 3px #000 solid;
-    background: url(../images/mobile_path.jpg) no-repeat;
+    background: url(https://static.vecteezy.com/system/resources/previews/030/464/195/large_2x/central-cpu-concept-circuit-board-digital-chip-on-motherboard-forms-tech-background-vertical-mobile-wallpaper-ai-generated-free-photo.jpg) no-repeat;
     background-size: cover;
     border-radius: 13px;
     overflow: hidden;
@@ -234,7 +234,7 @@
         justify-content: center;
     }
     #contact_phone{
-        max-width: 80%;
+        max-width: 70%;
     }
     #contact_form{
         width: calc(100% - 20px);

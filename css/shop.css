@@ -91,6 +91,7 @@
     margin-top: 4px;
     font-size: 3em;
     font-weight: 600;
+    display: none;
 }
 .ssicompare{
     font-size: 1.7em;
@@ -111,6 +112,7 @@
     font-size: 2em;
     color: #555;
     margin-top: 5px;
+    display: none;
 }
 
 /* @media (max-width: 1100px) {
